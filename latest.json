@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "status": "waiting_for_collector",
+  "captured_at": null,
+  "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&sort=search-volume&category=3&status=active",
+  "items": []
+}
