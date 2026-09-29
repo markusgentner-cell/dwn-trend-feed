@@ -1,0 +1,17 @@
+$ErrorActionPreference = "Stop"
+
+Write-Host "DWN Trend Collector setup"
+Write-Host ""
+Write-Host "1) Install Node.js LTS from https://nodejs.org if it is not installed."
+Write-Host "2) Open PowerShell in this collector folder and run:"
+Write-Host "   npm install"
+Write-Host "   npx playwright install chromium"
+Write-Host ""
+Write-Host "3) Create a fine-grained GitHub token restricted to markusgentner-cell/dwn-trend-feed"
+Write-Host "   with Repository permissions > Contents: Read and write."
+Write-Host ""
+Write-Host "4) Save it for your Windows user (replace YOUR_TOKEN):"
+Write-Host '   [Environment]::SetEnvironmentVariable("DWN_GITHUB_TOKEN","YOUR_TOKEN","User")'
+Write-Host ""
+Write-Host "5) Close and reopen PowerShell, then test:"
+Write-Host "   npm run collect"
