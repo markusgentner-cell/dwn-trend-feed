@@ -38,51 +38,152 @@ async function updateLatest(payload) {
   });
 }
 
-const browser = await chromium.launch({ headless: true });
-const page = await browser.newPage({ locale: "de-DE" });
-
-try {
-  await page.goto(SOURCE_URL, { waitUntil: "domcontentloaded", timeout: 90000 });
-
-  // Cookie dialogs are regional and may or may not be present.
-  for (const label of ["Alle akzeptieren", "Alles akzeptieren", "Accept all", "Alle ablehnen", "Reject all"]) {
+async function dismissConsent(page) {
+  for (const label of [
+    "Alle akzeptieren",
+    "Alles akzeptieren",
+    "Accept all",
+    "Alle ablehnen",
+    "Reject all"
+  ]) {
     const b = page.getByRole("button", { name: label, exact: false });
     if (await b.count()) {
-      try { await b.first().click({ timeout: 3000 }); } catch {}
+      try {
+        await b.first().click({ timeout: 3000 });
+        await page.waitForTimeout(1500);
+      } catch {}
       break;
     }
   }
+}
 
-  await page.waitForTimeout(5000);
+async function extractVisibleData(page) {
+  // First try semantic table/grid rows. Google may render the list as a table,
+  // ARIA grid, or div-based rows depending on the current UI version.
+  const selectors = [
+    "table tbody tr",
+    '[role="row"]',
+    '[role="listitem"]'
+  ];
 
-  // Prefer Google's own CSV export. The UI label can vary slightly by locale.
-  const downloadPromise = page.waitForEvent("download", { timeout: 20000 });
-  const exportButton = page.getByRole("button", { name: /Export|Herunterladen|Download/i }).first();
-  await exportButton.click({ timeout: 15000 });
+  const seen = new Set();
+  const rows = [];
 
-  // Some versions open a small menu with a CSV item.
-  const csvItem = page.getByText(/CSV/i).first();
-  if (await csvItem.count()) {
-    try { await csvItem.click({ timeout: 5000 }); } catch {}
+  for (const selector of selectors) {
+    const loc = page.locator(selector);
+    const count = Math.min(await loc.count(), 250);
+
+    for (let i = 0; i < count; i++) {
+      const el = loc.nth(i);
+      let text = "";
+      try {
+        text = (await el.innerText({ timeout: 2000 }))
+          .replace(/\s+/g, " ")
+          .trim();
+      } catch {}
+
+      if (!text || text.length < 3 || seen.has(text)) continue;
+      seen.add(text);
+
+      let hrefs = [];
+      try {
+        hrefs = await el.locator("a").evaluateAll(as =>
+          as.map(a => ({ text: (a.innerText || "").trim(), href: a.href }))
+            .filter(x => x.href)
+        );
+      } catch {}
+
+      rows.push({ text, links: hrefs });
+    }
   }
 
-  const download = await downloadPromise;
-  const file = await download.createReadStream();
-  let csv = "";
-  for await (const chunk of file) csv += chunk.toString("utf8");
+  // Always keep the visible page text as a fallback/debug source. This lets us
+  // adapt the parser if Google changes its DOM again without needing a new
+  // manual browser session.
+  let bodyText = "";
+  try {
+    bodyText = (await page.locator("body").innerText({ timeout: 10000 }))
+      .replace(/\r/g, "")
+      .trim();
+  } catch {}
 
-  if (!csv || csv.length < 20) throw new Error("Google Trends export was empty.");
+  // Keep only relevant links from the page to reduce noise.
+  let links = [];
+  try {
+    links = await page.locator("a").evaluateAll(as =>
+      as.map(a => ({
+        text: (a.innerText || "").replace(/\s+/g, " ").trim(),
+        href: a.href
+      }))
+      .filter(x =>
+        x.href &&
+        (
+          x.href.includes("trends.google") ||
+          x.href.includes("/trending") ||
+          x.href.includes("/explore")
+        )
+      )
+    );
+  } catch {}
+
+  // Deduplicate links.
+  const linkMap = new Map();
+  for (const link of links) {
+    const key = link.href + "|" + link.text;
+    if (!linkMap.has(key)) linkMap.set(key, link);
+  }
+
+  return {
+    title: await page.title(),
+    url: page.url(),
+    rows,
+    links: [...linkMap.values()].slice(0, 500),
+    body_text: bodyText.slice(0, 150000)
+  };
+}
+
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage({
+  locale: "de-DE",
+  viewport: { width: 1600, height: 1200 }
+});
+
+try {
+  await page.goto(SOURCE_URL, {
+    waitUntil: "domcontentloaded",
+    timeout: 90000
+  });
+
+  await dismissConsent(page);
+
+  // Give the client-side trends list time to render.
+  await page.waitForTimeout(8000);
+
+  const extracted = await extractVisibleData(page);
+
+  if (
+    extracted.rows.length === 0 &&
+    (!extracted.body_text || extracted.body_text.length < 100)
+  ) {
+    throw new Error("Google Trends page loaded, but no usable trend data was visible.");
+  }
 
   const payload = {
     ok: true,
     status: "fresh",
     captured_at: new Date().toISOString(),
     source_url: SOURCE_URL,
-    csv
+    page_title: extracted.title,
+    final_url: extracted.url,
+    rows: extracted.rows,
+    links: extracted.links,
+    body_text: extracted.body_text
   };
 
   await updateLatest(payload);
-  console.log(`OK ${payload.captured_at} (${csv.length} bytes)`);
+  console.log(
+    `OK ${payload.captured_at} (${payload.rows.length} rows, ${payload.body_text.length} text chars)`
+  );
 } catch (err) {
   const payload = {
     ok: false,
