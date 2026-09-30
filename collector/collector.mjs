@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 
-const SOURCE_URL = "https://trends.google.de/trending?geo=DE&hl=de&hours=4&sort=search-volume&category=3&status=active";
+const SOURCE_URL = "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume";
 const REPO = "markusgentner-cell/dwn-trend-feed";
 const FILE_PATH = "latest.json";
 const TOKEN = process.env.DWN_GITHUB_TOKEN;
@@ -57,61 +57,86 @@ async function dismissConsent(page) {
   }
 }
 
-async function chooseFilter(page, currentLabel, optionPattern) {
-  const trigger = page.getByText(currentLabel, { exact: true }).first();
-  if (!(await trigger.count())) {
-    throw new Error(`Filter trigger not found: ${currentLabel}`);
+async function buttonExists(page, pattern) {
+  return (await page.getByRole("button", { name: pattern }).count()) > 0;
+}
+
+async function setFilter(page, {
+  selected,
+  trigger,
+  option
+}) {
+  if (await buttonExists(page, selected)) return;
+
+  let control = page.getByRole("button", { name: trigger }).first();
+  if (!(await control.count())) {
+    control = page.getByText(trigger).first();
+  }
+  if (!(await control.count())) {
+    throw new Error(`Filter control not found: ${trigger}`);
   }
 
-  await trigger.click({ timeout: 10000 });
+  await control.click({ timeout: 10000 });
   await page.waitForTimeout(500);
 
-  const roleCandidates = [
-    page.getByRole("option", { name: optionPattern }).first(),
-    page.getByRole("menuitem", { name: optionPattern }).first(),
-    page.getByText(optionPattern).first()
+  const candidates = [
+    page.getByRole("option", { name: option }).first(),
+    page.getByRole("menuitem", { name: option }).first(),
+    page.getByRole("button", { name: option }).first(),
+    page.getByText(option, { exact: true }).first()
   ];
 
-  for (const candidate of roleCandidates) {
+  let clicked = false;
+  for (const candidate of candidates) {
     if (await candidate.count()) {
       try {
         await candidate.click({ timeout: 5000 });
-        await page.waitForTimeout(1200);
-        return;
+        clicked = true;
+        break;
       } catch {}
     }
   }
 
-  throw new Error(`Filter option not found for: ${optionPattern}`);
+  if (!clicked) {
+    throw new Error(`Filter option not found: ${option}`);
+  }
+
+  await page.waitForTimeout(1500);
+
+  if (!(await buttonExists(page, selected))) {
+    throw new Error(`Filter was not applied: ${selected}`);
+  }
 }
 
 async function enforceTargetView(page) {
-  let body = await page.locator("body").innerText();
+  // Exact labels taken from the current German Google Trends UI.
+  await setFilter(page, {
+    selected: /^Wirtschaft und Finanzen$/,
+    trigger: /^Alle Kategorien$|^Wirtschaft und Finanzen$/,
+    option: /^Wirtschaft und Finanzen$/
+  });
 
-  if (body.includes("Alle Kategorien")) {
-    await chooseFilter(page, "Alle Kategorien", /Wirtschaft/i);
-  }
+  await setFilter(page, {
+    selected: /^Nur aktive Trends$/,
+    trigger: /^Alle Trends$|^Nur aktive Trends$/,
+    option: /^Nur aktive Trends$/
+  });
 
-  body = await page.locator("body").innerText();
-  if (body.includes("Alle Trends")) {
-    await chooseFilter(page, "Alle Trends", /^Aktiv$|aktive Trends/i);
-  }
+  await setFilter(page, {
+    selected: /^Nach Suchvolumen$/,
+    trigger: /^Nach Relevanz$|^Nach Suchvolumen$/,
+    option: /^Nach Suchvolumen$/
+  });
 
-  body = await page.locator("body").innerText();
-  if (body.includes("Nach Relevanz")) {
-    await chooseFilter(page, "Nach Relevanz", /Suchvolumen/i);
-  }
+  const missing = [];
+  if (!(await buttonExists(page, /^Deutschland$/))) missing.push("Deutschland");
+  if (!(await buttonExists(page, /^Letzte 4 Stunden$/))) missing.push("Letzte 4 Stunden");
+  if (!(await buttonExists(page, /^Wirtschaft und Finanzen$/))) missing.push("Wirtschaft und Finanzen");
+  if (!(await buttonExists(page, /^Nur aktive Trends$/))) missing.push("Nur aktive Trends");
+  if (!(await buttonExists(page, /^Nach Suchvolumen$/))) missing.push("Nach Suchvolumen");
 
-  await page.waitForTimeout(2500);
-
-  body = await page.locator("body").innerText();
-  const problems = [];
-  if (body.includes("Alle Kategorien")) problems.push("Kategorie steht noch auf Alle Kategorien");
-  if (body.includes("Alle Trends")) problems.push("Status steht noch auf Alle Trends");
-  if (body.includes("Nach Relevanz")) problems.push("Sortierung steht noch auf Nach Relevanz");
-
-  if (problems.length) {
-    throw new Error("Zielansicht konnte nicht gesetzt werden: " + problems.join("; "));
+  if (missing.length) {
+    throw new Error("Zielansicht nicht bestätigt: " + missing.join(", "));
   }
 }
 
