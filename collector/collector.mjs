@@ -167,18 +167,41 @@ async function enforceTargetView(page) {
     toggle: true
   });
 
-  await setFilter(page, {
-    selected: /^Nach Suchvolumen$/,
-    trigger: /^Nach Relevanz$/,
-    optionTexts: ["Nach Suchvolumen sortieren", "Nach Suchvolumen"]
-  });
+  // Sorting is exposed reliably through the table header even when the top
+  // filter chip remains "Nach Relevanz". Click the search-volume header and
+  // verify that Google reports search-volume sorting as active.
+  let sortBody = await page.locator("body").innerText();
+  if (!/Nach Suchvolumen sortiert, absteigend/i.test(sortBody)) {
+    const sortHeader = page.getByText(/Nach Suchvolumen sortieren/i, { exact: true }).first();
+    if (!(await sortHeader.count())) {
+      throw new Error("Sort control not found: Nach Suchvolumen sortieren");
+    }
+    await clickInteractiveAncestor(page, sortHeader);
+    await page.waitForTimeout(1500);
+    sortBody = await page.locator("body").innerText();
+
+    // If Google chose ascending on the first click, click once more.
+    if (/Nach Suchvolumen sortiert, aufsteigend/i.test(sortBody)) {
+      const sortHeaderAgain = page.getByText(/Nach Suchvolumen sortiert, aufsteigend/i, { exact: true }).first();
+      if (await sortHeaderAgain.count()) {
+        await clickInteractiveAncestor(page, sortHeaderAgain);
+        await page.waitForTimeout(1200);
+        sortBody = await page.locator("body").innerText();
+      }
+    }
+
+    if (!/Nach Suchvolumen sortiert, absteigend/i.test(sortBody)) {
+      throw new Error("Search-volume sorting was not applied");
+    }
+  }
 
   const missing = [];
   if (!(await buttonExists(page, /^Deutschland$/))) missing.push("Deutschland");
   if (!(await buttonExists(page, /^Letzte 4 Stunden$/))) missing.push("Letzte 4 Stunden");
   if (!(await buttonExists(page, /^Wirtschaft und Finanzen$/))) missing.push("Wirtschaft und Finanzen");
   if (!(await buttonExists(page, /^Nur aktive Trends$/))) missing.push("Nur aktive Trends");
-  if (!(await buttonExists(page, /^Nach Suchvolumen$/))) missing.push("Nach Suchvolumen");
+  const verifyBody = await page.locator("body").innerText();
+  if (!/Nach Suchvolumen sortiert, absteigend/i.test(verifyBody)) missing.push("Nach Suchvolumen sortiert");
 
   if (missing.length) {
     throw new Error("Zielansicht nicht bestätigt: " + missing.join(", "));
