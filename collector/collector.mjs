@@ -62,58 +62,51 @@ async function buttonExists(page, pattern) {
   return (await page.getByRole("button", { name: pattern }).count()) > 0;
 }
 
-async function setFilter(page, {
-  selected,
-  trigger,
-  option
-}) {
-  if (await buttonExists(page, selected)) return;
+async function setFilter(page, { selected, trigger, option }) {
+  if ((await page.getByText(selected).count()) > 0) return;
 
-  let control = page.getByRole("button", { name: trigger }).first();
-  if (!(await control.count())) {
-    control = page.getByText(trigger).first();
-  }
-  if (!(await control.count())) {
+  let target = page.getByText(trigger).first();
+  if (!(await target.count())) {
     throw new Error(`Filter control not found: ${trigger}`);
   }
 
-  await control.click({ timeout: 10000 });
-  await page.waitForTimeout(500);
+  const handle = await target.elementHandle();
+  await page.evaluate((el) => {
+    let n = el;
+    for (let i = 0; i < 8 && n; i++, n = n.parentElement) {
+      const role = n.getAttribute && n.getAttribute("role");
+      const tag = n.tagName;
+      const popup = n.getAttribute && n.getAttribute("aria-haspopup");
+      const tabindex = n.getAttribute && n.getAttribute("tabindex");
+      if (tag === "BUTTON" || role === "button" || role === "combobox" || popup || tabindex === "0") {
+        n.click();
+        return;
+      }
+    }
+    el.click();
+  }, handle);
+
+  await page.waitForTimeout(1200);
 
   const candidates = [
     page.getByRole("option", { name: option }).first(),
     page.getByRole("menuitem", { name: option }).first(),
     page.getByRole("button", { name: option }).first(),
-    page.getByText(option, { exact: true }).first()
+    page.getByText(option).first()
   ];
 
-  let clicked = false;
   for (const candidate of candidates) {
     if (await candidate.count()) {
       try {
         await candidate.click({ timeout: 5000 });
-        clicked = true;
-        break;
+        await page.waitForTimeout(1500);
+        if ((await page.getByText(selected).count()) > 0) return;
       } catch {}
     }
   }
 
-  if (!clicked) {
-    const visible = (await page.locator("body").innerText())
-      .replace(/\r/g, "")
-      .split("\n")
-      .map(x => x.trim())
-      .filter(Boolean)
-      .slice(0, 120)
-      .join(" | ");
-    throw new Error(`Filter option not found: ${option}. Visible text: ${visible}`);
-  }
-
-  await page.waitForTimeout(1500);
-
-  if (!(await buttonExists(page, selected))) {
-    throw new Error(`Filter was not applied: ${selected}`);
-  }
+  const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 160).join(" | ");
+  throw new Error(`Filter option not found/applied: ${option}. Visible text: ${visible}`);
 }
 
 async function enforceTargetView(page) {
