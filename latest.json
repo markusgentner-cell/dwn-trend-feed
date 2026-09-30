@@ -1,7 +1,7 @@
 {
   "ok": false,
-  "status": "waiting_for_collector",
-  "captured_at": null,
+  "status": "collector_error",
+  "captured_at": "2026-09-30T06:04:10.317Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&sort=search-volume&category=3&status=active",
-  "items": []
+  "error": "TimeoutError: page.waitForEvent: Timeout 20000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
 }
