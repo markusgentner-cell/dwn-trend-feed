@@ -44,7 +44,8 @@ async function dismissConsent(page) {
     "Alles akzeptieren",
     "Accept all",
     "Alle ablehnen",
-    "Reject all"
+    "Reject all",
+    "Ok"
   ]) {
     const b = page.getByRole("button", { name: label, exact: false });
     if (await b.count()) {
