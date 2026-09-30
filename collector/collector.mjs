@@ -47,13 +47,18 @@ async function dismissConsent(page) {
     "Reject all",
     "Ok"
   ]) {
-    const b = page.getByRole("button", { name: label, exact: false });
-    if (await b.count()) {
-      try {
-        await b.first().click({ timeout: 3000 });
-        await page.waitForTimeout(1500);
-      } catch {}
-      break;
+    const candidates = [
+      page.getByRole("button", { name: label, exact: false }).first(),
+      page.getByText(label, { exact: true }).first()
+    ];
+    for (const candidate of candidates) {
+      if (await candidate.count()) {
+        try {
+          await candidate.click({ timeout: 3000 });
+          await page.waitForTimeout(1000);
+          return;
+        } catch {}
+      }
     }
   }
 }
@@ -83,7 +88,9 @@ async function clickInteractiveAncestor(page, locator) {
 }
 
 async function exactTextExists(page, pattern) {
-  return (await page.getByText(pattern, { exact: true }).count()) > 0;
+  const text = await page.locator("body").innerText();
+  const lines = text.replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean);
+  return lines.some(line => pattern.test(line));
 }
 
 async function setFilter(page, { selected, trigger, optionText }) {
