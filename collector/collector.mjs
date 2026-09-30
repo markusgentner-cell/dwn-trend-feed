@@ -93,10 +93,7 @@ async function exactTextExists(page, pattern) {
   return lines.some(line => pattern.test(line));
 }
 
-async function setFilter(page, { selected, trigger, optionTexts }) {
-  // Treat a filter as applied when the selected label is present and the
-  // previous chip label is gone. Google renders these chips as divs, not
-  // consistently as ARIA buttons.
+async function setFilter(page, { selected, trigger, optionTexts, toggle = false }) {
   if ((await exactTextExists(page, selected)) && !(await exactTextExists(page, trigger))) return;
 
   let target = page.getByRole("button", { name: trigger }).first();
@@ -108,7 +105,6 @@ async function setFilter(page, { selected, trigger, optionTexts }) {
 
   let exactOption = null;
   let matchedOption = null;
-
   for (const optionText of optionTexts) {
     const candidate = page.getByText(optionText, { exact: true }).last();
     if (await candidate.count()) {
@@ -123,7 +119,31 @@ async function setFilter(page, { selected, trigger, optionTexts }) {
     throw new Error(`Filter option not found: ${optionTexts.join(" / ")}. Visible text: ${visible}`);
   }
 
-  await clickInteractiveAncestor(page, exactOption);
+  if (toggle) {
+    // "Nur aktive Trends anzeigen" is a switch. Find the nearest switch/checkbox
+    // around the label and turn it on only when it is currently off.
+    const handle = await exactOption.elementHandle();
+    const toggled = await page.evaluate((el) => {
+      let root = el;
+      for (let i = 0; i < 6 && root; i++, root = root.parentElement) {
+        const candidates = root.querySelectorAll('[role="switch"], input[type="checkbox"], [aria-checked]');
+        for (const sw of candidates) {
+          const checked = sw.getAttribute("aria-checked");
+          const inputChecked = ("checked" in sw) ? sw.checked : null;
+          const isOn = checked === "true" || inputChecked === true;
+          if (!isOn) sw.click();
+          return true;
+        }
+      }
+      return false;
+    }, handle);
+    if (!toggled) {
+      throw new Error(`Switch control not found near: ${matchedOption}`);
+    }
+  } else {
+    await clickInteractiveAncestor(page, exactOption);
+  }
+
   await page.waitForTimeout(1500);
 
   if (!((await exactTextExists(page, selected)) && !(await exactTextExists(page, trigger)))) {
@@ -143,7 +163,8 @@ async function enforceTargetView(page) {
   await setFilter(page, {
     selected: /^Nur aktive Trends$/,
     trigger: /^Alle Trends$/,
-    optionTexts: ["Nur aktive Trends anzeigen", "Nur aktive Trends"]
+    optionTexts: ["Nur aktive Trends anzeigen", "Nur aktive Trends"],
+    toggle: true
   });
 
   await setFilter(page, {
