@@ -57,6 +57,64 @@ async function dismissConsent(page) {
   }
 }
 
+async function chooseFilter(page, currentLabel, optionPattern) {
+  const trigger = page.getByText(currentLabel, { exact: true }).first();
+  if (!(await trigger.count())) {
+    throw new Error(`Filter trigger not found: ${currentLabel}`);
+  }
+
+  await trigger.click({ timeout: 10000 });
+  await page.waitForTimeout(500);
+
+  const roleCandidates = [
+    page.getByRole("option", { name: optionPattern }).first(),
+    page.getByRole("menuitem", { name: optionPattern }).first(),
+    page.getByText(optionPattern).first()
+  ];
+
+  for (const candidate of roleCandidates) {
+    if (await candidate.count()) {
+      try {
+        await candidate.click({ timeout: 5000 });
+        await page.waitForTimeout(1200);
+        return;
+      } catch {}
+    }
+  }
+
+  throw new Error(`Filter option not found for: ${optionPattern}`);
+}
+
+async function enforceTargetView(page) {
+  let body = await page.locator("body").innerText();
+
+  if (body.includes("Alle Kategorien")) {
+    await chooseFilter(page, "Alle Kategorien", /Wirtschaft/i);
+  }
+
+  body = await page.locator("body").innerText();
+  if (body.includes("Alle Trends")) {
+    await chooseFilter(page, "Alle Trends", /^Aktiv$|aktive Trends/i);
+  }
+
+  body = await page.locator("body").innerText();
+  if (body.includes("Nach Relevanz")) {
+    await chooseFilter(page, "Nach Relevanz", /Suchvolumen/i);
+  }
+
+  await page.waitForTimeout(2500);
+
+  body = await page.locator("body").innerText();
+  const problems = [];
+  if (body.includes("Alle Kategorien")) problems.push("Kategorie steht noch auf Alle Kategorien");
+  if (body.includes("Alle Trends")) problems.push("Status steht noch auf Alle Trends");
+  if (body.includes("Nach Relevanz")) problems.push("Sortierung steht noch auf Nach Relevanz");
+
+  if (problems.length) {
+    throw new Error("Zielansicht konnte nicht gesetzt werden: " + problems.join("; "));
+  }
+}
+
 async function extractVisibleData(page) {
   // First try semantic table/grid rows. Google may render the list as a table,
   // ARIA grid, or div-based rows depending on the current UI version.
@@ -157,7 +215,11 @@ try {
   await dismissConsent(page);
 
   // Give the client-side trends list time to render.
-  await page.waitForTimeout(8000);
+  await page.waitForTimeout(5000);
+
+  // Google currently ignores some filter query parameters. Set the
+  // editorial target view explicitly in the UI and verify it before reading.
+  await enforceTargetView(page);
 
   const extracted = await extractVisibleData(page);
 
