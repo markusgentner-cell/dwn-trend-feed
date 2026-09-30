@@ -1,7 +1,7 @@
 {
   "ok": false,
   "status": "collector_error",
-  "captured_at": "2026-09-30T10:26:14.905Z",
+  "captured_at": "2026-09-30T10:29:22.582Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "error": "Error: Filter option not found: /^Wirtschaft und Finanzen$/"
 }
