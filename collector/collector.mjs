@@ -62,51 +62,51 @@ async function buttonExists(page, pattern) {
   return (await page.getByRole("button", { name: pattern }).count()) > 0;
 }
 
-async function setFilter(page, { selected, trigger, option }) {
-  if ((await page.getByText(selected).count()) > 0) return;
-
-  let target = page.getByText(trigger).first();
-  if (!(await target.count())) {
-    throw new Error(`Filter control not found: ${trigger}`);
-  }
-
-  const handle = await target.elementHandle();
-  await page.evaluate((el) => {
+async function clickInteractiveAncestor(page, locator) {
+  const handle = await locator.elementHandle();
+  if (!handle) return false;
+  return await page.evaluate((el) => {
     let n = el;
     for (let i = 0; i < 8 && n; i++, n = n.parentElement) {
       const role = n.getAttribute && n.getAttribute("role");
       const tag = n.tagName;
       const popup = n.getAttribute && n.getAttribute("aria-haspopup");
       const tabindex = n.getAttribute && n.getAttribute("tabindex");
-      if (tag === "BUTTON" || role === "button" || role === "combobox" || popup || tabindex === "0") {
+      if (tag === "BUTTON" || role === "button" || role === "option" || role === "menuitem" || role === "combobox" || popup || tabindex === "0") {
         n.click();
-        return;
+        return true;
       }
     }
     el.click();
+    return true;
   }, handle);
+}
 
-  await page.waitForTimeout(1200);
+async function setFilter(page, { selected, trigger, optionText }) {
+  // Only an actual filter button counts as "selected". Text inside an open
+  // menu must not be mistaken for an applied filter.
+  if (await buttonExists(page, selected)) return;
 
-  const candidates = [
-    page.getByRole("option", { name: option }).first(),
-    page.getByRole("menuitem", { name: option }).first(),
-    page.getByRole("button", { name: option }).first(),
-    page.getByText(option).first()
-  ];
+  let target = page.getByRole("button", { name: trigger }).first();
+  if (!(await target.count())) target = page.getByText(trigger).first();
+  if (!(await target.count())) throw new Error(`Filter control not found: ${trigger}`);
 
-  for (const candidate of candidates) {
-    if (await candidate.count()) {
-      try {
-        await candidate.click({ timeout: 5000 });
-        await page.waitForTimeout(1500);
-        if ((await page.getByText(selected).count()) > 0) return;
-      } catch {}
-    }
+  await clickInteractiveAncestor(page, target);
+  await page.waitForTimeout(1000);
+
+  const exactText = page.getByText(optionText, { exact: true }).first();
+  if (!(await exactText.count())) {
+    const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 120).join(" | ");
+    throw new Error(`Filter option not found: ${optionText}. Visible text: ${visible}`);
   }
 
-  const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 160).join(" | ");
-  throw new Error(`Filter option not found/applied: ${option}. Visible text: ${visible}`);
+  await clickInteractiveAncestor(page, exactText);
+  await page.waitForTimeout(1500);
+
+  if (!(await buttonExists(page, selected))) {
+    const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 120).join(" | ");
+    throw new Error(`Filter was not applied: ${optionText}. Visible text: ${visible}`);
+  }
 }
 
 async function enforceTargetView(page) {
@@ -114,19 +114,19 @@ async function enforceTargetView(page) {
   await setFilter(page, {
     selected: /^Wirtschaft und Finanzen$/,
     trigger: /^Alle Kategorien$|^Wirtschaft und Finanzen$/,
-    option: /Wirtschaft/i
+    optionText: "Wirtschaft und Finanzen"
   });
 
   await setFilter(page, {
     selected: /^Nur aktive Trends$/,
     trigger: /^Alle Trends$|^Nur aktive Trends$/,
-    option: /aktive Trends/i
+    optionText: "Nur aktive Trends"
   });
 
   await setFilter(page, {
     selected: /^Nach Suchvolumen$/,
     trigger: /^Nach Relevanz$|^Nach Suchvolumen$/,
-    option: /Suchvolumen/i
+    optionText: "Nach Suchvolumen"
   });
 
   const missing = [];
