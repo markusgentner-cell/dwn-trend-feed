@@ -174,10 +174,10 @@ async function enforceTargetView(page) {
   });
 
   const missing = [];
-  if (!(await buttonExists(page, /^Deutschland$/))) missing.push("Deutschland");
-  if (!(await buttonExists(page, /^Letzte 4 Stunden$/))) missing.push("Letzte 4 Stunden");
-  if (!(await buttonExists(page, /^Wirtschaft und Finanzen$/))) missing.push("Wirtschaft und Finanzen");
-  if (!(await buttonExists(page, /^Nur aktive Trends$/))) missing.push("Nur aktive Trends");
+  if (!(await exactTextExists(page, /^Deutschland$/))) missing.push("Deutschland");
+  if (!(await exactTextExists(page, /^Letzte 4 Stunden$/))) missing.push("Letzte 4 Stunden");
+  if (!(await exactTextExists(page, /^Wirtschaft und Finanzen$/))) missing.push("Wirtschaft und Finanzen");
+  if (!(await exactTextExists(page, /^Nur aktive Trends$/))) missing.push("Nur aktive Trends");
   if (!(await exactTextExists(page, /^Nach Suchvolumen$/))) missing.push("Nach Suchvolumen");
 
   if (missing.length) {
