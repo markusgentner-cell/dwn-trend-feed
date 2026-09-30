@@ -1,7 +1,7 @@
 {
   "ok": false,
   "status": "collector_error",
-  "captured_at": "2026-09-30T14:32:35.399Z",
+  "captured_at": "2026-09-30T14:34:47.790Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "Error: Zielansicht nicht bestätigt: Deutschland, Letzte 4 Stunden, Wirtschaft und Finanzen, Nur aktive Trends"
+  "error": "Error: Zielansicht nicht bestätigt: Letzte 4 Stunden"
 }
