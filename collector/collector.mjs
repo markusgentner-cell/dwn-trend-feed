@@ -233,7 +233,7 @@ async function extractVisibleData(page) {
   };
 }
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: false, channel: "chrome" });
 const page = await browser.newPage({
   locale: "de-DE",
   viewport: { width: 1600, height: 1200 }
