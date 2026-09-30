@@ -98,7 +98,14 @@ async function setFilter(page, {
   }
 
   if (!clicked) {
-    throw new Error(`Filter option not found: ${option}`);
+    const visible = (await page.locator("body").innerText())
+      .replace(/\r/g, "")
+      .split("\n")
+      .map(x => x.trim())
+      .filter(Boolean)
+      .slice(0, 120)
+      .join(" | ");
+    throw new Error(`Filter option not found: ${option}. Visible text: ${visible}`);
   }
 
   await page.waitForTimeout(1500);
@@ -113,19 +120,19 @@ async function enforceTargetView(page) {
   await setFilter(page, {
     selected: /^Wirtschaft und Finanzen$/,
     trigger: /^Alle Kategorien$|^Wirtschaft und Finanzen$/,
-    option: /^Wirtschaft und Finanzen$/
+    option: /Wirtschaft/i
   });
 
   await setFilter(page, {
     selected: /^Nur aktive Trends$/,
     trigger: /^Alle Trends$|^Nur aktive Trends$/,
-    option: /^Nur aktive Trends$/
+    option: /aktive Trends/i
   });
 
   await setFilter(page, {
     selected: /^Nach Suchvolumen$/,
     trigger: /^Nach Relevanz$|^Nach Suchvolumen$/,
-    option: /^Nach Suchvolumen$/
+    option: /Suchvolumen/i
   });
 
   const missing = [];
