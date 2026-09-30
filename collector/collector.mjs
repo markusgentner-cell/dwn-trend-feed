@@ -82,28 +82,53 @@ async function clickInteractiveAncestor(page, locator) {
   }, handle);
 }
 
+async function exactTextExists(page, pattern) {
+  return (await page.getByText(pattern, { exact: true }).count()) > 0;
+}
+
+async function clickInteractiveAncestor(page, locator) {
+  const handle = await locator.elementHandle();
+  if (!handle) return false;
+  return await page.evaluate((el) => {
+    let n = el;
+    for (let i = 0; i < 8 && n; i++, n = n.parentElement) {
+      const role = n.getAttribute && n.getAttribute("role");
+      const tag = n.tagName;
+      const popup = n.getAttribute && n.getAttribute("aria-haspopup");
+      const tabindex = n.getAttribute && n.getAttribute("tabindex");
+      if (tag === "BUTTON" || role === "button" || role === "option" || role === "menuitem" || role === "combobox" || popup || tabindex === "0") {
+        n.click();
+        return true;
+      }
+    }
+    el.click();
+    return true;
+  }, handle);
+}
+
 async function setFilter(page, { selected, trigger, optionText }) {
-  // Only an actual filter button counts as "selected". Text inside an open
-  // menu must not be mistaken for an applied filter.
-  if (await buttonExists(page, selected)) return;
+  // Treat a filter as applied when the selected label is present and the
+  // previous chip label is gone. Google renders these chips as divs, not
+  // consistently as ARIA buttons.
+  if ((await exactTextExists(page, selected)) && !(await exactTextExists(page, trigger))) return;
 
   let target = page.getByRole("button", { name: trigger }).first();
-  if (!(await target.count())) target = page.getByText(trigger).first();
+  if (!(await target.count())) target = page.getByText(trigger, { exact: true }).first();
   if (!(await target.count())) throw new Error(`Filter control not found: ${trigger}`);
 
   await clickInteractiveAncestor(page, target);
   await page.waitForTimeout(1000);
 
-  const exactText = page.getByText(optionText, { exact: true }).first();
-  if (!(await exactText.count())) {
+  const exactOption = page.getByText(optionText, { exact: true }).last();
+  if (!(await exactOption.count())) {
     const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 120).join(" | ");
     throw new Error(`Filter option not found: ${optionText}. Visible text: ${visible}`);
   }
 
-  await clickInteractiveAncestor(page, exactText);
+  await clickInteractiveAncestor(page, exactOption);
   await page.waitForTimeout(1500);
 
-  if (!(await buttonExists(page, selected))) {
+  if (!((await exactTextExists(page, selected)) && !(await exactTextExists(page, trigger)))) {
     const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 120).join(" | ");
     throw new Error(`Filter was not applied: ${optionText}. Visible text: ${visible}`);
   }
@@ -113,19 +138,19 @@ async function enforceTargetView(page) {
   // Exact labels taken from the current German Google Trends UI.
   await setFilter(page, {
     selected: /^Wirtschaft und Finanzen$/,
-    trigger: /^Alle Kategorien$|^Wirtschaft und Finanzen$/,
+    trigger: /^Alle Kategorien$/,
     optionText: "Wirtschaft und Finanzen"
   });
 
   await setFilter(page, {
     selected: /^Nur aktive Trends$/,
-    trigger: /^Alle Trends$|^Nur aktive Trends$/,
+    trigger: /^Alle Trends$/,
     optionText: "Nur aktive Trends"
   });
 
   await setFilter(page, {
     selected: /^Nach Suchvolumen$/,
-    trigger: /^Nach Relevanz$|^Nach Suchvolumen$/,
+    trigger: /^Nach Relevanz$/,
     optionText: "Nach Suchvolumen"
   });
 
