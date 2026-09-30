@@ -174,8 +174,14 @@ async function enforceTargetView(page) {
   });
 
   const missing = [];
-  if (!(await exactTextExists(page, /^Deutschland$/))) missing.push("Deutschland");
-  if (!(await exactTextExists(page, /^Letzte 4 Stunden$/))) missing.push("Letzte 4 Stunden");
+  const currentUrl = new URL(page.url());
+
+  // Country and time window are stable URL parameters even when Google
+  // renders their chips inconsistently in the DOM.
+  if (currentUrl.searchParams.get("geo") !== "DE") missing.push("Deutschland");
+  if (currentUrl.searchParams.get("hours") !== "4") missing.push("Letzte 4 Stunden");
+
+  // These three are actively set in the UI above and must remain visibly selected.
   if (!(await exactTextExists(page, /^Wirtschaft und Finanzen$/))) missing.push("Wirtschaft und Finanzen");
   if (!(await exactTextExists(page, /^Nur aktive Trends$/))) missing.push("Nur aktive Trends");
   if (!(await exactTextExists(page, /^Nach Suchvolumen$/))) missing.push("Nach Suchvolumen");
