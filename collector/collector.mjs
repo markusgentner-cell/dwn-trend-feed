@@ -93,7 +93,7 @@ async function exactTextExists(page, pattern) {
   return lines.some(line => pattern.test(line));
 }
 
-async function setFilter(page, { selected, trigger, optionText }) {
+async function setFilter(page, { selected, trigger, optionTexts }) {
   // Treat a filter as applied when the selected label is present and the
   // previous chip label is gone. Google renders these chips as divs, not
   // consistently as ARIA buttons.
@@ -106,10 +106,21 @@ async function setFilter(page, { selected, trigger, optionText }) {
   await clickInteractiveAncestor(page, target);
   await page.waitForTimeout(1000);
 
-  const exactOption = page.getByText(optionText, { exact: true }).last();
-  if (!(await exactOption.count())) {
+  let exactOption = null;
+  let matchedOption = null;
+
+  for (const optionText of optionTexts) {
+    const candidate = page.getByText(optionText, { exact: true }).last();
+    if (await candidate.count()) {
+      exactOption = candidate;
+      matchedOption = optionText;
+      break;
+    }
+  }
+
+  if (!exactOption) {
     const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 120).join(" | ");
-    throw new Error(`Filter option not found: ${optionText}. Visible text: ${visible}`);
+    throw new Error(`Filter option not found: ${optionTexts.join(" / ")}. Visible text: ${visible}`);
   }
 
   await clickInteractiveAncestor(page, exactOption);
@@ -117,7 +128,7 @@ async function setFilter(page, { selected, trigger, optionText }) {
 
   if (!((await exactTextExists(page, selected)) && !(await exactTextExists(page, trigger)))) {
     const visible = (await page.locator("body").innerText()).replace(/\r/g, "").split("\n").map(x => x.trim()).filter(Boolean).slice(0, 120).join(" | ");
-    throw new Error(`Filter was not applied: ${optionText}. Visible text: ${visible}`);
+    throw new Error(`Filter was not applied: ${matchedOption}. Visible text: ${visible}`);
   }
 }
 
@@ -126,19 +137,19 @@ async function enforceTargetView(page) {
   await setFilter(page, {
     selected: /^Wirtschaft und Finanzen$/,
     trigger: /^Alle Kategorien$/,
-    optionText: "Wirtschaft und Finanzen"
+    optionTexts: ["Wirtschaft und Finanzen"]
   });
 
   await setFilter(page, {
     selected: /^Nur aktive Trends$/,
     trigger: /^Alle Trends$/,
-    optionText: "Nur aktive Trends"
+    optionTexts: ["Nur aktive Trends anzeigen", "Nur aktive Trends"]
   });
 
   await setFilter(page, {
     selected: /^Nach Suchvolumen$/,
     trigger: /^Nach Relevanz$/,
-    optionText: "Nach Suchvolumen"
+    optionTexts: ["Nach Suchvolumen sortieren", "Nach Suchvolumen"]
   });
 
   const missing = [];
