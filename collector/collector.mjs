@@ -86,26 +86,6 @@ async function exactTextExists(page, pattern) {
   return (await page.getByText(pattern, { exact: true }).count()) > 0;
 }
 
-async function clickInteractiveAncestor(page, locator) {
-  const handle = await locator.elementHandle();
-  if (!handle) return false;
-  return await page.evaluate((el) => {
-    let n = el;
-    for (let i = 0; i < 8 && n; i++, n = n.parentElement) {
-      const role = n.getAttribute && n.getAttribute("role");
-      const tag = n.tagName;
-      const popup = n.getAttribute && n.getAttribute("aria-haspopup");
-      const tabindex = n.getAttribute && n.getAttribute("tabindex");
-      if (tag === "BUTTON" || role === "button" || role === "option" || role === "menuitem" || role === "combobox" || popup || tabindex === "0") {
-        n.click();
-        return true;
-      }
-    }
-    el.click();
-    return true;
-  }, handle);
-}
-
 async function setFilter(page, { selected, trigger, optionText }) {
   // Treat a filter as applied when the selected label is present and the
   // previous chip label is gone. Google renders these chips as divs, not
