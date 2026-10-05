@@ -4,6 +4,12 @@
       "trend": "vw kündigt tarifvertrag",
       "article_path": "articles/trends/2026-09-30_1702_vw-kuendigt-tarifvertraege.md",
       "processed_at": "2026-09-30T17:02:19+02:00"
+    },
+    {
+      "trend": "kraftstoff",
+      "article_path": "articles/trends/2026-10-05_0710_tankrabatt-spritpreise.md",
+      "asset_base": "assets/trends/2026-10-05/tankrabatt-spritpreise",
+      "processed_at": "2026-10-05T07:10:00+02:00"
     }
   ]
 }
