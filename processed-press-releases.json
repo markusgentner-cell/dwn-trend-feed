@@ -18,6 +18,41 @@
       "subject": "Koalitionsausschuss: Mittelstand warnt Kanzler Merz vor neuem Gezänk...",
       "article_path": "articles/mail/2026-10-06_0701_mittelstand-koalitionsausschuss-reformen.md",
       "processed_at": "2026-10-06T07:01:07+02:00"
+    },
+    {
+      "gmail_message_id": "1a110db9890232a7",
+      "subject": "Die Aydins in Almanya – ZDF-Streamingankündigung",
+      "status": "rejected",
+      "reason": "Medien-/Programmankündigung ohne ausreichenden wirtschaftlichen Nachrichtenwert für DWN.",
+      "reviewed_at": "2026-10-06T13:03:53+02:00"
+    },
+    {
+      "gmail_message_id": "1a110badd9431b70",
+      "subject": "Tatort Jugendfußball – ZDF-Dokumentation",
+      "status": "rejected",
+      "reason": "Gesellschafts- und Medienthema ohne klaren wirtschaftlichen Nachrichtenfokus für DWN.",
+      "reviewed_at": "2026-10-06T13:03:53+02:00"
+    },
+    {
+      "gmail_message_id": "1a1107405b35d81e",
+      "subject": "Fußball-Länderspiele der Frauen auch künftig bei ARD und ZDF",
+      "status": "rejected",
+      "reason": "Rechte-/Programmankündigung ohne veröffentlichte finanzielle Konditionen und ohne ausreichenden DWN-Wirtschaftsnachrichtenwert.",
+      "reviewed_at": "2026-10-06T13:03:53+02:00"
+    },
+    {
+      "gmail_message_id": "1a10fd13578099dd",
+      "subject": "69 % der Studienanfängerinnen und -anfänger bleiben zum Studium im eigenen Bundesland",
+      "status": "rejected",
+      "reason": "Bildungsstatistik ohne hinreichend starken aktuellen Wirtschafts- oder Unternehmensbezug für DWN.",
+      "reviewed_at": "2026-10-06T13:03:53+02:00"
+    },
+    {
+      "gmail_message_id": "1a10fd12867e1755",
+      "subject": "Auftragseingang im Verarbeitenden Gewerbe im August 2026: -10,6 % zum Vormonat",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-06_1303_industrieauftraege-august-einbruch.md",
+      "processed_at": "2026-10-06T13:03:53+02:00"
     }
   ]
 }
