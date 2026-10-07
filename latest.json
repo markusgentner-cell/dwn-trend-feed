@@ -1,17 +1,25 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-07T11:33:38.281Z",
+  "captured_at": "2026-10-07T12:03:36.242Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "energieversorgung sylt 2.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv stromausfall sylt",
+      "text": "energieversorgung sylt 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv stromausfall sylt",
       "links": []
     },
     {
-      "text": "beitragsbemessungsgrenze 500+ arrow_upward 700 % vor 30 Minuten trending_up Aktiv",
+      "text": "beitragsbemessungsgrenze 1.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "stockelsdorf 500+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "jim farley 500+ arrow_upward 600 % vor 40 Minuten trending_up Aktiv",
       "links": []
     },
     {
@@ -19,19 +27,7 @@
       "links": []
     },
     {
-      "text": "stockelsdorf 200+ arrow_upward 600 % vor 40 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "7. oktober 2026 200+ arrow_upward 200 % vor 50 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "jim farley 200+ arrow_upward 200 % vor 10 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "finanzen.net 200+ arrow_upward 200 % vor 10 Minuten trending_up Aktiv",
+      "text": "finanzen.net 200+ arrow_upward 400 % vor 40 Minuten trending_up Aktiv",
       "links": []
     }
   ],
@@ -49,5 +45,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n07.10.26, 13:33\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nenergieversorgung sylt\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\nstromausfall sylt\n\t\n\n\n\t\nbeitragsbemessungsgrenze\n\t\n500+\narrow_upward\n700 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nqueen anne\n\t\n500+\narrow_upward\n200 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nstockelsdorf\n\t\n200+\narrow_upward\n600 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\n7. oktober 2026\n\t\n200+\narrow_upward\n200 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\njim farley\n\t\n200+\narrow_upward\n200 %\n\t\nvor 10 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfinanzen.net\n\t\n200+\narrow_upward\n200 %\n\t\nvor 10 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n07.10.26, 14:03\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nenergieversorgung sylt\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\nstromausfall sylt\n\t\n\n\n\t\nbeitragsbemessungsgrenze\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nstockelsdorf\n\t\n500+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\njim farley\n\t\n500+\narrow_upward\n600 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nqueen anne\n\t\n500+\narrow_upward\n200 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfinanzen.net\n\t\n200+\narrow_upward\n400 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
