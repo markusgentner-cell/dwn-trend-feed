@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "items": [
-    {
-      "article_path": "articles/trends/2026-10-08_1215_handoff-test.md",
-      "article_content": "# Handoff-Test\n\nDies ist ein technischer End-to-End-Test der neuen GitHub-Handoff-Pipeline. Die Datei kann nach erfolgreicher Verarbeitung gelöscht werden.\n"
-    }
-  ]
-}
