@@ -46,22 +46,25 @@ def append_register(register_path: str, entry: dict):
     save_json(path, data)
 
 def process_item(item: dict):
+    register_only = item.get("register_only") is True
     article_path = item.get("article_path", "")
     content = item.get("article_content")
-    if not isinstance(content, str) or not content.strip():
-        raise ValueError("article_content missing or empty")
-    if not allowed_article_path(article_path):
-        raise ValueError(f"article_path not allowed: {article_path}")
 
-    target = ROOT / article_path
-    target.parent.mkdir(parents=True, exist_ok=True)
+    if not register_only:
+        if not isinstance(content, str) or not content.strip():
+            raise ValueError("article_content missing or empty")
+        if not allowed_article_path(article_path):
+            raise ValueError(f"article_path not allowed: {article_path}")
 
-    if target.exists():
-        existing = target.read_text(encoding="utf-8")
-        if existing != content:
-            raise ValueError(f"target already exists with different content: {article_path}")
-    else:
-        target.write_text(content, encoding="utf-8")
+        target = ROOT / article_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+
+        if target.exists():
+            existing = target.read_text(encoding="utf-8")
+            if existing != content:
+                raise ValueError(f"target already exists with different content: {article_path}")
+        else:
+            target.write_text(content, encoding="utf-8")
 
     register = item.get("register")
     if register is not None:
@@ -71,9 +74,11 @@ def process_item(item: dict):
         entry = register.get("entry")
         if not isinstance(entry, dict):
             raise ValueError("register.entry must be an object")
-        if entry.get("article_path") != article_path:
+        if not register_only and entry.get("article_path") != article_path:
             raise ValueError("register article_path does not match handoff article_path")
         append_register(register_path, entry)
+    elif register_only:
+        raise ValueError("register_only item requires register")
 
 def process_one(path: Path):
     payload = load_json(path)
