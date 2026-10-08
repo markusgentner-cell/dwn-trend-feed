@@ -45,13 +45,9 @@ def append_register(register_path: str, entry: dict):
     processed.append(entry)
     save_json(path, data)
 
-def process_one(path: Path):
-    payload = load_json(path)
-    if payload.get("version") != 1:
-        raise ValueError("unsupported handoff version")
-
-    article_path = payload.get("article_path", "")
-    content = payload.get("article_content")
+def process_item(item: dict):
+    article_path = item.get("article_path", "")
+    content = item.get("article_content")
     if not isinstance(content, str) or not content.strip():
         raise ValueError("article_content missing or empty")
     if not allowed_article_path(article_path):
@@ -67,7 +63,7 @@ def process_one(path: Path):
     else:
         target.write_text(content, encoding="utf-8")
 
-    register = payload.get("register")
+    register = item.get("register")
     if register is not None:
         if not isinstance(register, dict):
             raise ValueError("register must be an object")
@@ -78,6 +74,23 @@ def process_one(path: Path):
         if entry.get("article_path") != article_path:
             raise ValueError("register article_path does not match handoff article_path")
         append_register(register_path, entry)
+
+def process_one(path: Path):
+    payload = load_json(path)
+    version = payload.get("version")
+    if version == 1:
+        items = [payload]
+    elif version == 2:
+        items = payload.get("items")
+        if not isinstance(items, list) or not items:
+            raise ValueError("version 2 handoff requires non-empty items array")
+    else:
+        raise ValueError("unsupported handoff version")
+
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError("each handoff item must be an object")
+        process_item(item)
 
     PROCESSED.mkdir(parents=True, exist_ok=True)
     shutil.move(str(path), str(PROCESSED / path.name))
