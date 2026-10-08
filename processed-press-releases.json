@@ -74,6 +74,13 @@
       "status": "rejected",
       "reason": "Kommunalstatistik ohne hinreichend starken Wirtschafts-, Unternehmens- oder Konjunkturbezug für DWN.",
       "reviewed_at": "2026-10-07T11:05:01+02:00"
+    },
+    {
+      "gmail_message_id": "1a11a1dc2d83511e",
+      "subject": "Exporte im August 2026: -0,8 % zum Juli 2026",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-08_1303_deutsche-exporte-august-us-geschaeft.md",
+      "processed_at": "2026-10-08T13:03:54+02:00"
     }
   ]
 }
