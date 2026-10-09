@@ -24,13 +24,13 @@ This repository uses a two-stage publishing flow for automated ChatGPT editorial
 }
 ```
 
-For agent articles under `Agenten/`, omit the `register` object.
+For agent articles under `articles/agenten/`, omit the `register` object.
 
 Only these output paths are accepted:
 - `articles/trends/YYYY-MM-DD_HHMM_<slug>.md`
 - `articles/mail/YYYY-MM-DD_HHMM_<slug>.md`
-- `Agenten/YYYY-MM-DD_HHMM_goldpreis.md`
-- `Agenten/YYYY-MM-DD_HHMM_bitcoin-kurs.md`
-- `Agenten/YYYY-MM-DD_HHMM_rheinmetall-aktie.md`
+- `articles/agenten/YYYY-MM-DD_HHMM_goldpreis.md`
+- `articles/agenten/YYYY-MM-DD_HHMM_bitcoin-kurs.md`
+- `articles/agenten/YYYY-MM-DD_HHMM_rheinmetall-aktie.md`
 
 The publisher is idempotent: identical already-published files are accepted, but conflicting content at an existing target path is rejected.
