@@ -1,8 +1,6 @@
 name: DWN Trends API
 
 on:
-  schedule:
-    - cron: "0 5-12 * * 1-5"
   workflow_dispatch:
 
 permissions:
