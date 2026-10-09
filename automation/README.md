@@ -27,7 +27,7 @@ The key is never stored in the repository. OpenAI recommends GitHub Secrets for 
   - Rheinmetall at 08:15 Europe/Berlin.
   - Uses OpenAI Responses API with web search.
   - Validates approximate length and exact SEO keyword counts.
-  - Writes final Markdown directly to `Agenten/`.
+  - Writes final Markdown directly to `articles/agenten/`.
   - Refuses to create a second article for the same agent/date.
 
 ## Model
