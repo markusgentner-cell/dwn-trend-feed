@@ -1,0 +1,74 @@
+name: Mirror Trends Redaktion
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "articles/trends/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mirror-trends-redaktion
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      TARGET_REPO: markusgentner-cell/dwn-trends-redaktion
+      TRENDS_MIRROR_TOKEN: ${{ secrets.TRENDS_MIRROR_TOKEN }}
+
+    steps:
+      - name: Check mirror configuration
+        id: config
+        shell: bash
+        run: |
+          if [ -z "$TRENDS_MIRROR_TOKEN" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "TRENDS_MIRROR_TOKEN is not configured yet. Mirror skipped."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout source repository
+        if: steps.config.outputs.configured == 'true'
+        uses: actions/checkout@v4
+        with:
+          path: source
+          persist-credentials: false
+
+      - name: Checkout editorial mirror repository
+        if: steps.config.outputs.configured == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.TARGET_REPO }}
+          token: ${{ secrets.TRENDS_MIRROR_TOKEN }}
+          path: target
+          fetch-depth: 0
+
+      - name: Mirror articles/trends
+        if: steps.config.outputs.configured == 'true'
+        shell: bash
+        run: |
+          mkdir -p target/articles/trends
+          rsync -a --delete source/articles/trends/ target/articles/trends/
+
+      - name: Commit and push mirror
+        if: steps.config.outputs.configured == 'true'
+        shell: bash
+        working-directory: target
+        run: |
+          if git diff --quiet -- articles/trends && [ -z "$(git status --porcelain -- articles/trends)" ]; then
+            echo "No trend changes to mirror."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles/trends
+          git commit -m "Sync DWN trend articles"
+          git push origin HEAD:main
