@@ -7,7 +7,7 @@ from pathlib import Path
 from openai_common import call_openai, now_berlin, word_count
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "Agenten"
+OUT = ROOT / "articles" / "agenten"
 
 AGENTS = {
     "gold": {
@@ -92,7 +92,7 @@ The headline and teaser are part of the complete article text for SEO counting. 
     if errors:
         raise RuntimeError(f"{name} validation failed after retries: " + "; ".join(errors))
     now=now_berlin()
-    rel=f"Agenten/{now:%Y-%m-%d_%H%M}_{cfg['slug']}.md"
+    rel=f"articles/agenten/{now:%Y-%m-%d_%H%M}_{cfg['slug']}.md"
     (ROOT/rel).write_text(render(result),encoding="utf-8")
     print(f"{name}: created {rel}")
     return rel
