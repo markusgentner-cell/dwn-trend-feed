@@ -100,6 +100,18 @@ async function selectMenuOption(page, buttonNamePattern, optionPattern, desiredB
     }
   }
   if (!chosen) {
+    const dump = await menu.locator('*').evaluateAll(nodes => nodes
+      .map(n => ({
+        tag: n.tagName,
+        role: n.getAttribute('role'),
+        ariaChecked: n.getAttribute('aria-checked'),
+        ariaLabel: n.getAttribute('aria-label'),
+        jsname: n.getAttribute('jsname'),
+        text: (n.innerText || n.textContent || '').trim().replace(/\s+/g,' ').slice(0,200)
+      }))
+      .filter(x => x.role || x.ariaChecked || x.ariaLabel || /aktive/i.test(x.text))
+      .slice(0,120));
+    console.log(label + ' menu DOM dump:', JSON.stringify(dump));
     throw new Error(label + ' option not found: ' + optionPattern);
   }
 
