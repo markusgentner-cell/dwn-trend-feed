@@ -22,9 +22,12 @@ async function clickText(page, text) {
   }
 }
 
+async function hasVisibleExactText(page, text) {
+  return (await page.getByText(text, { exact: true }).filter({ visible: true }).count()) > 0;
+}
+
 async function ensureFilterByText(page, currentText, desiredText, desiredPattern) {
-  const body = clean(await page.locator('body').innerText());
-  if (body.includes(desiredText)) return;
+  if (await hasVisibleExactText(page, desiredText)) return;
   await clickText(page, currentText);
   await page.waitForTimeout(700);
 
@@ -43,15 +46,13 @@ async function ensureFilterByText(page, currentText, desiredText, desiredPattern
   }
   await page.waitForTimeout(1400);
 
-  const after = clean(await page.locator('body').innerText());
-  if (!after.includes(desiredText)) {
+  if (!(await hasVisibleExactText(page, desiredText))) {
     throw new Error('Filter did not switch to: ' + desiredText);
   }
 }
 
-async function chooseNextOption(page, currentText, expectedPattern, label) {
-  const before = clean(await page.locator('body').innerText());
-  if (expectedPattern.test(before)) return;
+async function chooseNextOption(page, currentText, desiredText, label) {
+  if (await hasVisibleExactText(page, desiredText)) return;
 
   await clickText(page, currentText);
   await page.waitForTimeout(500);
@@ -62,8 +63,8 @@ async function chooseNextOption(page, currentText, expectedPattern, label) {
 
   const after = clean(await page.locator('body').innerText());
   console.log(label + ' after keyboard selection:', after.slice(0, 800));
-  if (!expectedPattern.test(after)) {
-    throw new Error(label + ' filter did not switch to expected value');
+  if (!(await hasVisibleExactText(page, desiredText))) {
+    throw new Error(label + ' filter did not switch to expected value: ' + desiredText);
   }
 }
 
@@ -113,8 +114,8 @@ async function chooseNextOption(page, currentText, expectedPattern, label) {
     // Google sometimes ignores category/status/sort query parameters on initial load.
     // Enforce the desired view through the visible UI before reading rows.
     await ensureFilterByText(page, 'Alle Kategorien', 'Wirtschaft und Finanzen', /^Wirtschaft und Finanzen/);
-    await chooseNextOption(page, 'Alle Trends', /Nur aktive Trends/i, 'Status');
-    await chooseNextOption(page, 'Nach Relevanz', /Nach Suchvolumen/i, 'Sortierung');
+    await chooseNextOption(page, 'Alle Trends', 'Nur aktive Trends', 'Status');
+    await chooseNextOption(page, 'Nach Relevanz', 'Nach Suchvolumen', 'Sortierung');
 
     await page.waitForTimeout(3000);
 
@@ -129,10 +130,15 @@ async function chooseNextOption(page, currentText, expectedPattern, label) {
       'Nur aktive Trends',
       'Nach Suchvolumen'
     ];
-    const missingLabels = requiredLabels.filter(x => !bodyText.includes(x));
+    const visibility = {};
+    for (const label of requiredLabels) visibility[label] = await hasVisibleExactText(page, label);
+    const missingLabels = requiredLabels.filter(x => !visibility[x]);
 
     const forbiddenDefaults = ['Alle Kategorien', 'Alle Trends', 'Nach Relevanz'];
-    const presentDefaults = forbiddenDefaults.filter(x => bodyText.includes(x));
+    const presentDefaults = [];
+    for (const label of forbiddenDefaults) {
+      if (await hasVisibleExactText(page, label)) presentDefaults.push(label);
+    }
 
     const rawRows = await page.locator('tr, [role="row"]').allInnerTexts();
     const seen = new Set();
@@ -182,7 +188,7 @@ async function chooseNextOption(page, currentText, expectedPattern, label) {
 
     fs.writeFileSync('latest.json', JSON.stringify(payload, null, 2) + '\n', 'utf8');
     console.log(`Wrote latest.json: ok=${ok}, rows=${rows.length}, final_url=${finalUrl}`);
-    console.log('Validated view:', requiredLabels.map(x => bodyText.includes(x) ? x : 'MISSING:' + x).join(' | '));
+    console.log('Validated view:', requiredLabels.map(x => visibility[x] ? x : 'MISSING:' + x).join(' | '));
 
     if (!ok) process.exitCode = 2;
   } finally {
