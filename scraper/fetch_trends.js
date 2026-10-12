@@ -85,12 +85,12 @@ async function selectMenuOption(page, buttonNamePattern, optionPattern, desiredB
   const menuText = clean(await menu.innerText());
   console.log(label + ' menu text:', menuText);
 
-  const roleOptions = menu.locator('[role="menuitemcheckbox"], [role="menuitemradio"], [role="menuitem"], [role="option"]');
+  const roleOptions = menu.locator('[role="switch"], [role="menuitemcheckbox"], [role="menuitemradio"], [role="menuitem"], [role="option"]');
   let chosen = null;
   const n = await roleOptions.count();
   for (let i = 0; i < n; i++) {
     const item = roleOptions.nth(i);
-    const txt = clean(await item.innerText());
+    const txt = clean((await item.innerText()) + ' ' + ((await item.getAttribute('aria-label')) || ''));
     if (optionPattern.test(txt)) {
       chosen = item;
       console.log(label + ' chosen option:', txt,
