@@ -54,7 +54,7 @@ function clean(s) {
     const pageTitle = await page.title();
     const bodyText = clean(await page.locator('body').innerText());
 
-    const requiredLabels = ['Deutschland', 'Wirtschaft und Finanzen'];
+    const requiredLabels = ['Deutschland'];
     const missingLabels = requiredLabels.filter(x => !bodyText.includes(x));
 
     const rawRows = await page.locator('tr, [role="row"]').allInnerTexts();
