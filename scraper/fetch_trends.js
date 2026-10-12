@@ -22,16 +22,49 @@ async function clickText(page, text) {
   }
 }
 
-async function ensureFilter(page, currentText, desiredText) {
+async function ensureFilter(page, currentText, desiredText, desiredPattern) {
   const body = clean(await page.locator('body').innerText());
   if (body.includes(desiredText)) return;
   if (!body.includes(currentText)) {
     throw new Error('Current filter control not found: ' + currentText);
   }
+
   await clickText(page, currentText);
-  await page.waitForTimeout(500);
-  await clickText(page, desiredText);
-  await page.waitForTimeout(1200);
+  await page.waitForTimeout(700);
+
+  const optionLocator = page.locator('[role="option"], [role="menuitem"], [role="menuitemradio"], [role="menuitemcheckbox"]');
+  const optionTexts = (await optionLocator.allInnerTexts()).map(clean).filter(Boolean);
+  console.log('Options after opening "' + currentText + '":', JSON.stringify(optionTexts));
+
+  let chosen = null;
+  for (let i = 0; i < optionTexts.length; i++) {
+    if (desiredPattern.test(optionTexts[i])) {
+      chosen = optionLocator.nth(i);
+      break;
+    }
+  }
+
+  if (!chosen) {
+    const textMatches = page.getByText(desiredPattern).filter({ visible: true });
+    if (await textMatches.count()) chosen = textMatches.first();
+  }
+
+  if (!chosen) {
+    const menuText = clean(await page.locator('body').innerText());
+    console.log('Body while menu open:', menuText.slice(0, 2500));
+    throw new Error('Desired filter option not found for ' + currentText + ': ' + desiredText);
+  }
+
+  try {
+    await chosen.click({ timeout: 3000 });
+  } catch (_) {
+    await chosen.evaluate(node => {
+      const clickable = node.closest('[role="option"], [role="menuitem"], [role="menuitemradio"], [role="menuitemcheckbox"], li, div') || node;
+      clickable.click();
+    });
+  }
+
+  await page.waitForTimeout(1400);
 }
 
 (async () => {
@@ -79,9 +112,9 @@ async function ensureFilter(page, currentText, desiredText) {
 
     // Google sometimes ignores category/status/sort query parameters on initial load.
     // Enforce the desired view through the visible UI before reading rows.
-    await ensureFilter(page, 'Alle Kategorien', 'Wirtschaft und Finanzen');
-    await ensureFilter(page, 'Alle Trends', 'Nur aktive Trends');
-    await ensureFilter(page, 'Nach Relevanz', 'Nach Suchvolumen');
+    await ensureFilter(page, 'Alle Kategorien', 'Wirtschaft und Finanzen', /Wirtschaft.*Finanzen/i);
+    await ensureFilter(page, 'Alle Trends', 'Nur aktive Trends', /^(Nur.*aktive|Aktiv)/i);
+    await ensureFilter(page, 'Nach Relevanz', 'Nach Suchvolumen', /^Nach Suchvolumen/i);
 
     await page.waitForTimeout(3000);
 
