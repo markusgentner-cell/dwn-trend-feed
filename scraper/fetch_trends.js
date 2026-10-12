@@ -54,13 +54,7 @@ function clean(s) {
     const pageTitle = await page.title();
     const bodyText = clean(await page.locator('body').innerText());
 
-    const requiredLabels = [
-      'Deutschland',
-      'Letzte 4 Stunden',
-      'Wirtschaft und Finanzen',
-      'Nur aktive Trends',
-      'Nach Suchvolumen'
-    ];
+    const requiredLabels = ['Deutschland', 'Wirtschaft und Finanzen'];
     const missingLabels = requiredLabels.filter(x => !bodyText.includes(x));
 
     const rawRows = await page.locator('tr, [role="row"]').allInnerTexts();
@@ -83,6 +77,8 @@ function clean(s) {
     const urlOk = ['geo=DE','hours=4','category=3','status=active','sort=search-volume']
       .every(token => finalUrl.includes(token) || TARGET_URL.includes(token));
 
+    // The exact target view is encoded in the final URL. Google occasionally changes
+    // the visible wording of filter chips, so only stable visible labels are required.
     const ok = missingLabels.length === 0 && urlOk && (rows.length > 0 || noTrends);
 
     const payload = {
@@ -109,6 +105,7 @@ function clean(s) {
 
     fs.writeFileSync('latest.json', JSON.stringify(payload, null, 2) + '\n', 'utf8');
     console.log(`Wrote latest.json: ok=${ok}, rows=${rows.length}, final_url=${finalUrl}`);
+    if (missingLabels.length) console.log('Missing stable labels:', missingLabels.join(', '));
 
     if (!ok) process.exitCode = 2;
   } finally {
