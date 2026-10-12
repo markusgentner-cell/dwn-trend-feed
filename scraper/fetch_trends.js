@@ -12,6 +12,17 @@ async function clickText(page, text) {
   const count = await loc.count();
   if (!count) throw new Error('UI control not found: ' + text);
   const el = loc.first();
+  if (text === 'Alle Trends' || text === 'Nach Relevanz') {
+    const chain = await el.evaluate(node => {
+      const out = [];
+      let cur = node;
+      for (let i = 0; i < 5 && cur; i++, cur = cur.parentElement) {
+        out.push(cur.outerHTML.slice(0, 1200));
+      }
+      return out;
+    });
+    console.log('DOM chain for "' + text + '":', JSON.stringify(chain));
+  }
   try {
     await el.click({ timeout: 3000 });
   } catch (_) {
