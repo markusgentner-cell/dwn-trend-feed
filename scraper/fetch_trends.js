@@ -22,39 +22,17 @@ async function clickText(page, text) {
   }
 }
 
-async function ensureFilter(page, currentText, desiredText, desiredPattern) {
+async function ensureFilterByText(page, currentText, desiredText, desiredPattern) {
   const body = clean(await page.locator('body').innerText());
   if (body.includes(desiredText)) return;
-  if (!body.includes(currentText)) {
-    throw new Error('Current filter control not found: ' + currentText);
-  }
-
   await clickText(page, currentText);
   await page.waitForTimeout(700);
 
-  const optionLocator = page.locator('[role="option"], [role="menuitem"], [role="menuitemradio"], [role="menuitemcheckbox"]');
-  const optionTexts = (await optionLocator.allInnerTexts()).map(clean).filter(Boolean);
-  console.log('Options after opening "' + currentText + '":', JSON.stringify(optionTexts));
-
-  let chosen = null;
-  for (let i = 0; i < optionTexts.length; i++) {
-    if (desiredPattern.test(optionTexts[i])) {
-      chosen = optionLocator.nth(i);
-      break;
-    }
+  const matches = page.getByText(desiredPattern).filter({ visible: true });
+  if (!(await matches.count())) {
+    throw new Error('Desired filter option not found: ' + desiredText);
   }
-
-  if (!chosen) {
-    const textMatches = page.getByText(desiredPattern).filter({ visible: true });
-    if (await textMatches.count()) chosen = textMatches.first();
-  }
-
-  if (!chosen) {
-    const menuText = clean(await page.locator('body').innerText());
-    console.log('Body while menu open:', menuText.slice(0, 2500));
-    throw new Error('Desired filter option not found for ' + currentText + ': ' + desiredText);
-  }
-
+  const chosen = matches.last();
   try {
     await chosen.click({ timeout: 3000 });
   } catch (_) {
@@ -63,8 +41,30 @@ async function ensureFilter(page, currentText, desiredText, desiredPattern) {
       clickable.click();
     });
   }
-
   await page.waitForTimeout(1400);
+
+  const after = clean(await page.locator('body').innerText());
+  if (!after.includes(desiredText)) {
+    throw new Error('Filter did not switch to: ' + desiredText);
+  }
+}
+
+async function chooseNextOption(page, currentText, expectedPattern, label) {
+  const before = clean(await page.locator('body').innerText());
+  if (expectedPattern.test(before)) return;
+
+  await clickText(page, currentText);
+  await page.waitForTimeout(500);
+  await page.keyboard.press('ArrowDown');
+  await page.waitForTimeout(150);
+  await page.keyboard.press('Enter');
+  await page.waitForTimeout(1400);
+
+  const after = clean(await page.locator('body').innerText());
+  console.log(label + ' after keyboard selection:', after.slice(0, 800));
+  if (!expectedPattern.test(after)) {
+    throw new Error(label + ' filter did not switch to expected value');
+  }
 }
 
 (async () => {
@@ -112,9 +112,9 @@ async function ensureFilter(page, currentText, desiredText, desiredPattern) {
 
     // Google sometimes ignores category/status/sort query parameters on initial load.
     // Enforce the desired view through the visible UI before reading rows.
-    await ensureFilter(page, 'Alle Kategorien', 'Wirtschaft und Finanzen', /Wirtschaft.*Finanzen/i);
-    await ensureFilter(page, 'Alle Trends', 'Nur aktive Trends', /^(Nur.*aktive|Aktiv)/i);
-    await ensureFilter(page, 'Nach Relevanz', 'Nach Suchvolumen', /^Nach Suchvolumen/i);
+    await ensureFilterByText(page, 'Alle Kategorien', 'Wirtschaft und Finanzen', /^Wirtschaft und Finanzen/);
+    await chooseNextOption(page, 'Alle Trends', /Nur aktive Trends/i, 'Status');
+    await chooseNextOption(page, 'Nach Relevanz', /Nach Suchvolumen/i, 'Sortierung');
 
     await page.waitForTimeout(3000);
 
