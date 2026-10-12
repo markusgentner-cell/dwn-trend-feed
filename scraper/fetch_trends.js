@@ -11,7 +11,15 @@ async function clickText(page, text) {
   const loc = page.getByText(text, { exact: true }).filter({ visible: true });
   const count = await loc.count();
   if (!count) throw new Error('UI control not found: ' + text);
-  await loc.first().click({ timeout: 5000 });
+  const el = loc.first();
+  try {
+    await el.click({ timeout: 3000 });
+  } catch (_) {
+    await el.evaluate(node => {
+      const clickable = node.closest('[role="option"], [role="menuitem"], [role="button"], li, div') || node;
+      clickable.click();
+    });
+  }
 }
 
 async function ensureFilter(page, currentText, desiredText) {
