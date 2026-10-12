@@ -41,10 +41,10 @@ def verify_latest(data):
         if token not in src:
             errors.append(f"missing URL filter {token}")
     body = data.get("body_text","")
-    labels = ["Deutschland","Letzte 4","Wirtschaft und Finanzen","Nur aktive Trends","Nach Suchvolumen"]
-    for label in labels:
-        if label not in body:
-            errors.append(f"missing target-view label: {label}")
+    # The exact filter state is authoritative in the final/source URL. Google can
+    # change the visible wording of filter chips without changing the selected view.
+    if "Deutschland" not in body:
+        errors.append("missing stable target-view label: Deutschland")
     return errors
 
 def schema():
