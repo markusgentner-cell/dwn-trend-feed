@@ -62,20 +62,46 @@ async function ensureFilterByText(page, currentText, desiredText, desiredPattern
   }
 }
 
-async function chooseNextOption(page, currentText, desiredText, label) {
-  if (await hasVisibleExactText(page, desiredText)) return;
+async function selectMenuOption(page, buttonNamePattern, optionPattern, desiredButtonPattern, label) {
+  const button = page.getByRole('button', { name: buttonNamePattern }).filter({ visible: true }).first();
+  if (!(await button.count())) throw new Error(label + ' button not found');
 
-  await clickText(page, currentText);
-  await page.waitForTimeout(500);
-  await page.keyboard.press('ArrowDown');
-  await page.waitForTimeout(150);
-  await page.keyboard.press('Enter');
-  await page.waitForTimeout(1400);
+  const initialLabel = await button.getAttribute('aria-label') || '';
+  if (desiredButtonPattern.test(initialLabel)) return;
 
-  const after = clean(await page.locator('body').innerText());
-  console.log(label + ' after keyboard selection:', after.slice(0, 800));
-  if (!(await hasVisibleExactText(page, desiredText))) {
-    throw new Error(label + ' filter did not switch to expected value: ' + desiredText);
+  await button.click({ timeout: 5000 });
+  await page.waitForTimeout(600);
+
+  const expanded = await button.getAttribute('aria-expanded');
+  console.log(label + ' aria-expanded after click:', expanded);
+
+  let menu = page.locator('[role="menu"]:visible');
+  if (!(await menu.count())) menu = page.locator('[role="listbox"]:visible');
+  if (!(await menu.count())) {
+    throw new Error(label + ' menu did not open');
+  }
+  menu = menu.last();
+
+  const menuText = clean(await menu.innerText());
+  console.log(label + ' menu text:', menuText);
+
+  const option = menu.getByText(optionPattern).filter({ visible: true });
+  if (!(await option.count())) {
+    throw new Error(label + ' option not found: ' + optionPattern);
+  }
+
+  const chosen = option.first();
+  try {
+    await chosen.click({ timeout: 3000 });
+  } catch (_) {
+    await chosen.click({ timeout: 3000, force: true });
+  }
+  await page.waitForTimeout(1500);
+
+  const finalLabel = await button.getAttribute('aria-label') || '';
+  console.log(label + ' final aria-label:', finalLabel);
+  if (!desiredButtonPattern.test(finalLabel)) {
+    throw new Error(label + ' did not switch to expected value');
   }
 }
 
@@ -125,8 +151,8 @@ async function chooseNextOption(page, currentText, desiredText, label) {
     // Google sometimes ignores category/status/sort query parameters on initial load.
     // Enforce the desired view through the visible UI before reading rows.
     await ensureFilterByText(page, 'Alle Kategorien', 'Wirtschaft und Finanzen', /^Wirtschaft und Finanzen/);
-    await chooseNextOption(page, 'Alle Trends', 'Nur aktive Trends', 'Status');
-    await chooseNextOption(page, 'Nach Relevanz', 'Nach Suchvolumen', 'Sortierung');
+    await selectMenuOption(page, /Trendstatus auswählen/i, /aktive/i, /Nur aktive Trends/i, 'Status');
+    await selectMenuOption(page, /Sortierung auswählen|Sortierung/i, /Suchvolumen/i, /Nach Suchvolumen/i, 'Sortierung');
 
     await page.waitForTimeout(3000);
 
