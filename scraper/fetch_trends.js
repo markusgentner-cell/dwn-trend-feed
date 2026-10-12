@@ -129,6 +129,55 @@ async function selectMenuOption(page, buttonNamePattern, optionPattern, desiredB
   }
 }
 
+async function selectMenuOptionFromText(page, currentText, optionPattern, desiredText, label) {
+  if (await hasVisibleExactText(page, desiredText)) return;
+
+  const textNode = page.getByText(currentText, { exact: true }).filter({ visible: true }).first();
+  if (!(await textNode.count())) throw new Error(label + ' current text not found: ' + currentText);
+  const button = textNode.locator('xpath=ancestor::button[1]');
+  if (!(await button.count())) throw new Error(label + ' button ancestor not found');
+
+  console.log(label + ' button aria-label:', await button.getAttribute('aria-label'));
+  await button.click({ timeout: 5000 });
+  await page.waitForTimeout(600);
+
+  let menu = page.locator('[role="menu"]:visible');
+  if (!(await menu.count())) menu = page.locator('[role="listbox"]:visible');
+  if (!(await menu.count())) throw new Error(label + ' menu did not open');
+  menu = menu.last();
+
+  const menuText = clean(await menu.innerText());
+  console.log(label + ' menu text:', menuText);
+
+  const candidates = menu.locator('[role="switch"], [role="menuitemcheckbox"], [role="menuitemradio"], [role="menuitem"], [role="option"], button');
+  let chosen = null;
+  const n = await candidates.count();
+  for (let i = 0; i < n; i++) {
+    const item = candidates.nth(i);
+    const txt = clean((await item.innerText()) + ' ' + ((await item.getAttribute('aria-label')) || ''));
+    if (optionPattern.test(txt)) {
+      chosen = item;
+      console.log(label + ' chosen option:', txt,
+        'role=' + (await item.getAttribute('role')),
+        'aria-checked=' + (await item.getAttribute('aria-checked')));
+      break;
+    }
+  }
+  if (!chosen) throw new Error(label + ' option not found: ' + optionPattern);
+
+  try {
+    await chosen.click({ timeout: 3000 });
+  } catch (_) {
+    await chosen.click({ timeout: 3000, force: true });
+  }
+  await page.waitForTimeout(1500);
+
+  if (!(await hasVisibleExactText(page, desiredText))) {
+    throw new Error(label + ' did not switch to expected value: ' + desiredText);
+  }
+}
+
+
 (async () => {
   const candidates = [
     process.env.CHROME_BIN,
@@ -176,7 +225,7 @@ async function selectMenuOption(page, buttonNamePattern, optionPattern, desiredB
     // Enforce the desired view through the visible UI before reading rows.
     await ensureFilterByText(page, 'Alle Kategorien', 'Wirtschaft und Finanzen', /^Wirtschaft und Finanzen/);
     await selectMenuOption(page, /Trendstatus auswählen/i, /aktive/i, /Nur aktive Trends/i, 'Status');
-    await selectMenuOption(page, /Sortierung auswählen|Sortierung/i, /Suchvolumen/i, /Nach Suchvolumen/i, 'Sortierung');
+    await selectMenuOptionFromText(page, 'Nach Relevanz', /Suchvolumen/i, 'Nach Suchvolumen', 'Sortierung');
 
     await page.waitForTimeout(3000);
 
