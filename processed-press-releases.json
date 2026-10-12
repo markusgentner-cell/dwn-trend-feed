@@ -81,6 +81,20 @@
       "status": "processed",
       "article_path": "articles/mail/2026-10-08_1303_deutsche-exporte-august-us-geschaeft.md",
       "processed_at": "2026-10-08T13:03:54+02:00"
+    },
+    {
+      "gmail_message_id": "1a11f441b682a46c",
+      "subject": "Baupreise für Wohngebäude im August 2026: +5,5 % gegenüber August...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-09_1302_baupreise-august-2026-wohnungsneubau.md",
+      "processed_at": "2026-10-09T13:02:31+02:00"
+    },
+    {
+      "gmail_message_id": "1a11f442e9d9778b",
+      "subject": "Unternehmensinsolvenzen im Juli 2026: +8,0 % gegenüber Juli 2025",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-12_0959_unternehmensinsolvenzen-juli-2026.md",
+      "processed_at": "2026-10-12T09:59:00+02:00"
     }
   ]
 }
