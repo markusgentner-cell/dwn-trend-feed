@@ -85,12 +85,24 @@ async function selectMenuOption(page, buttonNamePattern, optionPattern, desiredB
   const menuText = clean(await menu.innerText());
   console.log(label + ' menu text:', menuText);
 
-  const option = menu.getByText(optionPattern).filter({ visible: true });
-  if (!(await option.count())) {
+  const roleOptions = menu.locator('[role="menuitemcheckbox"], [role="menuitemradio"], [role="menuitem"], [role="option"]');
+  let chosen = null;
+  const n = await roleOptions.count();
+  for (let i = 0; i < n; i++) {
+    const item = roleOptions.nth(i);
+    const txt = clean(await item.innerText());
+    if (optionPattern.test(txt)) {
+      chosen = item;
+      console.log(label + ' chosen option:', txt,
+        'role=' + (await item.getAttribute('role')),
+        'aria-checked=' + (await item.getAttribute('aria-checked')));
+      break;
+    }
+  }
+  if (!chosen) {
     throw new Error(label + ' option not found: ' + optionPattern);
   }
 
-  const chosen = option.first();
   try {
     await chosen.click({ timeout: 3000 });
   } catch (_) {
