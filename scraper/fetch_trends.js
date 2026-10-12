@@ -7,6 +7,25 @@ function clean(s) {
   return String(s || '').replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
 }
 
+async function clickText(page, text) {
+  const loc = page.getByText(text, { exact: true }).filter({ visible: true });
+  const count = await loc.count();
+  if (!count) throw new Error('UI control not found: ' + text);
+  await loc.first().click({ timeout: 5000 });
+}
+
+async function ensureFilter(page, currentText, desiredText) {
+  const body = clean(await page.locator('body').innerText());
+  if (body.includes(desiredText)) return;
+  if (!body.includes(currentText)) {
+    throw new Error('Current filter control not found: ' + currentText);
+  }
+  await clickText(page, currentText);
+  await page.waitForTimeout(500);
+  await clickText(page, desiredText);
+  await page.waitForTimeout(1200);
+}
+
 (async () => {
   const candidates = [
     process.env.CHROME_BIN,
@@ -48,14 +67,31 @@ function clean(s) {
       }
     }
 
-    await page.waitForTimeout(7000);
+    await page.waitForTimeout(5000);
+
+    // Google sometimes ignores category/status/sort query parameters on initial load.
+    // Enforce the desired view through the visible UI before reading rows.
+    await ensureFilter(page, 'Alle Kategorien', 'Wirtschaft und Finanzen');
+    await ensureFilter(page, 'Alle Trends', 'Nur aktive Trends');
+    await ensureFilter(page, 'Nach Relevanz', 'Nach Suchvolumen');
+
+    await page.waitForTimeout(3000);
 
     const finalUrl = page.url();
     const pageTitle = await page.title();
     const bodyText = clean(await page.locator('body').innerText());
 
-    const requiredLabels = ['Deutschland'];
+    const requiredLabels = [
+      'Deutschland',
+      'Letzte 4 Stunden',
+      'Wirtschaft und Finanzen',
+      'Nur aktive Trends',
+      'Nach Suchvolumen'
+    ];
     const missingLabels = requiredLabels.filter(x => !bodyText.includes(x));
+
+    const forbiddenDefaults = ['Alle Kategorien', 'Alle Trends', 'Nach Relevanz'];
+    const presentDefaults = forbiddenDefaults.filter(x => bodyText.includes(x));
 
     const rawRows = await page.locator('tr, [role="row"]').allInnerTexts();
     const seen = new Set();
@@ -66,20 +102,19 @@ function clean(s) {
       if (!text || seen.has(text)) continue;
       seen.add(text);
 
-      // A real trend row contains a search-volume token such as 200+, 1.000+ or 10.000+.
       if (!/(?:^|\s)\d{1,3}(?:\.\d{3})*\+(?:\s|$)/.test(text)) continue;
-      // Exclude header/filter rows.
       if (text.includes('Suchvolumen') && !text.includes('Aktiv')) continue;
       rows.push({ text });
     }
 
     const noTrends = /Keine Trends entsprechen derzeit diesen Filtern/i.test(bodyText);
-    const urlOk = ['geo=DE','hours=4','category=3','status=active','sort=search-volume']
-      .every(token => finalUrl.includes(token) || TARGET_URL.includes(token));
+    const urlOk = ['geo=DE','hours=4'].every(token => finalUrl.includes(token));
 
-    // The exact target view is encoded in the final URL. Google occasionally changes
-    // the visible wording of filter chips, so only stable visible labels are required.
-    const ok = missingLabels.length === 0 && urlOk && (rows.length > 0 || noTrends);
+    const ok =
+      missingLabels.length === 0 &&
+      presentDefaults.length === 0 &&
+      urlOk &&
+      (rows.length > 0 || noTrends);
 
     const payload = {
       ok,
@@ -99,13 +134,14 @@ function clean(s) {
     if (!ok) {
       payload.validation_errors = [];
       if (missingLabels.length) payload.validation_errors.push('Missing labels: ' + missingLabels.join(', '));
-      if (!urlOk) payload.validation_errors.push('Final URL does not match required filters');
+      if (presentDefaults.length) payload.validation_errors.push('Default filters still active: ' + presentDefaults.join(', '));
+      if (!urlOk) payload.validation_errors.push('Final URL does not retain geo/time filters');
       if (!rows.length && !noTrends) payload.validation_errors.push('No trend rows found and no explicit empty-state message found');
     }
 
     fs.writeFileSync('latest.json', JSON.stringify(payload, null, 2) + '\n', 'utf8');
     console.log(`Wrote latest.json: ok=${ok}, rows=${rows.length}, final_url=${finalUrl}`);
-    if (missingLabels.length) console.log('Missing stable labels:', missingLabels.join(', '));
+    console.log('Validated view:', requiredLabels.map(x => bodyText.includes(x) ? x : 'MISSING:' + x).join(' | '));
 
     if (!ok) process.exitCode = 2;
   } finally {
