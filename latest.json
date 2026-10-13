@@ -1,16 +1,13 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-13T05:59:52.047Z",
+  "captured_at": "2026-10-13T06:29:28.096Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "vinted\n1.000+\narrow_upward\n50 %\nvor 3 Stunden\ntrending_up\nAktiv"
-    },
-    {
-      "text": "rheinmetall-aktie\n200+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "trade republic\n1.000+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv\ntrade republic altersvorsorgedepot"
     }
   ],
   "links": [
@@ -63,5 +60,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 07:59\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nvinted\n1.000+\narrow_upward\n50 %\nvor 3 Stunden\ntrending_up\nAktiv\nrheinmetall-aktie\n200+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 08:29\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ntrade republic\n1.000+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv\ntrade republic altersvorsorgedepot\nZeilen pro Seite\n25\n1–1 von 1\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
