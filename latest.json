@@ -1,22 +1,25 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-13T09:48:06.442Z",
+  "captured_at": "2026-10-13T10:16:05.757Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "trade republic altersvorsorgedepot\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\naltersvorsorgedepot trade republic\ntrade republic"
+      "text": "altersvorsorgedepot trade republic\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "nel asa\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "btc-echo\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "dividende\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "nel asa\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "btc-echo\n500+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "dividende\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "anwalt\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -69,5 +72,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 11:47\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ntrade republic altersvorsorgedepot\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\naltersvorsorgedepot trade republic\ntrade republic\nnel asa\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\ndividende\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv\nbtc-echo\n500+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 12:15\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\naltersvorsorgedepot trade republic\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv\nbtc-echo\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\nnel asa\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\ndividende\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv\nanwalt\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–5 von 5\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
