@@ -1,25 +1,16 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-12T12:54:37.823Z",
+  "captured_at": "2026-10-13T05:15:32.233Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "china\n2.000+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "marschflugkörper\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "heizung\n1.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv"
-    },
-    {
-      "text": "oberleitung\n500+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv"
-    },
-    {
-      "text": "automobilindustrie\n500+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
-    },
-    {
-      "text": "t-aktie\n500+\narrow_upward\n600 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "viersen\n100+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -72,5 +63,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n12.10.26, 14:54\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nchina\n2.000+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv\nheizung\n1.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv\noberleitung\n500+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv\nautomobilindustrie\n500+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nt-aktie\n500+\narrow_upward\n600 %\nvor 30 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–5 von 5\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 07:15\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nmarschflugkörper\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv\nviersen\n100+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
