@@ -1,16 +1,19 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-13T05:15:32.233Z",
+  "captured_at": "2026-10-13T05:39:42.375Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "marschflugkörper\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "marschflugkörper\n1.000+\narrow_upward\n800 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "viersen\n100+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "vinted\n1.000+\narrow_upward\n50 %\nvor 3 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "viersen\n200+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -63,5 +66,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 07:15\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nmarschflugkörper\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv\nviersen\n100+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 07:39\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nmarschflugkörper\n1.000+\narrow_upward\n800 %\nvor 3 Stunden\ntrending_up\nAktiv\nvinted\n1.000+\narrow_upward\n50 %\nvor 3 Stunden\ntrending_up\nAktiv\nviersen\n200+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–3 von 3\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
