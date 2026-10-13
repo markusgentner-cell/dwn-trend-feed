@@ -1,16 +1,16 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-13T12:00:33.857Z",
+  "captured_at": "2026-10-13T12:30:10.967Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "btc-echo\n2.000+\narrow_upward\n400 %\nvor 4 Stunden\ntrending_up\nAktiv"
+      "text": "oberbergischer kreis\n500+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "päckchen\n200+\narrow_upward\n400 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "päckchen\n200+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -63,5 +63,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 14:00\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nbtc-echo\n2.000+\narrow_upward\n400 %\nvor 4 Stunden\ntrending_up\nAktiv\npäckchen\n200+\narrow_upward\n400 %\nvor 40 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n13.10.26, 14:29\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\noberbergischer kreis\n500+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\npäckchen\n200+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
