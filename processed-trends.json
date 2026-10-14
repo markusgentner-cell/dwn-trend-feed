@@ -35,6 +35,12 @@
       "trend": "nel asa",
       "article_path": "articles/trends/2026-10-13_1121_nel-asa-rheinmetall-giga-ptx.md",
       "processed_at": "2026-10-13T11:21:00+02:00"
+    },
+    {
+      "trend": "aramco",
+      "article_path": "articles/trends/2026-10-14_1559_aramco-angriff-dhahran-oelversorgung-risiken.md",
+      "teaser_image_path": "assets/trends/2026-10-14/aramco-angriff-dhahran-oelversorgung-risiken/teaser.webp",
+      "processed_at": "2026-10-14T15:59:00+02:00"
     }
   ]
 }
