@@ -1,16 +1,22 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-14T12:39:04.574Z",
+  "captured_at": "2026-10-14T13:19:13.326Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "saudi aramco\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "boeing b-52\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "baumarkt\n1.000+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "rupert stadler\n500+\narrow_upward\n800 %\nvor 30 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "sdax\n200+\narrow_upward\n500 %\nvor 40 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "lufthansa aktie\n200+\narrow_upward\n400 %\nvor 20 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -63,5 +69,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n14.10.26, 14:38\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nsaudi aramco\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nbaumarkt\n1.000+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n14.10.26, 15:19\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nboeing b-52\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nrupert stadler\n500+\narrow_upward\n800 %\nvor 30 Minuten\ntrending_up\nAktiv\nsdax\n200+\narrow_upward\n500 %\nvor 40 Minuten\ntrending_up\nAktiv\nlufthansa aktie\n200+\narrow_upward\n400 %\nvor 20 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
