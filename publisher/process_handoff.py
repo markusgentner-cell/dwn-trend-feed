@@ -33,10 +33,16 @@ def append_register(register_path: str, entry: dict):
     processed = data.setdefault("processed", [])
 
     if register_path == "processed-trends.json":
-        key = (entry.get("trend"), entry.get("article_path"), entry.get("processed_at"))
-        for item in processed:
-            if (item.get("trend"), item.get("article_path"), item.get("processed_at")) == key:
-                return
+        # A trend or article is registered at most once, even if retried
+        # with a new processed_at value in a later handoff.
+        trend = str(entry.get("trend", "")).strip().casefold()
+        article_path = entry.get("article_path")
+        if any(
+            (trend and str(item.get("trend", "")).strip().casefold() == trend)
+            or (article_path and item.get("article_path") == article_path)
+            for item in processed
+        ):
+            return
     else:
         gmail_id = entry.get("gmail_message_id")
         if gmail_id and any(item.get("gmail_message_id") == gmail_id for item in processed):
