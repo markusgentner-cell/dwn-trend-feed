@@ -41,6 +41,11 @@
       "article_path": "articles/trends/2026-10-14_1559_aramco-angriff-dhahran-oelversorgung-risiken.md",
       "teaser_image_path": "assets/trends/2026-10-14/aramco-angriff-dhahran-oelversorgung-risiken/teaser.webp",
       "processed_at": "2026-10-14T15:59:00+02:00"
+    },
+    {
+      "trend": "florida",
+      "article_path": "articles/trends/2026-10-15_1112_florida-hurrikan-isaias-wirtschaft-stromausfaelle.md",
+      "processed_at": "2026-10-15T11:12:08+02:00"
     }
   ]
 }
