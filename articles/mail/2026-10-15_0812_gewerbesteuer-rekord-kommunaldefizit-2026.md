@@ -1,0 +1,117 @@
+# Gewerbesteuer auf Rekordhoch: Warum Kommunen trotzdem Milliarden fehlen
+
+**Vorspann:** Deutschlands Gemeinden nahmen 2025 so viel Gewerbesteuer ein wie nie zuvor. Doch die Einnahmen stiegen nur geringfügig, während die Haushaltsdefizite wachsen. Neue Zahlen zeigen zudem, dass die Gewerbesteuer im ersten Halbjahr 2026 bereits wieder schrumpfte.
+
+Teaserbild: assets/mail/2026-10-15/gewerbesteuer-rekord-kommunaldefizit-2026/teaser.webp
+
+*Bildhinweis: KI-generiertes Symbolbild kommunaler Infrastruktur bei Tageslicht; keine Aufnahme einer konkreten deutschen Stadt.*
+
+## 76,4 Milliarden Euro Gewerbesteuer – ein Rekord mit Einschränkungen
+
+Auf dem Papier ist es eine Erfolgsmeldung: Deutschlands Gemeinden erzielten 2025 zum fünften Mal in Folge Rekordeinnahmen aus der Gewerbesteuer. Das Aufkommen erhöhte sich gegenüber 2024 um 1,5 Prozent. Dies teilte das Statistische Bundesamt am 15. Oktober 2026 in einer <a href="https://www.presseportal.de/pm/32102/6371370" target="_blank" rel="noopener nofollow">aktuellen Mitteilung zu den Gewerbesteuereinnahmen</a> mit. Elf Bundesländer verzeichneten Zuwächse, fünf dagegen Rückgänge.
+
+Bundesweit flossen 2025 rund 76,4 Milliarden Euro Gewerbesteuer in die Kassen. Dieser Betrag war bereits in der übergreifenden <a href="https://www.destatis.de/DE/Themen/Staat/Steuern/Steuereinnahmen/steuereinnahmen.html" target="_blank" rel="noopener nofollow">amtlichen Steueraufkommensstatistik</a> für das abgelaufene Jahr ausgewiesen worden. Die neue Veröffentlichung ergänzt das Bild unter anderem um die Verteilung nach Ländern. Für Kommunalpolitiker ist der Höchststand dennoch keine Entwarnung: Die Einnahmen steigen nominal, die Belastungen der Städte und Gemeinden aber vielerorts deutlich schneller.
+
+Ein Rekord bei einer einzelnen Steuer ist nicht mit einem ausgeglichenen Haushalt gleichzusetzen. Gemeinden finanzieren nicht nur Straßen, Brücken und Verwaltungsleistungen, sondern tragen auch erhebliche laufende Ausgaben. Zudem unterscheiden sich wohlhabende Wirtschaftsstandorte erheblich von Orten ohne größere gewerbesteuerpflichtige Betriebe. Selbst ein positiver Bundestrend kann lokale Haushaltslöcher deshalb verdecken.
+
+## Weshalb das Steuerplus keine starke Konjunktur beweist
+
+Die Gewerbesteuer hängt wesentlich von den steuerlichen Erträgen örtlicher Unternehmen ab. Sie wird jedoch nicht unmittelbar und zeitgleich mit der volkswirtschaftlichen Produktionsleistung gemessen. Vorauszahlungen, nachträgliche Steuerbescheide, Erstattungen und einzelne große Steuerzahler können ein Haushaltsjahr prägen. Aus einem Plus von 1,5 Prozent lässt sich deshalb weder auf ein entsprechendes Gewinnwachstum aller Betriebe noch auf einen Aufschwung des gesamten Mittelstands schließen.
+
+Auch der Ausdruck „Rekord“ bedarf einer Einordnung. Die genannten Beträge sind nominal, nicht inflationsbereinigt. Wenn das Preisniveau und die laufenden Kosten einer Kommune stärker steigen als ihre Steuereinnahmen, sinkt ihre finanzielle Leistungsfähigkeit trotz nomineller Rekorde. Das gilt gerade für Bauvorhaben, Personal und soziale Leistungen. Zudem kann ein einmaliger Steuerzufluss aus einem größeren Unternehmen eine Gemeinde kurzfristig entlasten, ohne wiederkehrende Einnahmen für die kommenden Jahre zu sichern.
+
+Die Unterschiede zwischen elf Bundesländern mit Zuwachs und fünf mit Rückgang zeigen, dass der gesamtdeutsche Durchschnitt keine hinreichende Grundlage für die Etatplanung einer einzelnen Stadt ist. Noch stärker können die Abweichungen zwischen Gemeinden innerhalb desselben Bundeslandes ausfallen. Eine verlässliche Prognose muss die örtliche Unternehmensstruktur, Fälligkeiten und mögliche Steuererstattungen berücksichtigen.
+
+## 2026 sinkt die Gewerbesteuer schon wieder
+
+Für das laufende Jahr kommt ein Warnsignal hinzu. Die <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_349_71137.html" target="_blank" rel="noopener nofollow">kommunale Kassenstatistik für das erste Halbjahr 2026</a>, veröffentlicht am 1. Oktober, weist bei den Gemeinden und Gemeindeverbänden einen Rückgang der Gewerbesteuereinnahmen um 2,0 Prozent auf 30,8 Milliarden Euro aus. Die Zahl ist **netto** und bezieht sich auf die erste Jahreshälfte sowie auf die kommunalen Haushalte ohne Stadtstaaten. Sie lässt sich daher weder direkt mit dem bundesweiten Bruttojahresaufkommen von 76,4 Milliarden Euro vergleichen noch auf das gesamte Jahr 2026 hochrechnen.
+
+Die gegenläufigen Daten beschreiben zwei verschiedene Zeiträume: ein moderates nominales Plus für 2025 und eine schwächere laufende Entwicklung in der ersten Hälfte von 2026. Sie widersprechen sich nicht. Gerade diese zeitliche Differenz erklärt, warum viele Kämmerer einem historischen Höchststand wenig abgewinnen können, wenn ihre aktuellen Vorauszahlungen und die mittelfristige Planung unter Druck geraten.
+
+Die gesamten kommunalen Steuereinnahmen stiegen im ersten Halbjahr 2026 zwar noch geringfügig, um 0,9 Prozent auf 57,3 Milliarden Euro. Den Rückgang der Gewerbesteuer glichen unter anderem Einnahmen aus anderen Steuerarten aus. Für die längerfristige Haushaltsplanung reicht ein solcher Ausgleich aber nur, wenn die Einnahmequellen auch mit den verpflichtenden Ausgaben Schritt halten.
+
+## Rekorddefizit trotz steigender Einnahmen
+
+Das größte Problem liegt derzeit auf der Ausgabenseite. Die Kern- und Extrahaushalte der Gemeinden und Gemeindeverbände, ohne Stadtstaaten, verbuchten im ersten Halbjahr 2026 ein Finanzierungsdefizit von 20,1 Milliarden Euro. Schon im entsprechenden Vorjahreszeitraum hatte das Minus denselben Rekordwert erreicht. Die bereinigten Ausgaben beliefen sich auf 204,1 Milliarden Euro; die bereinigten Einnahmen blieben mit 184,0 Milliarden Euro deutlich darunter.
+
+Die Belastungen wachsen an mehreren Stellen. Nach den amtlichen Angaben stiegen die Personalausgaben im ersten Halbjahr um 5,2 Prozent auf 54,7 Milliarden Euro und die sozialen Leistungen um 3,9 Prozent auf 46,3 Milliarden Euro. Die kommunalen Zinsausgaben legten um 13,1 Prozent auf 2,4 Milliarden Euro zu. Solche Ausgabengruppen lassen sich nicht beliebig kurzfristig reduzieren, wenn gesetzliche Verpflichtungen und bestehende Verträge erfüllt werden müssen.
+
+Der <a href="https://www.staedtetag.de/positionen/beschluesse/2026/463-praesidium-aktuelle-finanzkrise" target="_blank" rel="noopener nofollow">Deutsche Städtetag forderte im September</a> deshalb eine jährliche Soforthilfe des Bundes in Höhe von 30 Milliarden Euro und eine dauerhaft tragfähige kommunale Finanzordnung. Das ist die politische Forderung eines kommunalen Spitzenverbands, kein beschlossener Bundeszuschuss. Ob und wie Mittel verteilt werden sollen, wäre zwischen Bund, Ländern und Kommunen auszuhandeln.
+
+## Brücken, Schulen und Straßen geraten unter Druck
+
+Die Folgen sind bereits in der Statistik sichtbar. Die Sachinvestitionen der Kommunen fielen im ersten Halbjahr 2026 um 4,5 Prozent auf 21,7 Milliarden Euro. Für Baumaßnahmen wurden 15,5 Milliarden Euro ausgegeben, 2,4 Prozent weniger als im Vorjahreszeitraum. Ein Rückgang der Ausgaben bedeutet nicht zwangsläufig, dass genau entsprechend viele Vorhaben gestrichen wurden: Baufortschritt, Rechnungszeitpunkte und Projektverschiebungen können ebenfalls eine Rolle spielen.
+
+Für Bauwirtschaft und lokale Unternehmen bleibt die Entwicklung dennoch relevant. Kommunale Auftraggeber entscheiden über Sanierungen von Schulen, Brücken, Straßen und öffentlichen Gebäuden. Wenn Haushalte unter Druck stehen, können Ausschreibungen verschoben oder Investitionen über mehrere Jahre gestreckt werden. Das trifft Handwerksbetriebe, regionale Bauunternehmen und Infrastrukturzulieferer; wie stark, lässt sich aus der bundesweiten Kassenstatistik nicht für einzelne Firmen ableiten.
+
+Auch die Standortqualität hängt von funktionierender Infrastruktur ab. Unternehmen benötigen befahrbare Straßen, ausreichende Gewerbeflächen und verlässliche Verwaltungsverfahren. Gerade hier kann eine länger anhaltende Investitionsschwäche mittelbar die künftige Gewerbesteuerbasis beeinträchtigen – ein möglicher Kreislauf, der sich allerdings nicht aus einer einzelnen Jahreszahl beweisen lässt.
+
+## Höhere Hebesätze sind keine einfache Lösung
+
+Anders als bei vielen anderen Steuern haben Kommunen bei der Gewerbesteuer einen eigenen Hebesatz. Damit können sie das Aufkommen beeinflussen. Eine höhere Belastung örtlicher Betriebe garantiert aber kein proportional höheres Steueraufkommen: Die steuerliche Bemessungsgrundlage schwankt, und Standortentscheidungen von Unternehmen können sich langfristig ändern. Zudem sind Einnahmenausfälle einzelner großer Steuerzahler durch moderate Satzänderungen oft kaum auszugleichen.
+
+Für Unternehmen ist daher nicht nur der aktuelle Hebesatz wichtig, sondern auch seine Planbarkeit. Wer langfristig in Produktion, Logistik oder ein neues Bürogebäude investiert, berücksichtigt kommunale Abgaben zusammen mit Fachkräfteangebot, Infrastruktur, Energie- und Immobilienkosten. Ein isolierter Vergleich der Hebesätze erklärt die Attraktivität eines Standorts nur unvollständig.
+
+Der Bund und die Länder wiederum bestimmen viele kommunale Aufgaben und einen großen Teil der Finanzbeziehungen. Deshalb reichen Forderungen nach mehr Eigenanstrengungen der Städte nicht aus, um die Ursachen der bundesweiten Defizite vollständig zu erfassen. Gleichzeitig muss jede zusätzliche staatliche Unterstützung finanziert und in ihrer Wirkung überprüft werden.
+
+## Grundsteuerreform: Aufkommensneutral heißt nicht belastungsneutral
+
+In ihrer neuen Meldung weist das Statistische Bundesamt auch darauf hin, dass die Grundsteuereinnahmen 2025 im Zuge der Reform auf Bundesebene insgesamt aufkommensneutral geblieben seien. Der Begriff sollte nicht missverstanden werden. Ein nahezu unverändertes Gesamtaufkommen bedeutet keineswegs, dass jedes Grundstück oder jede Kommune exakt so viel zahlte beziehungsweise einnahm wie zuvor. Neue Bewertungen und Hebesätze können die Last zwischen einzelnen Immobilien und Regionen erheblich verschieben.
+
+Vor allem löst eine aufkommensneutrale Reform keine strukturelle Deckungslücke in den kommunalen Haushalten. Soll die Finanzlage nachhaltig verbessert werden, müssen die Ausgabenpflichten, die Verteilung staatlicher Einnahmen und die Investitionsmöglichkeiten gemeinsam betrachtet werden. Zusätzliche Milliarden ohne veränderte Strukturen könnten zwar Zeit verschaffen, aber die langfristige Schieflage nicht automatisch beheben.
+
+## Welche Zahlen für die kommenden Monate zählen
+
+Die Jahresbilanz 2025 zeigt die hohe Bedeutung der Gewerbesteuer. Für die aktuelle Wirtschaftslage sind jedoch die laufenden Einnahmen und Ausgaben entscheidend. Kämmerer sollten deshalb die Entwicklung im weiteren Jahresverlauf 2026, die Zahl und Höhe größerer Steuerrückzahlungen sowie die Dynamik von Sozial-, Personal- und Zinsausgaben verfolgen.
+
+Politisch ist eine nüchterne Trennung erforderlich: Der Höchststand von 76,4 Milliarden Euro ist eine Tatsache, ebenso das kommunale Rekorddefizit von 20,1 Milliarden Euro im ersten Halbjahr 2026. Aus beiden Zahlen folgt weder, dass die Kommunen generell über ausreichend Geld verfügen, noch dass jede geforderte Entlastungsmaßnahme automatisch wirtschaftlich sinnvoll ist. Entscheidend wird sein, ob Städte dauerhaft Pflichtaufgaben erfüllen und zugleich in die Infrastruktur ihrer Standorte investieren können.
+
+## Fazit: Steuerrekord ist noch keine kommunale Entwarnung
+
+Die Gewerbesteuer erreichte 2025 einen nominalen Höchststand. Für Deutschlands Kommunen löst dieser Rekord die Finanzkrise jedoch nicht. Schon im ersten Halbjahr 2026 gingen die Netto-Einnahmen aus der Gewerbesteuer zurück, während Personal, Sozialleistungen und Zinsen die Haushalte weiter belasteten. Sinkende Investitionen können später auch die örtliche Wirtschaft schwächen. Mehr Geld vom Bund könnte kurzfristig helfen, ersetzt aber keine tragfähige Aufgabenteilung und verlässliche Haushaltsplanung. Gemeinden benötigen planbare Einnahmen und realistische Ausgaben, Unternehmen verlässliche Standortbedingungen. Entscheidend ist deshalb nicht die Rekordzahl einer einzelnen Steuer, sondern ob die Kommunen ihre Infrastruktur erhalten und notwendige Leistungen auch in wirtschaftlich schwierigen Jahren langfristig finanzieren können.
+
+---
+
+## Quellenbasis
+
+Ausgangspunkt ist ausschließlich die Gmail-Pressemitteilung des Statistischen Bundesamtes vom 15. Oktober 2026, „Gewerbesteuereinnahmen im Jahr 2025 um 1,5 % höher als im Vorjahr“, Gmail-Nachrichten-ID `1a13e2a4ee8e9b49`. Die Originalmeldung ist über den in der Nachricht enthaltenen Presseportal-Link erreichbar. Zur unabhängigen Verifikation wurden die amtliche Jahresstatistik der Steuereinnahmen 2025, die kommunale Kassenstatistik des Statistischen Bundesamtes vom 1. Oktober 2026 und der Präsidiumsbeschluss des Deutschen Städtetags vom 23. September 2026 herangezogen. Die für den Fließtext wesentlichen Originalquellen sind direkt mit Keywords als HTML-Link versehen.
+
+## Redaktion und SEO
+
+**Nachrichtenwert:** Neue Detailveröffentlichung zu den Gewerbesteuereinnahmen 2025 mit Rekordaufkommen, schwacher jährlicher Wachstumsrate und regional unterschiedlichen Entwicklungen. Wirtschaftliche Einordnung anhand der Kommunalfinanzen des ersten Halbjahres 2026: Gewerbesteuer netto minus zwei Prozent und Defizit von 20,1 Milliarden Euro. Bedeutung für Unternehmen, Infrastruktur, kommunale Aufträge und Steuersätze.
+
+**Methodische Hinweise:** Die Gewerbesteuer-Jahressumme 2025 von 76,4 Milliarden Euro ist ein nominales bundesweites Steueraufkommen. Die 30,8 Milliarden Euro für das erste Halbjahr 2026 sind eine Nettozahl für Gemeinden und Gemeindeverbände ohne Stadtstaaten und dürfen nicht direkt mit dem Bruttojahreswert verglichen werden. Kassenmäßige Steuerflüsse lassen keine direkte Aussage über Unternehmensgewinne zu. Gewerbesteuerrekorde und Finanzierungsdefizite sind unterschiedliche Kennzahlen. Die 30-Milliarden-Euro-Hilfsforderung stammt vom Deutschen Städtetag und ist kein politischer Beschluss.
+
+**DWN-Duplikatprüfung (15. Oktober 2026):** Öffentliche Recherche auf deutsche-wirtschafts-nachrichten.de nach Gewerbesteuerrekord 2025, 76,4 Milliarden Euro, Kommunaldefizit und Gewerbesteuer 2026. DWN berichtete am 25. März 2026 über wegbrechende Gewerbesteuereinnahmen und die kommunale Finanznot sowie im Oktober 2025 über die Autostädte. Der neue Text setzt einen eigenständigen Schwerpunkt auf die am 15. Oktober 2026 neu publizierte Gewerbesteuer-Jahresauswertung und den Vergleich mit der aktuellen Halbjahresstatistik; ein identischer öffentlich indexierter Artikel wurde nicht gefunden. Nicht öffentlich sichtbare CMS-Texte konnten nicht geprüft werden.
+
+### Fünf alternative Überschriften
+
+1. Rekord bei der Gewerbesteuer, Rekordloch in den Stadtkassen
+2. 76,4 Milliarden Euro Gewerbesteuer – warum das nicht reicht
+3. Städte im Defizit: Was hinter dem Gewerbesteuerrekord steckt
+4. Gewerbesteuer sinkt 2026 wieder: Kommunen unter Druck
+5. Mehr Gewerbesteuer, weniger Investitionen in den Kommunen
+
+### Neun Fragewort-Bulletpoints
+
+- Was zeigt der neue Gewerbesteuerrekord für 2025?
+- Warum reicht das zusätzliche Steueraufkommen den Kommunen nicht?
+- Wie stark ist die Gewerbesteuer 2026 bisher gesunken?
+- Welche Bundesländer verzeichneten 2025 einen Rückgang?
+- Wer leidet unter verschobenen kommunalen Investitionen?
+- Wo liegen die Unterschiede zwischen Brutto- und Nettowerten?
+- Wieso beweist ein Steuerrekord keinen Wirtschaftsaufschwung?
+- Wann könnten höhere Hebesätze Unternehmen belasten?
+- Welche Lösungen fordert der Deutsche Städtetag?
+
+### Drei Meta-Titles
+
+1. Gewerbesteuer auf Rekordhoch – Kommunen im Defizit
+2. Gewerbesteuer 2025: Rekord trotz Milliardenloch
+3. Kommunen: Warum der Gewerbesteuerrekord nicht reicht
+
+### Drei Meta-Descriptions
+
+1. Gewerbesteuer auf Rekordhoch: 2025 nahmen Kommunen 76,4 Milliarden Euro ein. Warum das Defizit trotzdem wächst und die Einnahmen 2026 bereits wieder sinken.
+2. Deutschlands Gemeinden erzielen einen Gewerbesteuerrekord. Doch Sozialkosten und Zinsen steigen. Was neue Destatis-Zahlen für Städte und Firmen bedeuten.
+3. Trotz Rekord bei der Gewerbesteuer bleiben Kommunen tief im Minus. Die Halbjahreszahlen 2026 zeigen neue Risiken für Infrastruktur und Unternehmen vor Ort.

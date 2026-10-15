@@ -95,6 +95,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-10-12_0959_unternehmensinsolvenzen-juli-2026.md",
       "processed_at": "2026-10-12T09:59:00+02:00"
+    },
+    {
+      "gmail_message_id": "1a13e2a4ee8e9b49",
+      "subject": "Gewerbesteuereinnahmen im Jahr 2025 um 1,5 % höher als im Vorjahr",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-15_0812_gewerbesteuer-rekord-kommunaldefizit-2026.md",
+      "processed_at": "2026-10-15T08:12:33+02:00"
     }
   ]
 }
