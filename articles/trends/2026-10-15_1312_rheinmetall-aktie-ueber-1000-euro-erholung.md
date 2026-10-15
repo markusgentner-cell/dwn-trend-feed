@@ -38,7 +38,7 @@ Für langfristig orientierte Anleger stehen Auftragseingang, Margen, Investition
 
 ## Fazit: Kurserholung braucht fundamentale Bestätigung
 
-Die Rückkehr über die Marke von 1.000 Euro zeigt, dass bei Rheinmetall nach schwächeren Handelstagen wieder Kaufinteresse aufkommt. Die Messepräsenz in den USA und die ausgebaute Finanzierung stützen die längerfristige Wachstumserzählung, ersetzen aber keine neuen verbindlichen Aufträge. Anleger sollten kurzfristige Kursbewegungen deshalb von der operativen Entwicklung trennen. Entscheidend bleiben Auftragseingänge, Produktionshochlauf, Margen und Liquidität. Auch die Bewertung kann nach kräftigen Ausschlägen erneut unter Druck geraten. Wer investiert, sollte die aktuelle Kursnotierung als Momentaufnahme verstehen und weitere Unternehmenszahlen abwarten. Die Rheinmetall Aktie bietet Chancen, aber keine Gewissheit über die nächsten Handelstage oder langfristigen Erträge.
+Die Rückkehr über die Marke von 1.000 Euro zeigt, dass bei Rheinmetall nach schwächeren Handelstagen wieder Kaufinteresse aufkommt. Die Messepräsenz in den USA und die ausgebaute Finanzierung stützen die längerfristige Wachstumserzählung, ersetzen aber keine neuen verbindlichen Aufträge. Anleger sollten kurzfristige Kursbewegungen deshalb von der operativen Entwicklung trennen. Entscheidend bleiben Auftragseingänge, Produktionshochlauf, Margen und Liquidität. Auch die Bewertung kann nach kräftigen Ausschlägen erneut unter Druck geraten. Wer investiert, sollte die aktuelle Kursnotierung als Momentaufnahme verstehen und weitere Unternehmenszahlen abwarten. Die Rheinmetall Aktie bietet Chancen, aber keine Gewissheit über die nächsten Handelstage oder die langfristigen operativen Erträge.
 
 ## Quellenbasis
 
