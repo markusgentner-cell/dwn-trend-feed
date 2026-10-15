@@ -37,11 +37,9 @@ def append_register(register_path: str, entry: dict):
         # with a new processed_at value in a later handoff.
         trend = str(entry.get("trend", "")).strip().casefold()
         article_path = entry.get("article_path")
-        if any(
-            (trend and str(item.get("trend", "")).strip().casefold() == trend)
-            or (article_path and item.get("article_path") == article_path)
-            for item in processed
-        ):
+        # Repeated trend topics are allowed after the editorial 12-hour window.
+        # Idempotency is based on the article path, not the trend name alone.
+        if article_path and any(item.get("article_path") == article_path for item in processed):
             return
     else:
         gmail_id = entry.get("gmail_message_id")
