@@ -2,9 +2,6 @@ name: DWN Market Agents API
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/dwn-market-agents-api.yml'
   schedule:
     - cron: '20 7 * * 1-5'
 
