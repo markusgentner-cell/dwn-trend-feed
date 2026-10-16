@@ -12,7 +12,7 @@ OUT = ROOT / "articles" / "agenten"
 AGENTS = {
     "gold": {
         "slug":"goldpreis",
-        "hour":8,"minute":0,
+        "hour":7,"minute":50,
         "topic":"Goldpreis",
         "prompt": """Research current news and developments about the gold price and retrieve the current gold price in US dollars, prioritizing finanzen.net/rohstoffe/goldpreis and corroborating with other reliable current financial sources. Write a journalistic German article of about 500 words on today's gold-price development, market situation, key drivers and short outlook. SEO: Use the keyword “Goldpreis” exactly 7 times in the complete article text. Use “Goldpreis aktuell”, “Goldkurs”, “Gold-Preis”, “Goldpreis-Entwicklung” and “gelbes Edelmetall” exactly once each. Do not invent facts. Do not include a source list."""
     },
@@ -24,7 +24,7 @@ AGENTS = {
     },
     "rheinmetall": {
         "slug":"rheinmetall-aktie",
-        "hour":8,"minute":15,
+        "hour":8,"minute":10,
         "topic":"Rheinmetall Aktie",
         "prompt": """Research current news and developments about Rheinmetall stock and retrieve the current Rheinmetall share price from reliable current financial sources such as finanzen.net, boerse.de, MarketScreener or Investing.com. Write a journalistic German article of about 500 words on today's Rheinmetall stock development, market situation, important drivers, analyst opinions if available and short outlook. SEO: Use “Rheinmetall Aktie” exactly 7 times. Use “Rheinmetall-Aktie”, “Rheinmetall Kurs”, “Rheinmetall Aktienkurs”, “Rüstungsaktie” and “DAX-Konzern” exactly once each. Do not invent facts. Do not include a source list."""
     }
@@ -44,7 +44,7 @@ def due_names():
     now = now_berlin()
     if now.weekday() >= 5:
         return []
-    return [name for name,cfg in AGENTS.items() if now.hour==cfg["hour"] and now.minute==cfg["minute"]]
+    return [name for name,cfg in AGENTS.items() if (now.hour * 60 + now.minute) >= (cfg["hour"] * 60 + cfg["minute"]) and now.hour < 12]
 
 def render(a):
     return f"# {a['headline'].strip()}\n\n{a['teaser'].strip()}\n\n{a['body_markdown'].strip()}\n"
