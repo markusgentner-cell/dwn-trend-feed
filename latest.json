@@ -1,22 +1,26 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-16T10:02:33.855Z",
+  "captured_at": "2026-10-16T10:04:33.325Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "windenergie\n5.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "windenergie 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "dorsten\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "dorsten 1.000+ arrow_upward 600 % vor 3 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "rheinmetall news\n500+\narrow_upward\n700 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "rheinmetall news 500+ arrow_upward 700 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "zwangsverwaltung\n500+\narrow_upward\n900 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "zwangsverwaltung 500+ arrow_upward 900 % vor 30 Minuten trending_up Aktiv",
+      "links": []
     }
   ],
   "links": [
@@ -29,45 +33,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n16.10.26, 12:02\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nwindenergie\n5.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\ndorsten\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv\nrheinmetall news\n500+\narrow_upward\n700 %\nvor 1 Stunde\ntrending_up\nAktiv\nzwangsverwaltung\n500+\narrow_upward\n900 %\nvor 30 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n16.10.26, 12:04\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nwindenergie\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ndorsten\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nrheinmetall news\n\t\n500+\narrow_upward\n700 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nzwangsverwaltung\n\t\n500+\narrow_upward\n900 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
