@@ -1,22 +1,19 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-19T12:03:28.715Z",
+  "captured_at": "2026-10-19T12:55:27.370Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "lars klingbeil\n2.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "sammelklage\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nanleihe"
     },
     {
-      "text": "sammelklage\n500+\narrow_upward\n700 %\nvor 10 Minuten\ntrending_up\nAktiv"
+      "text": "bank\n1.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "finanzen net\n500+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
-    },
-    {
-      "text": "anleihe\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "finanzen net\n1.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nrheinmetall news"
     }
   ],
   "links": [
@@ -69,5 +66,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n19.10.26, 14:03\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nlars klingbeil\n2.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv\nsammelklage\n500+\narrow_upward\n700 %\nvor 10 Minuten\ntrending_up\nAktiv\nfinanzen net\n500+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nanleihe\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n19.10.26, 14:55\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nsammelklage\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nanleihe\nbank\n1.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv\nfinanzen net\n1.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nrheinmetall news\nZeilen pro Seite\n25\n1–3 von 3\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
