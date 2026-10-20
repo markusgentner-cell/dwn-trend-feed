@@ -1,19 +1,22 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-19T12:55:27.370Z",
+  "captured_at": "2026-10-20T05:25:19.096Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "sammelklage\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nanleihe"
+      "text": "volkswagen gehälter einfrieren\n1.000+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv\nvw news"
     },
     {
-      "text": "bank\n1.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "xrp news\n500+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "finanzen net\n1.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nrheinmetall news"
+      "text": "iceye\n200+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
+    },
+    {
+      "text": "mercaden dorsten\n100+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -66,5 +69,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n19.10.26, 14:55\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nsammelklage\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nanleihe\nbank\n1.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv\nfinanzen net\n1.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nrheinmetall news\nZeilen pro Seite\n25\n1–3 von 3\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n20.10.26, 07:25\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nvolkswagen gehälter einfrieren\n1.000+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv\nvw news\nxrp news\n500+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\niceye\n200+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nmercaden dorsten\n100+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
