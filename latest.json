@@ -1,22 +1,19 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-20T08:05:42.483Z",
+  "captured_at": "2026-10-20T08:46:57.776Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "ing app störung\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\ning störung\nstörung ing\ning login probleme\n+ 5 weitere"
+      "text": "ing diba störung\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\ning app probleme\ning diba app störung\n+ 10 weitere"
     },
     {
-      "text": "volkswagen gehälter einfrieren\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "revolut down\n500+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "uruguay\n500+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv"
-    },
-    {
-      "text": "mercaden dorsten\n500+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "siemens aktie\n200+\narrow_upward\n75 %\nvor 40 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -69,5 +66,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n20.10.26, 10:05\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ning app störung\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\ning störung\nstörung ing\ning login probleme\n+ 5 weitere\nvolkswagen gehälter einfrieren\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nuruguay\n500+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv\nmercaden dorsten\n500+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n20.10.26, 10:46\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ning diba störung\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\ning app probleme\ning diba app störung\n+ 10 weitere\nrevolut down\n500+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv\nsiemens aktie\n200+\narrow_upward\n75 %\nvor 40 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–3 von 3\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
