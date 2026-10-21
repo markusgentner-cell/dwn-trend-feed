@@ -1,7 +1,7 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-21T09:27:36.583Z",
+  "captured_at": "2026-10-21T10:06:16.899Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
@@ -10,19 +10,19 @@
       "text": "tedox filialen\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "leasing\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "leasing\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "larry fink\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "frankenpost\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv"
+    },
+    {
+      "text": "larry fink\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
       "text": "gasheizung\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
       "text": "boeing 737 max\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv"
-    },
-    {
-      "text": "kiess & krause\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -75,5 +75,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n21.10.26, 11:27\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ntedox filialen\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nleasing\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nlarry fink\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv\ngasheizung\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\nboeing 737 max\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nkiess & krause\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n21.10.26, 12:06\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ntedox filialen\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nleasing\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nfrankenpost\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv\nlarry fink\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv\ngasheizung\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\nboeing 737 max\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
