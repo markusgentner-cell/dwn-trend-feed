@@ -102,6 +102,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-10-15_0812_gewerbesteuer-rekord-kommunaldefizit-2026.md",
       "processed_at": "2026-10-15T08:12:33+02:00"
+    },
+    {
+      "gmail_message_id": "1a11a524262e9024",
+      "subject": "KfW Research: Deutscher Wagniskapitalmarkt erlebt sehr starkes drittes...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-21_0615_startup-finanzierung-2026-megadeals-kapital.md",
+      "processed_at": "2026-10-21T06:15:24+02:00"
     }
   ]
 }
