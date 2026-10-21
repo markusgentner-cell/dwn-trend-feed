@@ -1,22 +1,31 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-21T07:27:53.847Z",
+  "captured_at": "2026-10-21T08:11:33.784Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "msci\n500+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "gastronomie\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "leasing\n200+\narrow_upward\n600 %\nvor 20 Minuten\ntrending_up\nAktiv"
+      "text": "tedox filialen\n500+\narrow_upward\n1.000 %\nvor 50 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "adidas aktie\n100+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv"
+      "text": "larry fink\n500+\narrow_upward\n700 %\nvor 40 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "boeing 737 max\n100+\narrow_upward\n200 %\nvor 10 Minuten\ntrending_up\nAktiv"
+      "text": "gasheizung\n500+\narrow_upward\n500 %\nvor 50 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "anleger\n200+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "boeing 737 max\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
+    },
+    {
+      "text": "adidas aktie\n200+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -69,5 +78,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n21.10.26, 09:27\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nmsci\n500+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\nleasing\n200+\narrow_upward\n600 %\nvor 20 Minuten\ntrending_up\nAktiv\nadidas aktie\n100+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv\nboeing 737 max\n100+\narrow_upward\n200 %\nvor 10 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n21.10.26, 10:11\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ngastronomie\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\ntedox filialen\n500+\narrow_upward\n1.000 %\nvor 50 Minuten\ntrending_up\nAktiv\nlarry fink\n500+\narrow_upward\n700 %\nvor 40 Minuten\ntrending_up\nAktiv\ngasheizung\n500+\narrow_upward\n500 %\nvor 50 Minuten\ntrending_up\nAktiv\nanleger\n200+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv\nboeing 737 max\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nadidas aktie\n200+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
