@@ -1,43 +1,46 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-22T11:06:23.266Z",
+  "captured_at": "2026-10-22T11:45:06.270Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "kaufland\n10.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "kaufland\n20.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "pflegegeld\n5.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "pflegegeld\n10.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "bitcoin\n5.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "viessmann\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nfc bayern münchen ag"
     },
     {
-      "text": "viessmann\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nfc bayern münchen ag"
+      "text": "bitcoin\n5.000+\narrow_upward\n200 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "fregatte\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "fregatte\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "finanzen\n1.000+\narrow_upward\n500 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "staatsfonds\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "münze\n500+\narrow_upward\n1.000 %\nvor 10 Minuten\ntrending_up\nAktiv"
+      "text": "münze\n500+\narrow_upward\n1.000 %\nvor 50 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "staatsfonds\n200+\narrow_upward\n600 %\nvor 20 Minuten\ntrending_up\nAktiv"
+      "text": "flugabwehr\n200+\narrow_upward\n500 %\nvor 30 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "uran\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv"
+      "text": "uran\n200+\narrow_upward\n400 %\nvor 50 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "mark zuckerberg\n200+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "gasheizung\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "berkshire hathaway\n200+\narrow_upward\n200 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "bosch news\n200+\narrow_upward\n300 %\nvor 40 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "alibaba group\n200+\narrow_upward\n200 %\nvor 10 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -90,5 +93,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 13:06\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nkaufland\n10.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv\npflegegeld\n5.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nbitcoin\n5.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nviessmann\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nfc bayern münchen ag\nfregatte\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nfinanzen\n1.000+\narrow_upward\n500 %\nvor 3 Stunden\ntrending_up\nAktiv\nmünze\n500+\narrow_upward\n1.000 %\nvor 10 Minuten\ntrending_up\nAktiv\nstaatsfonds\n200+\narrow_upward\n600 %\nvor 20 Minuten\ntrending_up\nAktiv\nuran\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv\nmark zuckerberg\n200+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv\nberkshire hathaway\n200+\narrow_upward\n200 %\nvor 30 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–11 von 11\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 13:44\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nkaufland\n20.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\npflegegeld\n10.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nviessmann\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nfc bayern münchen ag\nbitcoin\n5.000+\narrow_upward\n200 %\nvor 3 Stunden\ntrending_up\nAktiv\nfregatte\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nstaatsfonds\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nmünze\n500+\narrow_upward\n1.000 %\nvor 50 Minuten\ntrending_up\nAktiv\nflugabwehr\n200+\narrow_upward\n500 %\nvor 30 Minuten\ntrending_up\nAktiv\nuran\n200+\narrow_upward\n400 %\nvor 50 Minuten\ntrending_up\nAktiv\ngasheizung\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv\nbosch news\n200+\narrow_upward\n300 %\nvor 40 Minuten\ntrending_up\nAktiv\nalibaba group\n200+\narrow_upward\n200 %\nvor 10 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–12 von 12\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
