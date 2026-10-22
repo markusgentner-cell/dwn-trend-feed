@@ -1,31 +1,37 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-22T09:07:57.470Z",
+  "captured_at": "2026-10-22T09:48:00.831Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "viessmann\n1.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "viessmann\n2.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "bitcoin\n1.000+\narrow_upward\n200 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "bitcoin\n2.000+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
       "text": "qiagen\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "boeing 737\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "leerstand\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "christian angermayer\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "christian angermayer\n1.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "ökostrom\n500+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "boeing 737\n1.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "22. oktober\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "fregatte\n500+\narrow_upward\n1.000 %\nvor 20 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "starship\n500+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "finanzen\n200+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -78,5 +84,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 11:07\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nviessmann\n1.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv\nbitcoin\n1.000+\narrow_upward\n200 %\nvor 40 Minuten\ntrending_up\nAktiv\nqiagen\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv\nboeing 737\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\nchristian angermayer\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\nökostrom\n500+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv\n22. oktober\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 11:47\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nviessmann\n2.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nbitcoin\n2.000+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nqiagen\n1.000+\narrow_upward\n700 %\nvor 2 Stunden\ntrending_up\nAktiv\nleerstand\n1.000+\narrow_upward\n500 %\nvor 2 Stunden\ntrending_up\nAktiv\nchristian angermayer\n1.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv\nboeing 737\n1.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv\nfregatte\n500+\narrow_upward\n1.000 %\nvor 20 Minuten\ntrending_up\nAktiv\nstarship\n500+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv\nfinanzen\n200+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–9 von 9\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
