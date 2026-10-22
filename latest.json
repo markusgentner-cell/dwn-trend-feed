@@ -1,52 +1,54 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-22T13:17:44.981Z",
+  "captured_at": "2026-10-22T13:57:02.923Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "uran\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "uran 5.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "staatsfonds\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "staatsfonds 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "fregatte\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "stellantis 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "stellantis\n2.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "gasheizung 2.000+ arrow_upward 700 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "saudi aramco\n1.000+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "saudi aramco 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "gasheizung\n1.000+\narrow_upward\n800 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "spacex 2.000+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "fc bayern münchen ag\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "evonik industries 1.000+ arrow_upward 500 % vor 1 Stunde trending_up Aktiv evonik",
+      "links": []
     },
     {
-      "text": "spacex\n1.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "qiagen dax 500+ arrow_upward 600 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "sonnen\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\nsonnen gmbh"
+      "text": "alibaba group 500+ arrow_upward 200 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "evonik industries\n500+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv\nevonik"
+      "text": "brüssel 200+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "qiagen dax\n500+\narrow_upward\n700 %\nvor 40 Minuten\ntrending_up\nAktiv"
-    },
-    {
-      "text": "alibaba group\n500+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv"
-    },
-    {
-      "text": "bosch news\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv"
-    },
-    {
-      "text": "brüssel\n100+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "plauen 200+ arrow_upward 200 % vor 20 Minuten trending_up Aktiv",
+      "links": []
     }
   ],
   "links": [
@@ -59,45 +61,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 15:17\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nuran\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nstaatsfonds\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nfregatte\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nstellantis\n2.000+\narrow_upward\n1.000 %\nvor 40 Minuten\ntrending_up\nAktiv\nsaudi aramco\n1.000+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv\ngasheizung\n1.000+\narrow_upward\n800 %\nvor 1 Stunde\ntrending_up\nAktiv\nfc bayern münchen ag\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv\nspacex\n1.000+\narrow_upward\n500 %\nvor 1 Stunde\ntrending_up\nAktiv\nsonnen\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\nsonnen gmbh\nevonik industries\n500+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv\nevonik\nqiagen dax\n500+\narrow_upward\n700 %\nvor 40 Minuten\ntrending_up\nAktiv\nalibaba group\n500+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv\nbosch news\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nbrüssel\n100+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–14 von 14\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 15:56\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nuran\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nstaatsfonds\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nstellantis\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngasheizung\n\t\n2.000+\narrow_upward\n700 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nsaudi aramco\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nspacex\n\t\n2.000+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nevonik industries\n\t\n1.000+\narrow_upward\n500 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\nevonik\n\t\n\n\n\t\nqiagen dax\n\t\n500+\narrow_upward\n600 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nalibaba group\n\t\n500+\narrow_upward\n200 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbrüssel\n\t\n200+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nplauen\n\t\n200+\narrow_upward\n200 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–11 von 11\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
