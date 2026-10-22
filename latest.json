@@ -1,41 +1,45 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-22T14:57:00.450Z",
+  "captured_at": "2026-10-22T20:57:06.817Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "stellantis 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "text": "robert bosch gmbh 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "gasheizung 2.000+ arrow_upward 800 % vor 3 Stunden trending_up Aktiv",
+      "text": "warren buffett 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "spacex 2.000+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
+      "text": "siemens energy 2.000+ arrow_upward 500 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "alibaba group 1.000+ arrow_upward 200 % vor 3 Stunden trending_up Aktiv",
+      "text": "ki-boom 1.000+ arrow_upward 600 % vor 2 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "evonik 1.000+ arrow_upward 200 % vor 2 Stunden trending_up Aktiv evonik industries",
+      "text": "emirates 1.000+ arrow_upward 300 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "plauen 500+ arrow_upward 300 % vor 1 Stunde trending_up Aktiv",
+      "text": "msci 500+ arrow_upward 500 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "hamburg hauptbahnhof 200+ arrow_upward 300 % vor 1 Stunde trending_up Aktiv",
+      "text": "moderna 500+ arrow_upward 200 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "altın 100+ arrow_upward 200 % vor 50 Minuten trending_up Aktiv",
+      "text": "bambu h3c 200+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "brenner-nordzulauf 100+ arrow_upward 100 % vor 30 Minuten trending_up Aktiv",
       "links": []
     }
   ],
@@ -53,5 +57,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 16:56\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nstellantis\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngasheizung\n\t\n2.000+\narrow_upward\n800 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nspacex\n\t\n2.000+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nalibaba group\n\t\n1.000+\narrow_upward\n200 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nevonik\n\t\n1.000+\narrow_upward\n200 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\nevonik industries\n\t\n\n\n\t\nplauen\n\t\n500+\narrow_upward\n300 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nhamburg hauptbahnhof\n\t\n200+\narrow_upward\n300 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\naltın\n\t\n100+\narrow_upward\n200 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–8 von 8\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n22.10.26, 22:56\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nrobert bosch gmbh\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwarren buffett\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nsiemens energy\n\t\n2.000+\narrow_upward\n500 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nki-boom\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nemirates\n\t\n1.000+\narrow_upward\n300 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmsci\n\t\n500+\narrow_upward\n500 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmoderna\n\t\n500+\narrow_upward\n200 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbambu h3c\n\t\n200+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbrenner-nordzulauf\n\t\n100+\narrow_upward\n100 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–9 von 9\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
