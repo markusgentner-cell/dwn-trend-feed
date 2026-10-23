@@ -1,22 +1,34 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-23T13:12:43.499Z",
+  "captured_at": "2026-10-23T14:11:37.387Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "winter\n10.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "börse 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "börse\n2.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "wohneigentum 1.000+ arrow_upward 800 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "wohneigentum\n200+\narrow_upward\n600 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "ruhestand 500+ arrow_upward 300 % vor 40 Minuten trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "eurokrise\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "anthropic 500+ arrow_upward 400 % vor 30 Minuten trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "eurokrise 500+ arrow_upward 200 % vor 2 Stunden trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "generali 200+ arrow_upward 200 % vor 50 Minuten trending_up Aktiv",
+      "links": []
     }
   ],
   "links": [
@@ -29,45 +41,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n23.10.26, 15:12\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nwinter\n10.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nbörse\n2.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nwohneigentum\n200+\narrow_upward\n600 %\nvor 30 Minuten\ntrending_up\nAktiv\neurokrise\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n23.10.26, 16:11\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nbörse\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwohneigentum\n\t\n1.000+\narrow_upward\n800 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nruhestand\n\t\n500+\narrow_upward\n300 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nanthropic\n\t\n500+\narrow_upward\n400 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\neurokrise\n\t\n500+\narrow_upward\n200 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngenerali\n\t\n200+\narrow_upward\n200 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
