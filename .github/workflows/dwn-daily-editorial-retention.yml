@@ -1,0 +1,41 @@
+name: DWN Daily Editorial Retention
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 12:00 Europe/Berlin: 10 UTC in summer, 11 UTC in winter.
+    - cron: '0 10,11 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dwn-editorial-writes
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Only run at 12 Berlin time
+        id: berlin
+        shell: bash
+        run: |
+          if [ "$(TZ=Europe/Berlin date +%H)" = "12" ]; then echo "due=true" >> "$GITHUB_OUTPUT"; else echo "due=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Remove old dated editorial texts and images
+        if: steps.berlin.outputs.due == 'true'
+        run: python3 automation/cleanup_editorial.py
+      - name: Commit cleanup
+        if: steps.berlin.outputs.due == 'true'
+        shell: bash
+        run: |
+          git add -u articles/agenten articles/mail articles/trends assets/agenten assets/mail assets/trends
+          if git diff --cached --quiet; then echo "Nothing to delete."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Remove generated editorial files older than 10 days"
+          git pull --rebase origin main
+          git push origin HEAD:main
