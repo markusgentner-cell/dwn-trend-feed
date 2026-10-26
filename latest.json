@@ -1,41 +1,37 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-26T07:01:41.688Z",
+  "captured_at": "2026-10-26T07:30:39.555Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "lidl 5.000+ arrow_upward 100 % vor 1 Stunde trending_up Aktiv",
+      "text": "lidl 5.000+ arrow_upward 100 % vor 2 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "goldpreis 1.000+ arrow_upward 50 % vor 1 Stunde trending_up Aktiv",
+      "text": "frankfurt am main 1.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "frankfurt am main 500+ arrow_upward 1.000 % vor 50 Minuten trending_up Aktiv",
+      "text": "cathie wood 1.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "cathie wood 500+ arrow_upward 1.000 % vor 30 Minuten trending_up Aktiv",
+      "text": "bargeld 500+ arrow_upward 500 % vor 20 Minuten trending_up Aktiv",
       "links": []
     },
     {
-      "text": "zahlungsmittel 200+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
+      "text": "zahlungsmittel 500+ arrow_upward 400 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "ernst tanner lindt 100+ arrow_upward 400 % vor 30 Minuten trending_up Aktiv",
+      "text": "gisela marx 200+ arrow_upward 600 % vor 30 Minuten trending_up Aktiv",
       "links": []
     },
     {
-      "text": "üstra 100+ arrow_upward 100 % vor 20 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "dem 100+ arrow_upward 200 % vor 20 Minuten trending_up Aktiv",
+      "text": "ernst tanner lindt 100+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
       "links": []
     }
   ],
@@ -53,5 +49,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n26.10.26, 08:01\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nlidl\n\t\n5.000+\narrow_upward\n100 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngoldpreis\n\t\n1.000+\narrow_upward\n50 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfrankfurt am main\n\t\n500+\narrow_upward\n1.000 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\ncathie wood\n\t\n500+\narrow_upward\n1.000 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nzahlungsmittel\n\t\n200+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nernst tanner lindt\n\t\n100+\narrow_upward\n400 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nüstra\n\t\n100+\narrow_upward\n100 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\ndem\n\t\n100+\narrow_upward\n200 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–8 von 8\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n26.10.26, 08:30\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nlidl\n\t\n5.000+\narrow_upward\n100 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfrankfurt am main\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ncathie wood\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbargeld\n\t\n500+\narrow_upward\n500 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nzahlungsmittel\n\t\n500+\narrow_upward\n400 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngisela marx\n\t\n200+\narrow_upward\n600 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nernst tanner lindt\n\t\n100+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
