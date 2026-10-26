@@ -101,6 +101,21 @@
       "trend": "deutsche bank ag",
       "article_path": "articles/trends/2026-10-20_1306_deutsche-bank-aktie-zwei-tage-rueckgang-vor-q3.md",
       "processed_at": "2026-10-20T13:06:58+02:00"
+    },
+    {
+      "trend": "goldpreis",
+      "article_path": "articles/trends/2026-10-26_0816_goldpreis-vor-fed-entscheidung-4000-dollar-oktober-2026.md",
+      "processed_at": "2026-10-26T08:16:49+01:00"
+    },
+    {
+      "trend": "cathie wood",
+      "article_path": "articles/trends/2026-10-26_0816_cathie-wood-ark-alphabet-verkaeufe-tech-umschichtung.md",
+      "processed_at": "2026-10-26T08:16:49+01:00"
+    },
+    {
+      "trend": "ernst tanner lindt",
+      "article_path": "articles/trends/2026-10-26_0816_lindt-ernst-tanner-preisfehler-ruecktritt-deutschland.md",
+      "processed_at": "2026-10-26T08:16:49+01:00"
     }
   ]
 }
