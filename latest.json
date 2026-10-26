@@ -1,19 +1,34 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-26T06:06:08.415Z",
+  "captured_at": "2026-10-26T07:00:30.375Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "lidl\n2.000+\narrow_upward\n100 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "lidl\n5.000+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "goldpreis\n500+\narrow_upward\n50 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "goldpreis\n1.000+\narrow_upward\n50 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "zahlungsmittel\n100+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "frankfurt am main\n500+\narrow_upward\n1.000 %\nvor 50 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "cathie wood\n500+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "zahlungsmittel\n200+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "ernst tanner lindt\n100+\narrow_upward\n400 %\nvor 30 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "üstra\n100+\narrow_upward\n100 %\nvor 20 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "dem\n100+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -66,5 +81,5 @@
       "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n26.10.26, 07:05\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nlidl\n2.000+\narrow_upward\n100 %\nvor 30 Minuten\ntrending_up\nAktiv\ngoldpreis\n500+\narrow_upward\n50 %\nvor 50 Minuten\ntrending_up\nAktiv\nzahlungsmittel\n100+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–3 von 3\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n26.10.26, 08:00\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nlidl\n5.000+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\ngoldpreis\n1.000+\narrow_upward\n50 %\nvor 1 Stunde\ntrending_up\nAktiv\nfrankfurt am main\n500+\narrow_upward\n1.000 %\nvor 50 Minuten\ntrending_up\nAktiv\ncathie wood\n500+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv\nzahlungsmittel\n200+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv\nernst tanner lindt\n100+\narrow_upward\n400 %\nvor 30 Minuten\ntrending_up\nAktiv\nüstra\n100+\narrow_upward\n100 %\nvor 20 Minuten\ntrending_up\nAktiv\ndem\n100+\narrow_upward\n200 %\nvor 20 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–8 von 8\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
