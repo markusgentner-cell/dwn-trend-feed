@@ -1,28 +1,34 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-27T07:41:55.679Z",
+  "captured_at": "2026-10-27T07:44:56.927Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "gold\n5.000+\narrow_upward\n200 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "gold 5.000+ arrow_upward 200 % vor 3 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "bvg\n500+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "bvg 500+ arrow_upward 100 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "klarna\n500+\narrow_upward\n75 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "klarna 500+ arrow_upward 75 % vor 30 Minuten trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "color line\n200+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "color line 200+ arrow_upward 300 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "offshore-windpark\n200+\narrow_upward\n300 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "offshore-windpark 200+ arrow_upward 300 % vor 40 Minuten trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "rechte rheinstrecke\n100+\narrow_upward\n200 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "rechte rheinstrecke 100+ arrow_upward 200 % vor 40 Minuten trending_up Aktiv",
+      "links": []
     }
   ],
   "links": [
@@ -35,45 +41,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n27.10.26, 08:41\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ngold\n5.000+\narrow_upward\n200 %\nvor 3 Stunden\ntrending_up\nAktiv\nbvg\n500+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\nklarna\n500+\narrow_upward\n75 %\nvor 30 Minuten\ntrending_up\nAktiv\ncolor line\n200+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv\noffshore-windpark\n200+\narrow_upward\n300 %\nvor 40 Minuten\ntrending_up\nAktiv\nrechte rheinstrecke\n100+\narrow_upward\n200 %\nvor 40 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n27.10.26, 08:44\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\ngold\n\t\n5.000+\narrow_upward\n200 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbvg\n\t\n500+\narrow_upward\n100 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nklarna\n\t\n500+\narrow_upward\n75 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\ncolor line\n\t\n200+\narrow_upward\n300 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\noffshore-windpark\n\t\n200+\narrow_upward\n300 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nrechte rheinstrecke\n\t\n100+\narrow_upward\n200 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
