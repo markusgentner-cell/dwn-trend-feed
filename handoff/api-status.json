@@ -1,0 +1,6 @@
+{
+  "state": "quota_exhausted",
+  "checked_at": "2026-10-26T10:17:28Z",
+  "source": "dwn-market-agents-api",
+  "evidence": "GitHub Actions run 40306230800 returned credit_balance_exhausted"
+}
