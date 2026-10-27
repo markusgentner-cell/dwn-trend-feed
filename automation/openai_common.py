@@ -102,8 +102,19 @@ def render_article(a):
     lines += ["", f"## {a['conclusion_heading'].strip()}", "", a["conclusion"].strip(), ""]
     return "\n".join(lines)
 
+SOURCE_LINK = re.compile(r'<a\s+href="https?://[^"\s<>]+"\s+target="_blank"\s+rel="noopener nofollow">([^<>
+]+)</a>', re.IGNORECASE)
+
+def validate_inline_sources(body):
+    links = SOURCE_LINK.findall(body)
+    if len(links) < 2:
+        return ["body requires at least two original-source HTML links directly on relevant keywords with target=\"_blank\" rel=\"noopener nofollow\""]
+    if any(not keyword.strip() or keyword.strip().lower().startswith(("https://", "http://")) for keyword in links):
+        return ["source link anchor text must be a meaningful keyword, not a URL"]
+    return []
+
 def validate_editorial(a):
-    errors = []
+    errors = validate_inline_sources(a.get("body_markdown", ""))
     if len(a.get("alternative_headlines", [])) != 5:
         errors.append("exactly 5 alternative headlines required")
     bullets = a.get("bullets", [])
