@@ -42,9 +42,9 @@ SCHEMA = {
 
 def due_names():
     now = now_berlin()
-    if now.weekday() >= 5:
+    if now.weekday() >= 5 or now.hour >= 12:
         return []
-    return [name for name,cfg in AGENTS.items() if (now.hour * 60 + now.minute) >= (cfg["hour"] * 60 + cfg["minute"]) and now.hour < 12]
+    return [name for name,cfg in AGENTS.items() if (now.hour * 60 + now.minute) >= (cfg["hour"] * 60 + cfg["minute"])]
 
 def render(a):
     return f"# {a['headline'].strip()}\n\n{a['teaser'].strip()}\n\n{a['body_markdown'].strip()}\n"
@@ -106,10 +106,24 @@ def main():
     else:
         names=sys.argv[1:] or list(AGENTS)
     OUT.mkdir(parents=True,exist_ok=True)
+    failed = []
+    created = []
     for name in names:
         if name not in AGENTS:
             raise RuntimeError(f"Unknown agent: {name}")
-        generate(name)
+        try:
+            path = generate(name)
+            if path:
+                created.append(path)
+        except Exception as exc:
+            failed.append((name, str(exc)))
+            print(f"ERROR {name}: {exc}", file=sys.stderr)
+    print(f"Agent summary: due={len(names)}, created={len(created)}, failed={len(failed)}")
+    for path in created:
+        print(f"CREATED: {path}")
+    if failed:
+        print("ERROR: Some agent articles could not be generated.", file=sys.stderr)
+        return 1
     return 0
 
 if __name__=="__main__":
