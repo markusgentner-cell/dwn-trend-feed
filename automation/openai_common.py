@@ -102,8 +102,7 @@ def render_article(a):
     lines += ["", f"## {a['conclusion_heading'].strip()}", "", a["conclusion"].strip(), ""]
     return "\n".join(lines)
 
-SOURCE_LINK = re.compile(r'<a\s+href="https?://[^"\s<>]+"\s+target="_blank"\s+rel="noopener nofollow">([^<>
-]+)</a>', re.IGNORECASE)
+SOURCE_LINK = re.compile(r'<a\s+href="https?://[^"\s<>]+"\s+target="_blank"\s+rel="noopener nofollow">([^<>\n]+)</a>', re.IGNORECASE)
 
 def validate_inline_sources(body):
     links = SOURCE_LINK.findall(body)
