@@ -34,16 +34,44 @@ jobs:
           OPENAI_MODEL: gpt-5.6-sol
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python3 automation/agents.py | tee /tmp/dwn-agent-output.log
+            python3 automation/agents.py 2>&1 | tee /tmp/dwn-agent-output.log
           else
-            python3 automation/agents.py --scheduled | tee /tmp/dwn-agent-output.log
+            python3 automation/agents.py --scheduled 2>&1 | tee /tmp/dwn-agent-output.log
           fi
           exit "${PIPESTATUS[0]}"
+
+      - name: Record API fallback status
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          log = Path("/tmp/dwn-agent-output.log")
+          content = log.read_text(encoding="utf-8", errors="replace") if log.exists() else ""
+          path = Path("handoff/api-status.json")
+          if "credit_balance_exhausted" in content or "insufficient_quota" in content or "You have no credits remaining" in content:
+              state = "quota_exhausted"
+          elif "Agent summary:" in content and "failed=0" in content:
+              state = "available"
+          else:
+              state = "unchanged"
+          if state != "unchanged":
+              previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+              if previous.get("state") != state:
+                  path.parent.mkdir(parents=True, exist_ok=True)
+                  path.write_text(json.dumps({"state": state, "checked_at": datetime.now(timezone.utc).isoformat(), "source": "dwn-market-agents-api"}, indent=2) + "\n", encoding="utf-8")
+                  print("API status updated:", state)
+              else:
+                  print("API status unchanged:", state)
+          else:
+              print("No definitive quota status from this run")
+          PY
 
       - name: Commit new agent articles
         shell: bash
         run: |
-          git add articles/agenten
+          git add articles/agenten\n          if [ -f handoff/api-status.json ]; then git add handoff/api-status.json; fi
           if git diff --cached --quiet; then
             echo "No new agent article files."
             exit 0
