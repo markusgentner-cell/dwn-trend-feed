@@ -4,7 +4,7 @@ import re
 import sys
 from pathlib import Path
 
-from openai_common import call_openai, now_berlin, word_count
+from openai_common import call_openai, now_berlin, word_count, validate_inline_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "articles" / "agenten"
@@ -50,7 +50,7 @@ def render(a):
     return f"# {a['headline'].strip()}\n\n{a['teaser'].strip()}\n\n{a['body_markdown'].strip()}\n"
 
 def validate(name, text):
-    errors = []
+    errors = validate_inline_sources(text)
     wc = word_count(text)
     if not 400 <= wc <= 650:
         errors.append(f"article should be about 500 words; got {wc}")
@@ -75,7 +75,7 @@ def generate(name):
         return None
 
     base = cfg["prompt"] + """
-Return a concise headline, a short teaser, and the complete body in Markdown with sensible subheadings.
+Return a concise headline, a short teaser, and the complete body in Markdown with sensible subheadings. Cite at least TWO independently verified ORIGINAL sources within the body by hyperlinking the directly relevant source keyword, exactly as <a href="https://original-source.example/path" target="_blank" rel="noopener nofollow">Keyword</a>. Replace example URL with real verified original source URLs. No bare URLs, Markdown links, footnote-only references, or generic link labels.
 The headline and teaser are part of the complete article text for SEO counting. No placeholders.
 """
     result=None
