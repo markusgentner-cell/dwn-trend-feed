@@ -3,7 +3,7 @@ name: DWN Market Agents API
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10 5-10 * * 1-5'
+    - cron: '*/10 5-11 * * 1-5'
 
 permissions:
   contents: write
@@ -27,25 +27,53 @@ jobs:
           test -n "$OPENAI_API_KEY" || (echo "Missing repository secret OPENAI_API_KEY" && exit 1)
 
       - name: Generate due market articles
+        id: generate
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-5.6-sol
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python3 automation/agents.py
+            python3 automation/agents.py | tee /tmp/dwn-agent-output.log
           else
-            python3 automation/agents.py --scheduled
+            python3 automation/agents.py --scheduled | tee /tmp/dwn-agent-output.log
           fi
+          exit "${PIPESTATUS[0]}"
 
       - name: Commit new agent articles
+        shell: bash
         run: |
           git add articles/agenten
           if git diff --cached --quiet; then
-            echo "No editorial changes."
+            echo "No new agent article files."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Publish DWN market agent articles"
           git pull --rebase origin main
-          git push
+          git push origin HEAD:main
+
+      - name: Verify published agent articles
+        shell: bash
+        run: |
+          git fetch origin main
+          if [ -f /tmp/dwn-agent-output.log ]; then
+            grep '^CREATED: articles/agenten/' /tmp/dwn-agent-output.log | sed 's/^CREATED: //' > /tmp/dwn-created-paths.txt || true
+          else
+            : > /tmp/dwn-created-paths.txt
+          fi
+          while IFS= read -r path; do
+            [ -n "$path" ] || continue
+            if git cat-file -e "origin/main:$path"; then
+              echo "VERIFIED on main: $path"
+            else
+              echo "::error::Missing generated article on main: $path"
+              exit 1
+            fi
+          done < /tmp/dwn-created-paths.txt
+          if [ "${{ steps.generate.outcome }}" != "success" ]; then
+            echo "::error::Article generation failed. Inspect generation log; already generated files were committed if present."
+            exit 1
+          fi
+          echo "Article generation and remote verification complete."
