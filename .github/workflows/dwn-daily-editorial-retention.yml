@@ -32,7 +32,7 @@ jobs:
         if: steps.berlin.outputs.due == 'true'
         shell: bash
         run: |
-          git add -u articles/agenten articles/mail articles/trends assets/agenten assets/mail assets/trends
+          git add -u -- articles assets
           if git diff --cached --quiet; then echo "Nothing to delete."; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
