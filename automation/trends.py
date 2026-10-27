@@ -109,6 +109,7 @@ Task:
 - Each selected article must be a complete publication-ready German DWN business-news article, factual and current.
 - Use sensible Markdown subheadings in body_markdown, but do not repeat the main headline there.
 - source_basis: concise prose naming the key source types/outlets used; do not include raw URLs.
+- MANDATORY: In body_markdown cite at least TWO verified ORIGINAL sources inline on the relevant source keyword using EXACT HTML: <a href="https://verified-original-source.example/path" target="_blank" rel="noopener nofollow">Keyword</a>. Replace example with actual verified URLs. No bare URLs, Markdown links, footnote-only references, or generic link labels.
 - Provide exactly 5 alternative headlines.
 - Provide exactly 9 curiosity bullets, each beginning with a German question word and max 15 words.
 - Provide exactly 3 meta titles, each <=60 characters.
