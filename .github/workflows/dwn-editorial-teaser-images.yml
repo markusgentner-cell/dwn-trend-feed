@@ -1,39 +1,14 @@
-name: DWN Editorial Teaser Images
+name: DWN Editorial Teaser Images (paused)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '20 * * * *'
 
 permissions:
-  contents: write
-
-concurrency:
-  group: dwn-editorial-writes
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  images:
+  images-paused:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Install image dependencies
-        run: pip install openai pillow
-      - name: Generate missing photorealistic teaser images
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          test -n "$OPENAI_API_KEY" || (echo "Missing OPENAI_API_KEY" && exit 1)
-          python3 automation/generate_editorial_images.py
-      - name: Commit teaser images
-        shell: bash
-        run: |
-          git add assets/*.webp
-          if git diff --cached --quiet; then echo "No new images."; exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Generate editorial teaser images"
-          git pull --rebase origin main
-          git push origin HEAD:main
+      - name: Image production disabled
+        run: echo "Image production is paused by editorial request. No images generated or committed."
