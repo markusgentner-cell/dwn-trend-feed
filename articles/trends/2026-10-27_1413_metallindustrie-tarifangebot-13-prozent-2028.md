@@ -1,0 +1,81 @@
+# Metall-Tarifrunde eskaliert: Arbeitgeber bieten 1,3 Prozent erst ab 2028
+
+In der Metall- und Elektroindustrie liegt ein neuer Tarifvorschlag auf dem Tisch: 1,3 Prozent mehr Tabellenlohn erst 2028 und eine bedingte Einmalzahlung 2027. Die IG Metall fordert fünf Prozent binnen zwölf Monaten. Für rund 3,7 Millionen Beschäftigte rückt damit die Frage näher, ob nach Ablauf der Friedenspflicht Warnstreiks folgen.
+
+*Stand: 2026-10-27, 14:13 Uhr MEZ | Ressort: Wirtschaft und Finanzen | Suchtrend: metallindustrie*
+
+## Metallindustrie: Erstes Angebot kommt spät – und liegt weit unter der Forderung
+
+In der Tarifrunde für die rund 3,7 Millionen Beschäftigten der deutschen Metall- und Elektroindustrie haben die Arbeitgeber am Dienstag, 27. Oktober, erstmals ein bundesweit abgestimmtes Angebot vorgelegt. Geplant ist eine dauerhafte Anhebung der Tabellenentgelte um **1,3 Prozent ab Juli 2028**. Hinzu kommt eine **Einmalzahlung im Juli 2027** in Höhe von einem Prozent des durchschnittlichen tariflichen Jahresbruttoentgelts. Diese Leistung soll unter bestimmten wirtschaftlichen Bedingungen ausfallen können. Vorgesehen ist eine Laufzeit von **26 Monaten bis Ende 2028**. Der Arbeitgeberverband Gesamtmetall führt das neue Angebot in seiner <a href="https://www.gesamtmetall.de/category/pressemitteilung/" target="_blank" rel="noopener nofollow">Presseübersicht vom 27. Oktober</a> auf.
+
+Brisant ist vor allem der Zeitpunkt: Nach dem Vorschlag wäre im Jahr 2026 keine zusätzliche tabellenwirksame Erhöhung vorgesehen. Auch 2027 erhielten Beschäftigte zunächst keine dauerhafte Anhebung, sondern lediglich die vom Betriebsergebnis abhängige Sonderzahlung. Eine Einigung ist damit ausdrücklich noch nicht erreicht. Der Abstand zur Gewerkschaftsforderung bleibt erheblich.
+
+## IG Metall verlangt fünf Prozent und kürzere Laufzeit
+
+Die <a href="https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro/aktionen-zur-metall-tarifrunde" target="_blank" rel="noopener nofollow">IG Metall fordert fünf Prozent mehr Entgelt</a> bei einer Laufzeit von zwölf Monaten. Zudem verlangt sie eine tarifliche Gewinnbeteiligung in besonders erfolgreichen Betrieben sowie Vereinbarungen zum Erhalt von Arbeitsplätzen und Standorten. Beschäftigte in niedrigeren Entgeltgruppen und Auszubildende sollen zusätzlich profitieren.
+
+Die Angebote sind wegen der sehr unterschiedlichen Laufzeiten nicht unmittelbar als zwei vergleichbare Prozentwerte zu behandeln. Klar ist dennoch: Die Arbeitgeber schlagen eine deutlich spätere und kleinere dauerhafte Entgelterhöhung vor. Bei einem beispielhaften Tabellenentgelt von 3.500 Euro brutto im Monat entsprächen 1,3 Prozent rechnerisch 45,50 Euro mehr im Monat – allerdings erst ab Juli 2028 und nur, wenn sich die Tarifparteien tatsächlich darauf einigen. Die einmalige Zahlung wäre davon getrennt zu betrachten; ihr individueller Betrag lässt sich nicht ohne Kenntnis der tariflichen Bemessungsgrundlage bestimmen.
+
+## Warum die Arbeitgeber bei Lohnkosten auf die Bremse treten
+
+Die Arbeitgeber verweisen auf eine tiefgreifende Krise der deutschen Industrie. Der Regionalverband <a href="https://www.metall.nrw/m-e-in-nrw/m-e-konjunktur/newsdetail/brauchen-jetzt-auch-ein-tarifpolitisches-signal/" target="_blank" rel="noopener nofollow">METALL NRW berichtete am 23. Oktober</a> über eine Befragung von 350 Mitgliedsbetrieben: Fast 44 Prozent bewerteten ihre Geschäftslage als schlecht, nur 17 Prozent als gut. Für die kommenden sechs Monate erwarteten 45 Prozent einen weiteren Beschäftigungsrückgang. Diese Umfrage bildet die Sicht der befragten Unternehmen ab, nicht die gesamte deutsche Industrie.
+
+Die IG Metall zeichnet ein differenzierteres Bild. In ihrer Betriebsrätebefragung meldeten laut Gewerkschaft 62 Prozent der Betriebe eine gute bis sehr gute Auslastung. Während Teile der Automobil- und Zulieferindustrie schwächeln, verweist die Arbeitnehmerseite auf robustere Nachfrage etwa in der Elektro-, Luftfahrt- und Wehrtechnik. Daraus entsteht die zentrale Kontroverse: Dürfen wirtschaftlich starke Betriebe mit denselben niedrigen Tarifsteigerungen rechnen wie Unternehmen in einer existenziellen Krise?
+
+## Einmalzahlung mit Vorbehalt: Was bei schlechter Rendite passieren könnte
+
+Nach den veröffentlichten Eckpunkten wollen die Arbeitgeber die sogenannte automatische Differenzierung ausweiten. Bei schwacher Rentabilität könnte die vorgeschlagene Einmalzahlung ganz entfallen. Das soll Unternehmen schützen, die unter hohem Kostendruck stehen. Für Beschäftigte bedeutet es im ungünstigen Fall aber, dass selbst die einzige für 2027 vorgesehene Zahlung ausbleibt.
+
+Über Geld hinaus geht es um tarifpolitische Kompetenzen. Die Arbeitgeber schlagen zusätzliche betriebliche Vereinbarungen zur Sicherung von Investitionen, Innovationen, Standorten und Beschäftigung vor. Dazu könnten Verhandlungen unmittelbar mit Betriebsräten gehören. Die Gewerkschaft setzt dagegen auf flächendeckende Regeln und verbindliche Arbeitsplatzsicherung. Ob und wie sich solche Ansätze miteinander verbinden lassen, wird Teil der weiteren Verhandlungen sein.
+
+## Warnstreiks ab November möglich – diese Termine sind entscheidend
+
+Die zweite Verhandlungsrunde läuft am 27. Oktober in mehreren Tarifgebieten, darunter Baden-Württemberg, Bayern, Niedersachsen, Nordrhein-Westfalen, Sachsen und im Tarifgebiet Küste. Weitere Termine folgen am 28. Oktober in der Mittelgruppe und Thüringen sowie am 29. und 30. Oktober in weiteren Regionen. Die <a href="https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro/aktionen-zur-metall-tarifrunde" target="_blank" rel="noopener nofollow">Friedenspflicht endet nach Gewerkschaftsangaben am 31. Oktober</a>. **Vom 1. November an sind Warnstreiks grundsätzlich möglich**, sofern bis dahin keine Verständigung erzielt wird.
+
+Für Autohersteller, Zulieferer, Maschinenbauer und Elektrotechnikunternehmen könnten Arbeitsniederlegungen zusätzliche Planungsschwierigkeiten schaffen. Ob es tatsächlich zu Produktionsausfällen kommt, hängt von Entscheidungen der IG Metall und der Beteiligung in den einzelnen Betrieben ab. Eine konkrete Streikwelle ist zum Zeitpunkt der Veröffentlichung nicht beschlossen. Für Investoren ist vor allem relevant, ob der Tarifkonflikt länger andauert und wie stark ein späterer Abschluss die Personalkosten ab 2027 beziehungsweise 2028 verändert.
+
+## Fazit: Der Tarifkonflikt wird zur Standortfrage
+
+Das erste Arbeitgeberangebot bringt Bewegung in die Metall-Tarifrunde, verkleinert den Abstand zu den Gewerkschaftsforderungen aber kaum. Eine dauerhafte Erhöhung erst im Jahr 2028 und eine möglicherweise ausfallende Einmalzahlung reichen aus Sicht vieler Beschäftigter kaum als Kaufkraftausgleich. Zugleich ist die wirtschaftliche Lage der Betriebe tatsächlich sehr unterschiedlich. Genau darin liegt die Schwierigkeit: Ein Abschluss muss Beschäftigte vor Reallohnverlusten schützen, ohne kriselnde Unternehmen zu überfordern. Ob eine Kombination aus früheren Entgeltschritten, gezielten Ausnahmen und verbindlicher Beschäftigungssicherung möglich ist, bleibt offen. Mit dem Ende der Friedenspflicht steigt jetzt der Druck auf beide Verhandlungsseiten, einen tragfähigen Kompromiss zu finden.
+
+---
+
+## Redaktioneller SEO-Block
+
+### Fünf alternative Überschriften
+
+1. Metall-Tarifrunde 2026: Arbeitgeber bieten nur 1,3 Prozent ab 2028
+2. 3,7 Millionen Beschäftigte betroffen: Warnstreiks in der Metallindustrie drohen
+3. Metallindustrie vor Tarifkonflikt: Warum das neue Lohnangebot brisant ist
+4. Erst 2028 mehr Lohn: IG Metall und Arbeitgeber weit auseinander
+5. Tarifrunde Metall: Einmalzahlung mit Vorbehalt sorgt für Streit
+
+### Neun Fragewort-Bulletpoints
+
+- Warum bieten Metall-Arbeitgeber nur 1,3 Prozent mehr Geld an?
+- Wann soll die dauerhafte Tariferhöhung wirksam werden?
+- Wie hoch ist die Forderung der IG Metall?
+- Welche Beschäftigten sind von der Tarifrunde betroffen?
+- Weshalb könnte die Einmalzahlung 2027 entfallen?
+- Was bedeutet die geplante Laufzeit von 26 Monaten?
+- Wer entscheidet über mögliche Warnstreiks ab November?
+- Wodurch geraten die deutschen Industriebetriebe unter Druck?
+- Wo finden die nächsten Tarifverhandlungen statt?
+
+### Drei Meta-Titles
+
+1. Metall-Tarifrunde: 1,3 Prozent erst ab 2028
+2. IG Metall: Warnstreiks ab November möglich
+3. Metallindustrie: Arbeitgeber legen Tarifangebot vor
+
+### Drei Meta-Descriptions
+
+1. In der Metall-Tarifrunde bieten Arbeitgeber 1,3 Prozent mehr Lohn erst ab 2028. Die IG Metall fordert fünf Prozent. Ab November drohen auch Warnstreiks.
+2. Metallindustrie vor neuen Tarifkonflikten: Arbeitgeber schlagen eine Einmalzahlung 2027 und 1,3 Prozent ab 2028 vor. Was Beschäftigte jetzt wissen sollten.
+3. Rund 3,7 Millionen Beschäftigte sind von der Metall-Tarifrunde betroffen. Warum Arbeitgeber und IG Metall weit auseinanderliegen und wann Streiks möglich sind.
+
+### Quellenbasis
+
+- Gesamtmetall, Pressemitteilung vom 27. Oktober 2026 zum abgestimmten Arbeitgeberangebot.
+- IG Metall, Tarifrunde Metall und Elektro 2026, aktualisiert am 26. Oktober 2026.
+- METALL NRW, Mitgliederumfrage und Standortbewertung vom 23. Oktober 2026.
