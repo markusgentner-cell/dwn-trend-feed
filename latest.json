@@ -1,21 +1,21 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-27T15:09:18.591Z",
+  "captured_at": "2026-10-27T15:39:18.346Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "edeka 5.000+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
+      "text": "edeka 5.000+ arrow_upward 300 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "abfindung 5.000+ arrow_upward 800 % vor 2 Stunden trending_up Aktiv",
+      "text": "bundesrechnungshof 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "bundesrechnungshof 2.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "text": "abfindung 5.000+ arrow_upward 700 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
@@ -23,15 +23,11 @@
       "links": []
     },
     {
-      "text": "baden-württemberg 2.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "text": "boeing 1.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "boeing 1.000+ arrow_upward 1.000 % vor 40 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "amd 500+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
+      "text": "amd 500+ arrow_upward 200 % vor 2 Stunden trending_up Aktiv",
       "links": []
     }
   ],
@@ -49,5 +45,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n27.10.26, 16:09\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nedeka\n\t\n5.000+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nabfindung\n\t\n5.000+\narrow_upward\n800 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbundesrechnungshof\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfeuerwehr dresden\n\t\n2.000+\narrow_upward\n700 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbaden-württemberg\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nboeing\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\namd\n\t\n500+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n27.10.26, 16:39\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nedeka\n\t\n5.000+\narrow_upward\n300 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbundesrechnungshof\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nabfindung\n\t\n5.000+\narrow_upward\n700 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfeuerwehr dresden\n\t\n2.000+\narrow_upward\n700 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nboeing\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\namd\n\t\n500+\narrow_upward\n200 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
