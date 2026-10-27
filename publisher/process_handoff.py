@@ -16,6 +16,19 @@ ARTICLE_PATTERNS = [
 ]
 REGISTER_PATHS = {"processed-trends.json", "processed-press-releases.json"}
 
+
+SOURCE_LINK = re.compile(r'<a\s+href="https?://[^"\s<>]+"\s+target="_blank"\s+rel="noopener nofollow">([^<>\n]+)</a>', re.IGNORECASE)
+
+def validate_source_links(article_content: str):
+    # Require contextual HTML links on source keywords in the editorial body.
+    # A bare URL, Markdown link, or source list alone does not qualify.
+    body = re.split(r"(?m)^## (?:Quellenbasis|Alternative Überschriften|Neugier-Bulletpoints|Meta-Titles|Meta-Descriptions)\s*$", article_content, maxsplit=1)[0]
+    matches = SOURCE_LINK.findall(body)
+    if len(matches) < 2:
+        raise ValueError('article needs at least two source-keyword HTML links: <a href="https://..." target="_blank" rel="noopener nofollow">Keyword</a>')
+    if any(not keyword.strip() or keyword.strip().lower().startswith(("http://", "https://")) for keyword in matches):
+        raise ValueError("source link anchor text must be a meaningful keyword, not a URL")
+
 def allowed_article_path(path: str) -> bool:
     return any(p.match(path) for p in ARTICLE_PATTERNS)
 
@@ -60,6 +73,7 @@ def process_item(item: dict):
         if not allowed_article_path(article_path):
             raise ValueError(f"article_path not allowed: {article_path}")
 
+        validate_source_links(content)
         target = ROOT / article_path
         target.parent.mkdir(parents=True, exist_ok=True)
 
