@@ -2,6 +2,7 @@
 import json
 import re
 import shutil
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -114,9 +115,33 @@ def process_one(path: Path):
     else:
         raise ValueError("unsupported handoff version")
 
+    # Preflight every item in an isolated filesystem first. A rejected second
+    # article must never leave the first article or register changed on disk.
+    global ROOT
+    production_root = ROOT
+    try:
+        with tempfile.TemporaryDirectory(prefix="dwn-handoff-preflight-") as temp:
+            sandbox = Path(temp)
+            for register_name in REGISTER_PATHS:
+                shutil.copy2(production_root / register_name, sandbox / register_name)
+            for item in items:
+                if not isinstance(item, dict):
+                    raise ValueError("each handoff item must be an object")
+                article_path = item.get("article_path", "")
+                if isinstance(article_path, str) and allowed_article_path(article_path):
+                    original = production_root / article_path
+                    if original.exists():
+                        staged = sandbox / article_path
+                        staged.parent.mkdir(parents=True, exist_ok=True)
+                        shutil.copy2(original, staged)
+            ROOT = sandbox
+            for item in items:
+                process_item(item)
+    finally:
+        ROOT = production_root
+
+    # Only apply a fully validated batch to the real working tree.
     for item in items:
-        if not isinstance(item, dict):
-            raise ValueError("each handoff item must be an object")
         process_item(item)
 
     PROCESSED.mkdir(parents=True, exist_ok=True)
