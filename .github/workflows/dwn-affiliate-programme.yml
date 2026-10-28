@@ -1,0 +1,54 @@
+name: DWN Affiliate-Programme
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC window covers 06:00–18:00 Europe/Berlin in winter and summer.
+    - cron: "*/30 4-17 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dwn-affiliate-collection
+  cancel-in-progress: false
+
+jobs:
+  affiliate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Berlin business hours
+        id: window
+        shell: bash
+        run: |
+          hour=$(TZ=Europe/Berlin date +%H)
+          minute=$(TZ=Europe/Berlin date +%M)
+          day=$(TZ=Europe/Berlin date +%u)
+          if [ "$day" -le 5 ] && [ "$hour" -ge 6 ] && [ "$hour" -le 18 ] && { [ "$hour" -ne 18 ] || [ "$minute" -eq 0 ]; }; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "due=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check connector prerequisites
+        if: steps.window.outputs.due == 'true'
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.DWN_GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.DWN_GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.DWN_GMAIL_REFRESH_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        shell: bash
+        run: |
+          missing=0
+          for key in GMAIL_CLIENT_ID GMAIL_CLIENT_SECRET GMAIL_REFRESH_TOKEN OPENAI_API_KEY; do
+            if [ -z "${!key}" ]; then
+              echo "::warning::Missing required secret: $key"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then
+            echo "::error::Affiliate collection not operational: configure credentials and production Gmail processing before activation."
+            exit 1
+          fi
+          echo "::error::Affiliate Gmail processing is not yet deployed. No email was read or published."
+          exit 1
