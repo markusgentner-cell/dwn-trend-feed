@@ -2,8 +2,6 @@ name: DWN Market Agents API
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/10 5-11 * * 1-5'
 
 permissions:
   contents: write
