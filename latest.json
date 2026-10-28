@@ -1,37 +1,46 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-28T10:17:00.442Z",
+  "captured_at": "2026-10-28T10:20:57.547Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "steuer\n10.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "steuer 10.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "gelber sack\n5.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "gelber sack 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "saudi aramco\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "saudi aramco 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "wiek emerytalny\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "wiek emerytalny 2.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "pflegeheim\n2.000+\narrow_upward\n900 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "pflegeheim 2.000+ arrow_upward 900 % vor 3 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "tk accelis\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\ntk accelis aktie"
+      "text": "tk accelis 1.000+ arrow_upward 400 % vor 2 Stunden trending_up Aktiv tk accelis aktie",
+      "links": []
     },
     {
-      "text": "мандарин\n500+\narrow_upward\n200 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "мандарин 500+ arrow_upward 200 % vor 4 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "lohnsteuerfreibetrag\n200+\narrow_upward\n700 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "lohnsteuerfreibetrag 200+ arrow_upward 700 % vor 40 Minuten trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "federal reserve system\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "federal reserve system 200+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     }
   ],
   "links": [
@@ -44,45 +53,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n28.10.26, 11:16\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nsteuer\n10.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\ngelber sack\n5.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nsaudi aramco\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nwiek emerytalny\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\npflegeheim\n2.000+\narrow_upward\n900 %\nvor 3 Stunden\ntrending_up\nAktiv\ntk accelis\n1.000+\narrow_upward\n400 %\nvor 2 Stunden\ntrending_up\nAktiv\ntk accelis aktie\nмандарин\n500+\narrow_upward\n200 %\nvor 3 Stunden\ntrending_up\nAktiv\nlohnsteuerfreibetrag\n200+\narrow_upward\n700 %\nvor 30 Minuten\ntrending_up\nAktiv\nfederal reserve system\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–9 von 9\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n28.10.26, 11:20\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nsteuer\n\t\n10.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngelber sack\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nsaudi aramco\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwiek emerytalny\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\npflegeheim\n\t\n2.000+\narrow_upward\n900 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ntk accelis\n\t\n1.000+\narrow_upward\n400 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\ntk accelis aktie\n\t\n\n\n\t\nмандарин\n\t\n500+\narrow_upward\n200 %\n\t\nvor 4 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nlohnsteuerfreibetrag\n\t\n200+\narrow_upward\n700 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfederal reserve system\n\t\n200+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–9 von 9\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
