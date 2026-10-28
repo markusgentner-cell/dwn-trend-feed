@@ -7,7 +7,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = re.compile(r"^(\d{4}-\d{2}-\d{2})(?:_|$)")
-CATEGORIES = ("agenten", "mail", "trends")
+CATEGORIES = ("agenten", "mail", "trends", "affiliate")
 
 def main():
     today = datetime.now(ZoneInfo("Europe/Berlin")).date()
