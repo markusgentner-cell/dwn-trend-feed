@@ -74,7 +74,24 @@ def main():
         return 0
 
     processed_data = json.loads(REGISTER.read_text(encoding="utf-8"))
-    processed = {str(x.get("trend","")).casefold() for x in processed_data.get("processed",[])}
+    # A topic can be revisited after 12 hours, but never within the cooldown.
+    cutoff = now_berlin() - timedelta(hours=12)
+    processed = set()
+    for entry in processed_data.get("processed", []):
+        name = str(entry.get("trend", "")).strip().casefold()
+        raw_time = entry.get("processed_at")
+        if not name:
+            continue
+        try:
+            stamp = datetime.fromisoformat(str(raw_time).replace("Z", "+00:00"))
+            if stamp.tzinfo is None:
+                stamp = stamp.replace(tzinfo=ZoneInfo("Europe/Berlin"))
+        except (TypeError, ValueError):
+            # Unknown publication time: fail closed, not an automatic repeat.
+            processed.add(name)
+            continue
+        if stamp >= cutoff:
+            processed.add(name)
     rows = []
     for row in latest.get("rows",[]):
         name = trend_name(row.get("text",""))
@@ -94,7 +111,7 @@ Business & Finance, active only, search volume descending.
 Candidate trends in strict descending search-volume order:
 {json.dumps(rows, ensure_ascii=False, indent=2)}
 
-Already processed trend names:
+Trend names still within the 12-hour cooldown (do not select):
 {json.dumps(sorted(processed), ensure_ascii=False)}
 
 Existing DWN trend article filenames in this repository:
@@ -104,7 +121,7 @@ Task:
 - Research the current news situation for candidates using web search.
 - Explicitly search Deutsche Wirtschaftsnachrichten / deutsche-wirtschafts-nachrichten.de for thematic duplicates.
 - Starting from the highest-volume candidate, select up to THREE suitable new DWN topics.
-- Skip processed, irrelevant, unreliable, insufficiently current, or thematically duplicate candidates and move downward.
+- Skip names within the 12-hour cooldown, irrelevant, unreliable, insufficiently current, or thematically duplicate candidates and move downward. A topic older than 12 hours may recur ONLY with a new verifiable development or substantially updated market situation.
 - Preserve candidate priority: do not choose a lower-volume candidate while an unprocessed higher-volume candidate is suitable.
 - Each selected article must be a complete publication-ready German DWN business-news article, factual and current.
 - Use sensible Markdown subheadings in body_markdown, but do not repeat the main headline there.
