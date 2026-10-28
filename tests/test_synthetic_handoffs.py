@@ -56,5 +56,50 @@ class PublisherTests(unittest.TestCase):
             self.assertTrue((root/path).exists())
             self.assertTrue((root/"handoff/processed/test.json").exists())
 
+
+class SchedulingTests(unittest.TestCase):
+    def test_market_catchup_after_noon(self):
+        import sys
+        sys.path.insert(0, str(ROOT/"automation"))
+        agents = load("dwn_agents_synthetic", "automation/agents.py")
+        fake_now = datetime(2026, 10, 28, 15, 30, tzinfo=ZoneInfo("Europe/Berlin"))
+        with patch.object(agents, "now_berlin", return_value=fake_now):
+            self.assertEqual(set(agents.due_names()), {"gold", "bitcoin", "rheinmetall"})
+
+    def test_market_no_weekend_generation(self):
+        import sys
+        sys.path.insert(0, str(ROOT/"automation"))
+        agents = load("dwn_agents_weekend", "automation/agents.py")
+        fake_now = datetime(2026, 10, 31, 15, 30, tzinfo=ZoneInfo("Europe/Berlin"))
+        with patch.object(agents, "now_berlin", return_value=fake_now):
+            self.assertEqual(agents.due_names(), [])
+
+    def test_trend_twelve_hour_cooldown(self):
+        import sys
+        sys.path.insert(0, str(ROOT/"automation"))
+        trends = load("dwn_trends_synthetic", "automation/trends.py")
+        self.assertIn("cutoff = now_berlin() - timedelta(hours=12)", (ROOT/"automation/trends.py").read_text())
+        now = datetime(2026, 10, 28, 15, 0, tzinfo=ZoneInfo("Europe/Berlin"))
+        register = [{"trend":"Testtrend","processed_at":(now-timedelta(hours=13)).isoformat()},
+                    {"trend":"Neuer Trend","processed_at":(now-timedelta(hours=11)).isoformat()}]
+        # Exercise the real candidate-filter path without making external API calls.
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            (root/"latest.json").write_text(json.dumps({"ok":True,"captured_at":now.astimezone(ZoneInfo("UTC")).isoformat(),
+                "final_url":"https://trends.google.com/?geo=DE&hours=4&category=3&status=active&sort=search-volume",
+                "body_text":"Deutschland","rows":[{"text":"Testtrend 1000+"},{"text":"Neuer Trend 900+"}]}))
+            (root/"processed-trends.json").write_text(json.dumps({"processed":register}))
+            (root/"articles/trends").mkdir(parents=True)
+            captured=[]
+            class SyntheticStop(Exception): pass
+            def fake_openai(prompt, *args, **kwargs):
+                captured.append(prompt)
+                raise SyntheticStop()
+            with patch.object(trends,"ROOT",root),patch.object(trends,"LATEST",root/"latest.json"),patch.object(trends,"REGISTER",root/"processed-trends.json"),patch.object(trends,"ARTICLES",root/"articles/trends"),patch.object(trends,"now_berlin",return_value=now),patch.object(trends,"call_openai",side_effect=fake_openai),patch.object(trends,"verify_latest",return_value=[]):
+                with self.assertRaises(SyntheticStop):
+                    trends.main()
+            self.assertIn('"trend": "Testtrend"', captured[0])
+            self.assertNotIn('"trend": "Neuer Trend"', captured[0].split("Candidate trends in strict descending search-volume order:")[1].split("Trend names still within")[0])
+
 if __name__=="__main__":
     unittest.main()
