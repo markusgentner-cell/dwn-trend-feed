@@ -2,9 +2,9 @@ name: DWN Affiliate-Programme
 
 on:
   workflow_dispatch:
-  schedule:
-    # UTC window covers 06:00–18:00 Europe/Berlin in winter and summer.
-    - cron: "*/30 4-17 * * 1-5"
+  # Activate schedule after Gmail OAuth and article generation are deployed:
+  # schedule:
+  #   - cron: "*/30 4-17 * * 1-5"
 
 permissions:
   contents: write
