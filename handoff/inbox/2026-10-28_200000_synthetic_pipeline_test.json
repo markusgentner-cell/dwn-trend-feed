@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "article_path": "articles/trends/2026-10-28_2000_dwn-synthetischer-pipeline-test.md",
+      "article_content": "# [SYNTHETISCHER TEST – KEINE NACHRICHT] DWN-Pipelineprüfung\n\n**NICHT VERÖFFENTLICHEN: FIKTIVER TESTARTIKEL.** Dieser Text enthält keine realen Behauptungen. Testquelle <a href=\"https://www.bundesbank.de/\" target=\"_blank\" rel=\"noopener nofollow\">Bundesbank</a> und Testquelle <a href=\"https://www.destatis.de/\" target=\"_blank\" rel=\"noopener nofollow\">Destatis</a> dienen nur zur technischen Validierung.\n\n## Testabschluss\n\nAusschließlich synthetischer Testinhalt.",
+      "register": {
+        "path": "processed-trends.json",
+        "entry": {
+          "trend": "DWN SYNTHETISCHER PIPELINE TEST 2026-10-28",
+          "article_path": "articles/trends/2026-10-28_2000_dwn-synthetischer-pipeline-test.md",
+          "processed_at": "2026-10-28T20:00:00+01:00",
+          "synthetic_test": true
+        }
+      }
+    }
+  ]
+}
