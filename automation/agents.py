@@ -42,7 +42,7 @@ SCHEMA = {
 
 def due_names():
     now = now_berlin()
-    if now.weekday() >= 5 or now.hour >= 12:
+    if now.weekday() >= 5:
         return []
     return [name for name,cfg in AGENTS.items() if (now.hour * 60 + now.minute) >= (cfg["hour"] * 60 + cfg["minute"])]
 
