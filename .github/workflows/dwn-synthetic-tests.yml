@@ -1,0 +1,24 @@
+name: DWN Synthetic Regression Tests
+
+on:
+  push:
+    paths:
+      - "publisher/process_handoff.py"
+      - "automation/agents.py"
+      - "automation/trends.py"
+      - "tests/test_synthetic_handoffs.py"
+      - ".github/workflows/dwn-synthetic-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile changed Python files
+        run: python3 -m py_compile publisher/process_handoff.py automation/agents.py automation/trends.py
+      - name: Run isolated synthetic handoff tests
+        run: python3 -m unittest discover -s tests -p 'test_synthetic_handoffs.py' -v
