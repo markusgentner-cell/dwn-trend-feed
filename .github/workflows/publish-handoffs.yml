@@ -35,7 +35,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add articles processed-trends.json processed-press-releases.json handoff
+          git add articles processed-trends.json processed-press-releases.json processed-affiliate-emails.json handoff
           git commit -m "Publish DWN handoff"
           git pull --rebase origin main
           git push origin HEAD:main
