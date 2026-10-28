@@ -50,5 +50,28 @@ jobs:
             echo "::error::Affiliate collection not operational: configure credentials and production Gmail processing before activation."
             exit 1
           fi
-          echo "::error::Affiliate Gmail processing is not yet deployed. No email was read or published."
-          exit 1
+          echo "OAuth prerequisites present."
+      - name: Generate affiliate handoffs
+        if: steps.window.outputs.due == 'true'
+        env:
+          DWN_GMAIL_CLIENT_ID: ${{ secrets.DWN_GMAIL_CLIENT_ID }}
+          DWN_GMAIL_CLIENT_SECRET: ${{ secrets.DWN_GMAIL_CLIENT_SECRET }}
+          DWN_GMAIL_REFRESH_TOKEN: ${{ secrets.DWN_GMAIL_REFRESH_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5.6-sol
+        run: python3 automation/affiliate.py --scheduled
+
+      - name: Commit handoffs and update requests
+        if: steps.window.outputs.due == 'true'
+        shell: bash
+        run: |
+          git add handoff/inbox affiliate-update-requests.json
+          if git diff --cached --quiet; then
+            echo "No affiliate handoffs or update requests."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Queue DWN affiliate handoffs"
+          git pull --rebase origin main
+          git push origin HEAD:main
