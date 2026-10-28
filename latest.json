@@ -1,38 +1,40 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-28T10:50:59.851Z",
+  "captured_at": "2026-10-28T11:11:56.619Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "gelber sack 10.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
-      "links": []
+      "text": "gelber sack\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "wiek emerytalny 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv emerytura",
-      "links": []
+      "text": "steuer\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "tk accelis 2.000+ arrow_upward 400 % vor 2 Stunden trending_up Aktiv tk accelis aktie",
-      "links": []
+      "text": "konstanz\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "lohnsteuerfreibetrag 500+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
-      "links": []
+      "text": "wiek emerytalny\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nemerytura"
     },
     {
-      "text": "witten 500+ arrow_upward 800 % vor 30 Minuten trending_up Aktiv",
-      "links": []
+      "text": "tk accelis\n2.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv\ntk accelis aktie"
     },
     {
-      "text": "federal reserve system 200+ arrow_upward 200 % vor 2 Stunden trending_up Aktiv",
-      "links": []
+      "text": "lohnsteuerfreibetrag\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "basf aktie 200+ arrow_upward 75 % vor 2 Stunden trending_up Aktiv",
-      "links": []
+      "text": "witten\n500+\narrow_upward\n900 %\nvor 50 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "aktienwelt360\n500+\narrow_upward\n200 %\nvor 10 Minuten\ntrending_up\nAktiv"
+    },
+    {
+      "text": "discover airlines-airbus a330\n200+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv"
+    },
+    {
+      "text": "btc-echo\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -45,9 +47,45 @@
       "href": "https://trends.google.de/home"
     },
     {
+      "text": "",
+      "href": "https://www.google.com/intl/de/about/products"
+    },
+    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    },
+    {
+      "text": "",
+      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
+    },
+    {
+      "text": "",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "Datenschutz",
+      "href": "https://policies.google.com/privacy?hl=de"
+    },
+    {
+      "text": "Nutzungsbedingungen",
+      "href": "https://policies.google.com/terms?hl=de"
+    },
+    {
+      "text": "Feedback geben",
+      "href": ""
+    },
+    {
+      "text": "Info",
+      "href": "https://about.google/?hl=de"
+    },
+    {
+      "text": "help\nHilfe",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "",
+      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n28.10.26, 11:50\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\ngelber sack\n\t\n10.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwiek emerytalny\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\nemerytura\n\t\n\n\n\t\ntk accelis\n\t\n2.000+\narrow_upward\n400 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\ntk accelis aktie\n\t\n\n\n\t\nlohnsteuerfreibetrag\n\t\n500+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwitten\n\t\n500+\narrow_upward\n800 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfederal reserve system\n\t\n200+\narrow_upward\n200 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbasf aktie\n\t\n200+\narrow_upward\n75 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n28.10.26, 12:11\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ngelber sack\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nsteuer\n10.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nkonstanz\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nwiek emerytalny\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nemerytura\ntk accelis\n2.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv\ntk accelis aktie\nlohnsteuerfreibetrag\n1.000+\narrow_upward\n900 %\nvor 1 Stunde\ntrending_up\nAktiv\nwitten\n500+\narrow_upward\n900 %\nvor 50 Minuten\ntrending_up\nAktiv\naktienwelt360\n500+\narrow_upward\n200 %\nvor 10 Minuten\ntrending_up\nAktiv\ndiscover airlines-airbus a330\n200+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv\nbtc-echo\n200+\narrow_upward\n300 %\nvor 10 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–10 von 10\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
