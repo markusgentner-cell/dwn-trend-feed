@@ -11,10 +11,11 @@ REJECTED = ROOT / "handoff" / "rejected"
 
 ARTICLE_PATTERNS = [
     re.compile(r"^articles/trends/\d{4}-\d{2}-\d{2}_\d{4}_[a-z0-9-]+\.md$"),
+    re.compile(r"^articles/affiliate/\d{4}-\d{2}-\d{2}_\d{4}_[a-z0-9-]+\.md$"),
     re.compile(r"^articles/mail/\d{4}-\d{2}-\d{2}_\d{4}_[a-z0-9-]+\.md$"),
     re.compile(r"^articles/agenten/\d{4}-\d{2}-\d{2}_\d{4}_(goldpreis|bitcoin-kurs|rheinmetall-aktie)\.md$"),
 ]
-REGISTER_PATHS = {"processed-trends.json", "processed-press-releases.json"}
+REGISTER_PATHS = {"processed-trends.json", "processed-press-releases.json", "processed-affiliate-emails.json"}
 
 
 SOURCE_LINK = re.compile(r'<a\s+href="https?://[^"\s<>]+"\s+target="_blank"\s+rel="noopener nofollow">([^<>\n]+)</a>', re.IGNORECASE)
@@ -59,6 +60,9 @@ def append_register(register_path: str, entry: dict):
         if gmail_id and any(item.get("gmail_message_id") == gmail_id for item in processed):
             return
 
+    if register_path == "processed-affiliate-emails.json":
+        if not entry.get("gmail_message_id") or not entry.get("article_path"):
+            raise ValueError("affiliate register requires gmail_message_id and article_path")
     processed.append(entry)
     save_json(path, data)
 
