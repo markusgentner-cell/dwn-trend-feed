@@ -1,38 +1,34 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-29T10:00:07.832Z",
+  "captured_at": "2026-10-29T10:18:40.638Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "vw aktie 5.000+ arrow_upward 400 % vor 3 Stunden trending_up Aktiv vw verlust vw volkswagen aktie",
-      "links": []
+      "text": "vw aktie\n5.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv\nvw verlust\nvw\nvolkswagen aktie"
     },
     {
-      "text": "abfindung 5.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
-      "links": []
+      "text": "abfindung\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "stability stacking bedeutung 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
-      "links": []
+      "text": "stability stacking bedeutung\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "tuttlingen 1.000+ arrow_upward 600 % vor 40 Minuten trending_up Aktiv",
-      "links": []
+      "text": "tuttlingen\n1.000+\narrow_upward\n800 %\nvor 50 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "vonovia aktie 500+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
-      "links": []
+      "text": "michael stoschek\n500+\narrow_upward\n700 %\nvor 30 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "michael stoschek 200+ arrow_upward 300 % vor 20 Minuten trending_up Aktiv",
-      "links": []
+      "text": "vonovia aktie\n500+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "ezb zinsentscheid 200+ arrow_upward 200 % vor 2 Stunden trending_up Aktiv",
-      "links": []
+      "text": "ezb zinsentscheid\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "t-online.de\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -45,9 +41,45 @@
       "href": "https://trends.google.de/home"
     },
     {
+      "text": "",
+      "href": "https://www.google.com/intl/de/about/products"
+    },
+    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    },
+    {
+      "text": "",
+      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
+    },
+    {
+      "text": "",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "Datenschutz",
+      "href": "https://policies.google.com/privacy?hl=de"
+    },
+    {
+      "text": "Nutzungsbedingungen",
+      "href": "https://policies.google.com/terms?hl=de"
+    },
+    {
+      "text": "Feedback geben",
+      "href": ""
+    },
+    {
+      "text": "Info",
+      "href": "https://about.google/?hl=de"
+    },
+    {
+      "text": "help\nHilfe",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "",
+      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n29.10.26, 10:59\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nvw aktie\n\t\n5.000+\narrow_upward\n400 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\nvw verlust\nvw\nvolkswagen aktie\n\t\n\n\n\t\nabfindung\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nstability stacking bedeutung\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ntuttlingen\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nvonovia aktie\n\t\n500+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmichael stoschek\n\t\n200+\narrow_upward\n300 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nezb zinsentscheid\n\t\n200+\narrow_upward\n200 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n29.10.26, 11:18\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nvw aktie\n5.000+\narrow_upward\n400 %\nvor 3 Stunden\ntrending_up\nAktiv\nvw verlust\nvw\nvolkswagen aktie\nabfindung\n5.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nstability stacking bedeutung\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\ntuttlingen\n1.000+\narrow_upward\n800 %\nvor 50 Minuten\ntrending_up\nAktiv\nmichael stoschek\n500+\narrow_upward\n700 %\nvor 30 Minuten\ntrending_up\nAktiv\nvonovia aktie\n500+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nezb zinsentscheid\n500+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nt-online.de\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–8 von 8\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
