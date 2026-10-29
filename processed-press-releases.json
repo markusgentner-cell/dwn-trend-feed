@@ -123,6 +123,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-10-29_0832_kfw-startgeld-gruenderkredite-bankenklemme.md",
       "processed_at": "2026-10-29T08:32:00+01:00"
+    },
+    {
+      "gmail_message_id": "1a1867ed14d23fde",
+      "subject": "Integrierte kommunale Schulden steigen im Jahr 2025 um 9,9 %",
+      "status": "processed",
+      "article_path": "articles/mail/2026-10-29_0903_kommunalschulden-2025-rekord-kassenlage.md",
+      "processed_at": "2026-10-29T09:03:01+01:00"
     }
   ]
 }
