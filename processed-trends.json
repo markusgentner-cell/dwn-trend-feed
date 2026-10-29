@@ -206,6 +206,11 @@
       "trend": "totalenergies",
       "article_path": "articles/trends/2026-10-29_1312_totalenergies-q3-2026-gewinn-diesel-energiemarkt.md",
       "processed_at": "2026-10-29T13:12:23+01:00"
+    },
+    {
+      "trend": "EZB-Zinsentscheid",
+      "article_path": "articles/trends/2026-10-29_1422_ezb-zinsentscheid-zinspause-energiepreise-2026.md",
+      "processed_at": "2026-10-29T14:22:26+01:00"
     }
   ]
 }
