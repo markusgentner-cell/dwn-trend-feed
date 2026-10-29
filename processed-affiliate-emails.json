@@ -1,3 +1,11 @@
 {
-  "processed": []
+  "processed": [
+    {
+      "gmail_message_id": "1a163d696009ccab",
+      "article_path": "articles/affiliate/2026-10-29_1230_norisbank-200-euro-girokonto-praemie.md",
+      "processed_at": "2026-10-29T12:20:00+01:00",
+      "provider": "norisbank",
+      "topic": "200 Euro Girokonto-Willkommenspraemie und Tagesgeld"
+    }
+  ]
 }
