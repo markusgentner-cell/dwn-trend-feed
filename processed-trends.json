@@ -226,6 +226,11 @@
       "trend": "tkms",
       "article_path": "articles/trends/2026-10-30_0910_tkms-aktie-89-euro-auftragspotenzial-indien-2026.md",
       "processed_at": "2026-10-30T09:10:28+01:00"
+    },
+    {
+      "trend": "wirtschaft deutschlands",
+      "article_path": "articles/trends/2026-10-30_1308_deutsche-wirtschaft-bip-q3-2026-investitionen-preisdruck.md",
+      "processed_at": "2026-10-30T13:08:45+01:00"
     }
   ]
 }
