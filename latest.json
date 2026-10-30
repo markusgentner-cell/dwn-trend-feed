@@ -1,57 +1,7 @@
 {
-  "ok": true,
-  "status": "fresh",
-  "captured_at": "2026-10-30T08:00:27.185Z",
+  "ok": false,
+  "status": "collector_error",
+  "captured_at": "2026-10-30T08:30:21.810Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "page_title": "Aktuelle Trends – Google Trends",
-  "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "rows": [
-    {
-      "text": "alphabet inc. 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv parent",
-      "links": []
-    },
-    {
-      "text": "tkms 2.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "einkommen 1.000+ arrow_upward 900 % vor 3 Stunden trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "itzehoe 1.000+ arrow_upward 800 % vor 2 Stunden trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "silber 1.000+ arrow_upward 600 % vor 3 Stunden trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "goldpreis prognose 500+ arrow_upward 600 % vor 3 Stunden trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "bayer aktie 200+ arrow_upward 100 % vor 40 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "btc usd 200+ arrow_upward 200 % vor 3 Stunden trending_up Aktiv",
-      "links": []
-    }
-  ],
-  "links": [
-    {
-      "text": "",
-      "href": "https://trends.google.de/home"
-    },
-    {
-      "text": "Trends",
-      "href": "https://trends.google.de/home"
-    },
-    {
-      "text": "Anmelden",
-      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    }
-  ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n30.10.26, 09:00\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nalphabet inc.\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\nparent\n\t\n\n\n\t\ntkms\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\neinkommen\n\t\n1.000+\narrow_upward\n900 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nitzehoe\n\t\n1.000+\narrow_upward\n800 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nsilber\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngoldpreis prognose\n\t\n500+\narrow_upward\n600 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbayer aktie\n\t\n200+\narrow_upward\n100 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbtc usd\n\t\n200+\narrow_upward\n200 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–8 von 8\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "error": "Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume\nCall log:\n\u001b[2m  - navigating to \"https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume\", waiting until \"domcontentloaded\"\u001b[22m\n"
 }
