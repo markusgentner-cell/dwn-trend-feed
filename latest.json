@@ -1,37 +1,41 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-10-30T13:30:56.496Z",
+  "captured_at": "2026-10-30T14:00:00.846Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "aktie 5.000+ arrow_upward 1.000 % vor 40 Minuten trending_up Aktiv",
+      "text": "rentner 20.000+ arrow_upward 600 % vor 20 Minuten trending_up Aktiv",
       "links": []
     },
     {
-      "text": "binance hackerangriff 2.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
+      "text": "binance hackerangriff 5.000+ arrow_upward 1.000 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "pünktlichkeit 1.000+ arrow_upward 600 % vor 3 Stunden trending_up Aktiv",
+      "text": "aktie 5.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "glyphosat 1.000+ arrow_upward 300 % vor 3 Stunden trending_up Aktiv",
+      "text": "schnitzel 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "wirtschaft deutschlands 500+ arrow_upward 600 % vor 2 Stunden trending_up Aktiv",
+      "text": "pünktlichkeit 1.000+ arrow_upward 500 % vor 3 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "tim clark 500+ arrow_upward 400 % vor 2 Stunden trending_up Aktiv",
+      "text": "wirtschaft deutschlands 1.000+ arrow_upward 500 % vor 2 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "chengdu j-20 200+ arrow_upward 300 % vor 50 Minuten trending_up Aktiv",
+      "text": "tim clark 1.000+ arrow_upward 400 % vor 2 Stunden trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "chengdu j-20 500+ arrow_upward 300 % vor 1 Stunde trending_up Aktiv",
       "links": []
     }
   ],
@@ -49,5 +53,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n30.10.26, 14:30\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\naktie\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbinance hackerangriff\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\npünktlichkeit\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nglyphosat\n\t\n1.000+\narrow_upward\n300 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwirtschaft deutschlands\n\t\n500+\narrow_upward\n600 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ntim clark\n\t\n500+\narrow_upward\n400 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nchengdu j-20\n\t\n200+\narrow_upward\n300 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n30.10.26, 14:59\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nrentner\n\t\n20.000+\narrow_upward\n600 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbinance hackerangriff\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\naktie\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nschnitzel\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\npünktlichkeit\n\t\n1.000+\narrow_upward\n500 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwirtschaft deutschlands\n\t\n1.000+\narrow_upward\n500 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ntim clark\n\t\n1.000+\narrow_upward\n400 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nchengdu j-20\n\t\n500+\narrow_upward\n300 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–8 von 8\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
