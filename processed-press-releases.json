@@ -130,6 +130,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-10-29_0903_kommunalschulden-2025-rekord-kassenlage.md",
       "processed_at": "2026-10-29T09:03:01+01:00"
+    },
+    {
+      "gmail_message_id": "1a18cea2929a5289",
+      "subject": "Inflationsrate im Oktober 2026 voraussichtlich +2,8 %",
+      "status": "rejected",
+      "reason": "Bereits am 30.10.2026 um 15:08 Uhr auf DWN unter 'Tankrabatt dämpft Inflation – aber noch keine Entwarnung' thematisch veröffentlicht; Doppelartikel vermeiden.",
+      "reviewed_at": "2026-10-30T15:51:34+01:00"
     }
   ]
 }
