@@ -137,6 +137,13 @@
       "status": "rejected",
       "reason": "Bereits am 30.10.2026 um 15:08 Uhr auf DWN unter 'Tankrabatt dämpft Inflation – aber noch keine Entwarnung' thematisch veröffentlicht; Doppelartikel vermeiden.",
       "reviewed_at": "2026-10-30T15:51:34+01:00"
+    },
+    {
+      "gmail_message_id": "1a18bd3186f6325a",
+      "subject": "RWI/ISL-Containerumschlag-Index: Kräftiger Anstieg im September verdeckt Risiken",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-02_0804_welthandel-container-china-energie.md",
+      "processed_at": "2026-11-02T08:04:00+01:00"
     }
   ]
 }
