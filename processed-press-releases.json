@@ -179,6 +179,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-03_1504_demant-kind-hoerakustik-950-filialen.md",
       "processed_at": "2026-11-03T15:04:13+01:00"
+    },
+    {
+      "gmail_message_id": "1a19c2206e3d844e",
+      "subject": "Policy Brief Nachhaltige Soziale Marktwirtschaft 05 | 2026: Weiterbildung in Deutschland",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-03_1600_weiterbildung-reformstau-fachkraefte-mittelstand.md",
+      "processed_at": "2026-11-03T16:00:49+01:00"
     }
   ]
 }
