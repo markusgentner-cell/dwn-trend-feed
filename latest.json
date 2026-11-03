@@ -1,7 +1,79 @@
 {
-  "ok": false,
-  "status": "collector_error",
-  "captured_at": "2026-11-03T17:17:58.229Z",
+  "ok": true,
+  "status": "fresh",
+  "captured_at": "2026-11-03T19:50:53.439Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "Error: Filter was not applied: Nur aktive Trends anzeigen. Visible text: Trends | Startseite | Entdecken | Aktuelle Trends | maps | Anmelden | Aktuelle Trends – Google Trends | location_on | Deutschland | calendar_month | Letzte 4 Stunden | category | Wirtschaft und Finanzen | grid_3x3 | Alle Trends | sort | Nach Relevanz | ios_share | Exportieren | search | Suchtrends | Angesagt | Nach Titel sortieren | Suchvolumen | Nach Suchvolumen sortieren | Gestartet | Nach aktuellstem Datum sortieren | info | Trendaufschlüsselung | info | Letzte 24 Stunden | galatasaray – vfb stuttgart | 20.000+ | arrow_upward | 1.000 % | vor 20 Minuten | trending_up | Aktiv | galatasaray vs vfb stuttgart | vfb galatasaray | + 1 weitere | bombendrohung | 10.000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | christian de massy | 5000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | zugspitze bergrettung | 2000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | galatasaray stuttgart | 2000+ | arrow_upward | 800 % | vor 3 Stunden | trending_up | Aktiv | galatasaray stuttgart hangi kanalda | stuttgart galatasaray | boris palmer | 5000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | palmer | boris palmer vorwürfe | jesus miguel andorra | 2000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | galatasaray - stuttgart | 2000+ | arrow_upward | 1.000 % | vor 20 Minuten | trending_up | Aktiv | fürst | 5000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | antoine de massy todesursache | the rookie | 2000+ | arrow_upward | 800 % | vor 2 Stunden | trending_up | Aktiv | arbeitgeber | 1000+ | arrow_upward | 700 % | vor 2 Stunden | trending_up | Aktiv | lea wagner | 1000+ | arrow_upward | 1.000 %"
+  "page_title": "Aktuelle Trends – Google Trends",
+  "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
+  "rows": [
+    {
+      "text": "toilettenpapier\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "autozulieferer schäffler\n1.000+\narrow_upward\n800 %\nvor 1 Stunde\ntrending_up\nAktiv"
+    },
+    {
+      "text": "hyperos\n1.000+\narrow_upward\n600 %\nvor 2 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "bill ackman\n500+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv"
+    },
+    {
+      "text": "deutsche marine\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv"
+    },
+    {
+      "text": "gaskraftwerk\n200+\narrow_upward\n100 %\nvor 40 Minuten\ntrending_up\nAktiv"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Trends",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "",
+      "href": "https://www.google.com/intl/de/about/products"
+    },
+    {
+      "text": "Anmelden",
+      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    },
+    {
+      "text": "",
+      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
+    },
+    {
+      "text": "",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "Datenschutz",
+      "href": "https://policies.google.com/privacy?hl=de"
+    },
+    {
+      "text": "Nutzungsbedingungen",
+      "href": "https://policies.google.com/terms?hl=de"
+    },
+    {
+      "text": "Feedback geben",
+      "href": ""
+    },
+    {
+      "text": "Info",
+      "href": "https://about.google/?hl=de"
+    },
+    {
+      "text": "help\nHilfe",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "",
+      "href": "https://policies.google.com/technologies/cookies"
+    }
+  ],
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n03.11.26, 20:50\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\ntoilettenpapier\n2.000+\narrow_upward\n1.000 %\nvor 3 Stunden\ntrending_up\nAktiv\nautozulieferer schäffler\n1.000+\narrow_upward\n800 %\nvor 1 Stunde\ntrending_up\nAktiv\nhyperos\n1.000+\narrow_upward\n600 %\nvor 2 Stunden\ntrending_up\nAktiv\nbill ackman\n500+\narrow_upward\n300 %\nvor 2 Stunden\ntrending_up\nAktiv\ndeutsche marine\n200+\narrow_upward\n200 %\nvor 1 Stunde\ntrending_up\nAktiv\ngaskraftwerk\n200+\narrow_upward\n100 %\nvor 40 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
