@@ -1,7 +1,7 @@
 {
   "ok": false,
   "status": "collector_error",
-  "captured_at": "2026-11-03T15:48:03.623Z",
+  "captured_at": "2026-11-03T16:18:32.034Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "Error: Filter was not applied: Suchvolumen. Visible text: Trends | Startseite | Entdecken | Aktuelle Trends | Anmelden | Aktuelle Trends – Google Trends | location_on | Deutschland | calendar_month | Letzte 4 Stunden | category | Wirtschaft und Finanzen | grid_3x3 | Nur aktive Trends | sort | Nach Suchvolumen | ios_share | Exportieren | Nach Suchvolumen sortiert, absteigend | search | Suchtrends | Angesagt | Nach Titel sortieren | · | 03.11.26, 16:47 | Suchvolumen | Nach Suchvolumen sortieren | Gestartet | Nach aktuellstem Datum sortieren | info | Trendaufschlüsselung | info | Letzte 4 Stunden | arbeitgeber | 200+ | arrow_upward | 500 % | vor 40 Minuten | trending_up | Aktiv | Zeilen pro Seite | 25 | 1–1 von 1 | Zur ersten Seite | Zur vorherigen Seite | Zur nächsten Seite | Zur letzten Seite | Datenschutz | Nutzungsbedingungen | Feedback geben | Info | help | Hilfe | language | Deutsch | Sortieren nach | Titel | Suchvolumen | Aktualität | Relevanz | Wichtige und aktuelle Trends"
+  "error": "Error: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume\nCall log:\n\u001b[2m  - navigating to \"https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume\", waiting until \"domcontentloaded\"\u001b[22m\n"
 }
