@@ -158,6 +158,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-03_1203_importpreise-energie-metalle-kostenschock.md",
       "processed_at": "2026-11-03T12:03:16+01:00"
+    },
+    {
+      "gmail_message_id": "1a19b1edcbee6f6e",
+      "subject": "Ein Jahr Bau-Turbo: Bauen wird nur günstiger, wenn weitere staatliche Kosten sinken",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-03_1302_bau-turbo-jahresbilanz-baukosten.md",
+      "processed_at": "2026-11-03T13:02:14+01:00"
     }
   ]
 }
