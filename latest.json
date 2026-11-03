@@ -1,7 +1,33 @@
 {
-  "ok": false,
-  "status": "collector_error",
-  "captured_at": "2026-11-03T16:18:32.034Z",
+  "ok": true,
+  "status": "fresh",
+  "captured_at": "2026-11-03T16:48:15.321Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "Error: page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume\nCall log:\n\u001b[2m  - navigating to \"https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  "page_title": "Aktuelle Trends – Google Trends",
+  "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
+  "rows": [
+    {
+      "text": "arbeitgeber 1.000+ arrow_upward 800 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "toilettenpapier 500+ arrow_upward 700 % vor 40 Minuten trending_up Aktiv",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Trends",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Anmelden",
+      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    }
+  ],
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n03.11.26, 17:48\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\narbeitgeber\n\t\n1.000+\narrow_upward\n800 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ntoilettenpapier\n\t\n500+\narrow_upward\n700 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
