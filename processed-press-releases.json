@@ -144,6 +144,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-02_0804_welthandel-container-china-energie.md",
       "processed_at": "2026-11-02T08:04:00+01:00"
+    },
+    {
+      "gmail_message_id": "1a19b13ff9f4a51a",
+      "subject": "Einzelhandelsumsatz im September 2026 real um 2,0 % niedriger als...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-03_1142_einzelhandel-september-umsatzeinbruch-onlinehandel.md",
+      "processed_at": "2026-11-03T11:42:00+01:00"
     }
   ]
 }
