@@ -165,6 +165,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-03_1302_bau-turbo-jahresbilanz-baukosten.md",
       "processed_at": "2026-11-03T13:02:14+01:00"
+    },
+    {
+      "gmail_message_id": "1a19b7ecb169962a",
+      "subject": "KfW Research: Stimmung im Mittelstand steigt zum sechsten Mal in Folge",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-03_1402_mittelstand-kfw-stimmung-jobs-konjunktur.md",
+      "processed_at": "2026-11-03T14:02:34+01:00"
     }
   ]
 }
