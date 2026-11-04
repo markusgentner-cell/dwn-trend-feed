@@ -193,6 +193,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-04_0606_pwc-deutschland-wirtschaftspruefung-ki-beratung.md",
       "processed_at": "2026-11-04T06:06:40+01:00"
+    },
+    {
+      "gmail_message_id": "1a1a03a01894c24f",
+      "subject": "Produktion von Nahrungsergänzungsmitteln seit 2019 um 48,4 % gestiegen",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-04_0708_nahrungsergaenzungsmittel-produktion-rekord-2-milliarden.md",
+      "processed_at": "2026-11-04T07:08:00+01:00"
     }
   ]
 }
