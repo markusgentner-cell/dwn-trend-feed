@@ -186,6 +186,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-03_1600_weiterbildung-reformstau-fachkraefte-mittelstand.md",
       "processed_at": "2026-11-03T16:00:49+01:00"
+    },
+    {
+      "gmail_message_id": "1a1a1fb61e666a0c",
+      "subject": "PwC Deutschland wächst um 4,2 Prozent – Investitionen in Qualität, Technologie und Qualifizierung",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-04_0606_pwc-deutschland-wirtschaftspruefung-ki-beratung.md",
+      "processed_at": "2026-11-04T06:06:40+01:00"
     }
   ]
 }
