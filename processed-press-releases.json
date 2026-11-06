@@ -200,6 +200,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-04_0708_nahrungsergaenzungsmittel-produktion-rekord-2-milliarden.md",
       "processed_at": "2026-11-04T07:08:00+01:00"
+    },
+    {
+      "gmail_message_id": "1a1afad534cc04b6",
+      "subject": "Produktion im September 2026: +0,7 % zum Vormonat / Produktion in...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-06_1218_industrieproduktion-auftragseingang-september.md",
+      "processed_at": "2026-11-06T12:18:00+01:00"
     }
   ]
 }
