@@ -1,28 +1,34 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-11-06T12:45:14.385Z",
+  "captured_at": "2026-11-06T12:45:18.978Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "zur mühlen gruppe\n2.000+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv\nzur-mühlen-gruppe"
+      "text": "zur mühlen gruppe 2.000+ arrow_upward 1.000 % vor 30 Minuten trending_up Aktiv zur-mühlen-gruppe",
+      "links": []
     },
     {
-      "text": "dkb\n2.000+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "dkb 2.000+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "elektromobilität\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "elektromobilität 2.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "volkswagen financial services\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "volkswagen financial services 1.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "t-online nachrichten\n200+\narrow_upward\n300 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "t-online nachrichten 200+ arrow_upward 300 % vor 40 Minuten trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "raumschiff\n200+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "raumschiff 200+ arrow_upward 300 % vor 30 Minuten trending_up Aktiv",
+      "links": []
     }
   ],
   "links": [
@@ -35,45 +41,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n06.11.26, 13:45\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nzur mühlen gruppe\n2.000+\narrow_upward\n1.000 %\nvor 30 Minuten\ntrending_up\nAktiv\nzur-mühlen-gruppe\ndkb\n2.000+\narrow_upward\n400 %\nvor 1 Stunde\ntrending_up\nAktiv\nelektromobilität\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nvolkswagen financial services\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nt-online nachrichten\n200+\narrow_upward\n300 %\nvor 40 Minuten\ntrending_up\nAktiv\nraumschiff\n200+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n06.11.26, 13:45\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nzur mühlen gruppe\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\nzur-mühlen-gruppe\n\t\n\n\n\t\ndkb\n\t\n2.000+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nelektromobilität\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nvolkswagen financial services\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nt-online nachrichten\n\t\n200+\narrow_upward\n300 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nraumschiff\n\t\n200+\narrow_upward\n300 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
