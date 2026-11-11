@@ -1,0 +1,87 @@
+# BASF: Polyisobuten ab 2027 mit Grünstrom – was hinter der Umstellung steckt
+
+BASF will seine in Europa für externe Kunden hergestellten Polyisobutene ab Januar 2027 bilanziell vollständig mit Strom aus erneuerbaren Energien produzieren. Die Ankündigung betrifft einen wichtigen Rohstoff für Industrie und Verbraucherprodukte – doch sie gilt nicht für die gesamte Chemieproduktion. Für Unternehmen und Anleger sind die Details entscheidend.
+
+**Metadaten:** 11.11.2026 | Ressort: Wirtschaft und Finanzen | Trend: basf | Schwerpunkt: Erneuerbare Energien und Polyisobutene
+
+## BASF setzt für zwei Produktlinien auf erneuerbaren Strom
+
+BASF stellt für sein europäisches Polyisobuten-Geschäft einen neuen Standard in Aussicht. Ab Januar 2027 sollen alle für externe Kunden bestimmten europäischen Mengen der Marken Oppanol B und Glissopal auf Strom aus erneuerbaren Energien umgestellt sein. Das geht aus der <a href="https://www.basf.com/global/de/media/news-releases/2026/11/p-26-189" target="_blank" rel="noopener nofollow">BASF-Mitteilung vom 10. November 2026</a> hervor.
+
+Der Umfang ist klar begrenzt: Die Zusage bezieht sich auf das genannte Polyisobuten-Portfolio für externe Abnehmer. Mengen, die BASF selbst weiterverarbeitet, sind nach der Fußnote der Mitteilung ausdrücklich ausgenommen. Ebenso wenig hat der Konzern erklärt, dass von Januar 2027 an die gesamte Produktion an seinen europäischen Standorten ausschließlich mit Ökostrom betrieben werde.
+
+Polyisobutene werden unter anderem in Schmierstoffen und Kraftstoffen eingesetzt. Daneben finden sie Verwendung in Dichtstoffen, Klebstoffen, Folien und weiteren Industrieprodukten. Änderungen in dieser Lieferkette können daher über die Chemiebranche hinausreichen.
+
+## Wie die Zuordnung von Grünstrom funktioniert
+
+BASF nennt als Grundlage die Kombination aus bereits eingesetztem erneuerbarem Strom und zusätzlich zugeordneten Strommengen. Für Ludwigshafen und Antwerpen verweist das Unternehmen auf den Offshore-Windpark Hollandse Kust Zuid, an dem BASF beteiligt ist, sowie auf langfristige Stromabnahmeverträge, sogenannte Power Purchase Agreements.
+
+Ein zentraler Punkt ist der Massenbilanzansatz. Dabei werden bestimmte Eigenschaften rechnerisch nachvollziehbar einzelnen Produktmengen zugewiesen. Das ist nicht automatisch mit der Aussage gleichzusetzen, jede Anlage werde in jeder einzelnen Betriebsstunde physisch ausschließlich mit erneuerbarem Strom versorgt. Der Unterschied ist für die Beurteilung von Klimaversprechen wesentlich.
+
+Die unabhängige Perspektive liefert das <a href="https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/nachweissysteme-fuer-energie-klimaschutz/strom-herkunfts-regionalnachweise-fragen-antworten" target="_blank" rel="noopener nofollow">Umweltbundesamt mit seinen Erläuterungen zu Strom-Herkunftsnachweisen</a>. Solche Nachweise dokumentieren, dass entsprechende Strommengen aus erneuerbaren Quellen erzeugt und in das europäische Netz eingespeist wurden. Sie verhindern die doppelte Vermarktung derselben erneuerbaren Eigenschaft. Das Amt betont zugleich, dass ein Herkunftsnachweis allein weder die ökologische Qualität einer Anlage noch die gesamten Umwelteigenschaften eines Stromprodukts bewertet.
+
+Die Erläuterungen des Umweltbundesamts beschreiben das System der Stromkennzeichnung allgemein. Sie stellen keine Prüfung oder Zertifizierung der konkreten BASF-Umstellung dar. Ob die angekündigte Zuordnung alle maßgeblichen Kriterien erfüllt, muss anhand der für die jeweiligen Produkte angewandten Nachweis- und Bilanzierungsregeln beurteilt werden.
+
+## Warum BASF die Rezepturen nicht ändern will
+
+Für Bestandskunden könnte die Umstellung organisatorisch einfacher sein als eine neue Produktgeneration. BASF erklärt, die Spezifikationen und Artikelnummern der beiden Produktlinien blieben unverändert. Eine erneute Produktqualifizierung sei nicht erforderlich. Diese Aussage bezieht sich auf die angekündigte Umstellung des Strombezugs und der Zuordnung, nicht auf jede denkbare künftige Rezepturänderung.
+
+Der Konzern bietet darüber hinaus sogenannte ZeroPCF-Varianten von Glissopal und Oppanol B an. BASF definiert deren produktbezogenen CO₂-Fußabdruck von der Rohstoffgewinnung bis zum Werkstor als null oder darunter. Dafür werden nach Unternehmensangaben unter anderem erneuerbare Rohstoffe und Dampf per Massenbilanz zugeordnet.
+
+Auch hier ist die Systemgrenze entscheidend: Eine solche Bilanz erfasst den Abschnitt von der Rohstoffgewinnung bis zur Auslieferung am Werkstor. Emissionen aus Transport nach dem Werkstor, Nutzung und Entsorgung werden dadurch nicht automatisch auf null reduziert. Die neuen Angaben sind deshalb kein Beleg für ein über den gesamten Lebenszyklus emissionsfreies Endprodukt.
+
+## Energiepolitik trifft auf die wirtschaftliche Realität
+
+Die neue Ankündigung passt zum übergeordneten BASF-Ziel, bis 2030 mehr als 60 Prozent des bezogenen Stroms aus erneuerbaren Energien zu decken. Für einen energieintensiven Chemiekonzern spielen dabei sowohl das verfügbare Stromangebot als auch die Kosten und die langfristige Planbarkeit eine Rolle.
+
+BASF veröffentlichte zuletzt am 28. Oktober eine <a href="https://www.basf.com/global/de/media/news-releases/2026/10/p-26-180" target="_blank" rel="noopener nofollow">Quartalsbilanz für das dritte Quartal 2026</a>. Der Umsatz stieg auf 16,4 Milliarden Euro, das EBITDA vor Sondereinflüssen auf rund 1,6 Milliarden Euro. Die Jahresprognose für diese Ergebniskennzahl wurde auf 7,4 bis 7,8 Milliarden Euro angehoben. Gleichzeitig lag das unbereinigte EBIT des Quartals bei minus 98 Millionen Euro, unter anderem wegen Wertberichtigungen und Restrukturierungskosten.
+
+Diese Zahlen zeigen, dass operative Ertragskraft, Umbaukosten und bilanzieller Gewinn nicht identisch sind. Einen konkreten Kostenbetrag für die jetzt angekündigte Polyisobuten-Umstellung hat BASF in der Mitteilung nicht genannt. Ebenso fehlt eine bezifferte Aussage darüber, wie sich die Maßnahme auf Umsatz, Marge oder Aktienkurs auswirken wird. Aus einer energiebezogenen Produktankündigung allein lässt sich daher kein belastbarer kurzfristiger Kurstreiber ableiten.
+
+## Welche Fragen für Kunden und Anleger offenbleiben
+
+Für industrielle Abnehmer ist entscheidend, nach welchen Methoden der CO₂-Fußabdruck der einzelnen Lieferungen berechnet wird und welche Nachweise sie für ihre eigene Berichterstattung verwenden können. Auch die Vergleichbarkeit mit Produkten anderer Hersteller hängt von identischen Systemgrenzen und transparenten Annahmen ab.
+
+Für Anleger ist wichtig, ob BASF die Umstellung ohne zusätzliche Belastung der Wettbewerbsfähigkeit umsetzen kann. Langfristige Stromlieferverträge können Planungssicherheit bieten, legen aber gleichzeitig Konditionen über Jahre fest. Aussagen zu konkreten Strompreisen, Einsparungen oder Aufschlägen für die betroffenen Produkte lassen sich aus der Ankündigung nicht entnehmen.
+
+Fest steht: BASF hat einen konkreten Starttermin genannt und den Geltungsbereich abgegrenzt. Ob sich daraus ein nachweisbarer wirtschaftlicher Vorteil ergibt, wird sich erst mit den tatsächlich berichteten Mengen, Kosten und Kundenreaktionen beurteilen lassen.
+
+**Quellenbasis:** BASF-Pressemitteilung vom 10. November 2026 zur Polyisobuten-Produktion; BASF-Quartalszahlen vom 28. Oktober 2026; Umweltbundesamt, Informationen zu Strom-Herkunftsnachweisen, aktualisiert am 9. November 2026. Die voneinander unabhängigen Originalquellen sind auf den jeweils passenden Begriffen im Fließtext verlinkt.
+
+## Fazit: Klimaversprechen braucht klare Systemgrenzen
+
+Die BASF-Ankündigung zeigt, wie die Chemieindustrie erneuerbare Energien in bestehende Lieferketten einbinden will. Für externe Kunden sollen ausgewählte Polyisobutene ab Januar 2027 bilanziell mit erneuerbarem Strom hergestellt werden, ohne dass sie neue Produktvarianten freigeben müssen. Das kann die Vergleichbarkeit und Beschaffung erleichtern. Entscheidend bleibt jedoch, wie Strommengen zugeordnet und Emissionen berechnet werden. Die Zusage gilt weder für sämtliche BASF-Produkte noch für den gesamten Lebenszyklus der betroffenen Materialien. Ob sich die Umstellung finanziell auszahlt, ist noch offen. Anleger sollten daher nachvollziehbare Nachweise, spätere Kostenangaben und die operative Entwicklung des Chemiekonzerns getrennt bewerten. Ein unabhängiger Blick auf die Bilanzierungsstandards bleibt dafür unerlässlich.
+
+## Redaktioneller SEO-Block
+
+### Fünf alternative Überschriften
+
+1. BASF: Polyisobutene ab 2027 mit erneuerbarem Strom
+2. Grünstrom bei BASF: Was sich für Industriekunden ändert
+3. BASF stellt Oppanol und Glissopal um – Grenzen der Klimabilanz
+4. Neuer Stromstandard bei BASF: Chancen für die Chemieindustrie
+5. BASF setzt auf Erneuerbare: Was Anleger wissen müssen
+
+### Neun Fragewort-Bulletpoints
+
+- Was stellt BASF ab Januar 2027 genau um?
+- Welche Polyisobuten-Marken sind betroffen?
+- Wer profitiert von der neuen Stromzuordnung?
+- Warum gilt die Zusage nicht für die Gesamtproduktion?
+- Wie funktioniert die Massenbilanz beim Grünstrom?
+- Wodurch unterscheiden sich Herkunftsnachweise von physischer Stromlieferung?
+- Welche Emissionen erfasst ein ZeroPCF-Produkt?
+- Wo liegen die Kostenrisiken langfristiger Stromverträge?
+- Wann werden wirtschaftliche Auswirkungen sichtbar?
+
+### Drei Meta-Titles
+
+1. BASF: Polyisobutene ab 2027 mit Grünstrom
+2. BASF und Ökostrom: Was Kunden wissen müssen
+3. BASF-Aktie: Grünstrom-Plan und Bilanzrisiken
+
+### Drei Meta-Descriptions
+
+1. BASF will europäische Polyisobutene ab 2027 mit Grünstrom herstellen. Was Massenbilanz, Herkunftsnachweise und neue Klimaversprechen wirklich bedeuten.
+2. BASF stellt Oppanol und Glissopal für externe Kunden auf erneuerbaren Strom um. Warum der Schritt nicht die Gesamtproduktion betrifft und was Anleger beachten.
+3. Ab Januar 2027 setzt BASF bei bestimmten Polyisobutenen auf Ökostrom. Die Hintergründe zu Bilanzierung, Emissionen, Quartalszahlen und Risiken im Überblick.
