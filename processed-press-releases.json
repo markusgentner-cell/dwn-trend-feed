@@ -214,6 +214,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-09_0842_exporte-lkw-maut-konunktur.md",
       "processed_at": "2026-11-09T08:42:00+01:00"
+    },
+    {
+      "gmail_message_id": "1a1c9ec28a8d344b",
+      "subject": "IW-Nachricht: Bundeshaushalt: Ab 2028 zahlt der Bund mehr für Zinsen als für Investitionen",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-12_1105_bundeszinsen-2030-investitionen-kernhaushalt.md",
+      "processed_at": "2026-11-12T11:05:16+01:00"
     }
   ]
 }
