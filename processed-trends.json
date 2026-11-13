@@ -341,6 +341,11 @@
       "trend": "huang nvidia",
       "article_path": "articles/trends/2026-11-12_1529_nvidia-aktie-huang-untersuchung-quartalszahlen.md",
       "processed_at": "2026-11-12T15:29:39+01:00"
+    },
+    {
+      "trend": "downdetector",
+      "article_path": "articles/trends/2026-11-13_0819_microsoft-365-stoerung-outlook-teams-cloud-ausfall.md",
+      "processed_at": "2026-11-13T08:19:36+01:00"
     }
   ]
 }
