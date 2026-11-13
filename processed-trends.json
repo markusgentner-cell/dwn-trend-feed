@@ -346,6 +346,16 @@
       "trend": "downdetector",
       "article_path": "articles/trends/2026-11-13_0819_microsoft-365-stoerung-outlook-teams-cloud-ausfall.md",
       "processed_at": "2026-11-13T08:19:36+01:00"
+    },
+    {
+      "trend": "bitcoin kurs",
+      "article_path": "articles/trends/2026-11-13_1014_bitcoin-unter-70000-dollar-etf-abfluesse.md",
+      "processed_at": "2026-11-13T10:14:07+01:00"
+    },
+    {
+      "trend": "starship",
+      "article_path": "articles/trends/2026-11-13_1014_spacex-starship-testflug-doppelte-raketenbergung.md",
+      "processed_at": "2026-11-13T10:14:07+01:00"
     }
   ]
 }
