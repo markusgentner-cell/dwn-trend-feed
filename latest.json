@@ -1,62 +1,37 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-11-16T12:30:05.617Z",
+  "captured_at": "2026-11-16T13:24:20.832Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "amazon verliert 40 satelliten 10.000+ arrow_upward 1.000 % vor 4 Stunden trending_up Aktiv amazon satelliten",
-      "links": []
+      "text": "mogelpackung\n5.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "mütterrente 10.000+ arrow_upward 500 % vor 3 Stunden trending_up Aktiv",
-      "links": []
+      "text": "finanzen.net\n2.000+\narrow_upward\n900 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "goldpreis 5.000+ arrow_upward 100 % vor 3 Stunden trending_up Aktiv",
-      "links": []
+      "text": "zuschuss\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "mogelpackung 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
-      "links": []
+      "text": "brent\n1.000+\narrow_upward\n800 %\nvor 1 Stunde\ntrending_up\nAktiv"
     },
     {
-      "text": "boeing 747 2.000+ arrow_upward 800 % vor 3 Stunden trending_up Aktiv",
-      "links": []
+      "text": "unicredit\n1.000+\narrow_upward\n600 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "finanzen.net 2.000+ arrow_upward 900 % vor 2 Stunden trending_up Aktiv",
-      "links": []
+      "text": "bratwurststeuer\n1.000+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "unicredit 1.000+ arrow_upward 600 % vor 1 Stunde trending_up Aktiv",
-      "links": []
+      "text": "commerzbank aktie\n1.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv"
     },
     {
-      "text": "brent 1.000+ arrow_upward 900 % vor 50 Minuten trending_up Aktiv",
-      "links": []
+      "text": "kalifornien\n500+\narrow_upward\n1.000 %\nvor 10 Minuten\ntrending_up\nAktiv"
     },
     {
-      "text": "bratwurststeuer 1.000+ arrow_upward 400 % vor 3 Stunden trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "commerzbank aktie 1.000+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "zuschuss 1.000+ arrow_upward 1.000 % vor 50 Minuten trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "milch 500+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
-      "links": []
-    },
-    {
-      "text": "solarstrom 500+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
-      "links": []
+      "text": "agrarheute\n200+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv"
     }
   ],
   "links": [
@@ -69,9 +44,45 @@
       "href": "https://trends.google.de/home"
     },
     {
+      "text": "",
+      "href": "https://www.google.com/intl/de/about/products"
+    },
+    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    },
+    {
+      "text": "",
+      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
+    },
+    {
+      "text": "",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "Datenschutz",
+      "href": "https://policies.google.com/privacy?hl=de"
+    },
+    {
+      "text": "Nutzungsbedingungen",
+      "href": "https://policies.google.com/terms?hl=de"
+    },
+    {
+      "text": "Feedback geben",
+      "href": ""
+    },
+    {
+      "text": "Info",
+      "href": "https://about.google/?hl=de"
+    },
+    {
+      "text": "help\nHilfe",
+      "href": "https://support.google.com/trends?hl=de"
+    },
+    {
+      "text": "",
+      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n16.11.26, 13:29\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\namazon verliert 40 satelliten\n\t\n10.000+\narrow_upward\n1.000 %\n\t\nvor 4 Stunden\ntrending_up\nAktiv\n\t\namazon satelliten\n\t\n\n\n\t\nmütterrente\n\t\n10.000+\narrow_upward\n500 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngoldpreis\n\t\n5.000+\narrow_upward\n100 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmogelpackung\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nboeing 747\n\t\n2.000+\narrow_upward\n800 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nfinanzen.net\n\t\n2.000+\narrow_upward\n900 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nunicredit\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbrent\n\t\n1.000+\narrow_upward\n900 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nbratwurststeuer\n\t\n1.000+\narrow_upward\n400 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ncommerzbank aktie\n\t\n1.000+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nzuschuss\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmilch\n\t\n500+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nsolarstrom\n\t\n500+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–13 von 13\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n16.11.26, 14:24\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nmogelpackung\n5.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\nfinanzen.net\n2.000+\narrow_upward\n900 %\nvor 3 Stunden\ntrending_up\nAktiv\nzuschuss\n1.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nbrent\n1.000+\narrow_upward\n800 %\nvor 1 Stunde\ntrending_up\nAktiv\nunicredit\n1.000+\narrow_upward\n600 %\nvor 2 Stunden\ntrending_up\nAktiv\nbratwurststeuer\n1.000+\narrow_upward\n300 %\nvor 3 Stunden\ntrending_up\nAktiv\ncommerzbank aktie\n1.000+\narrow_upward\n200 %\nvor 2 Stunden\ntrending_up\nAktiv\nkalifornien\n500+\narrow_upward\n1.000 %\nvor 10 Minuten\ntrending_up\nAktiv\nagrarheute\n200+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–9 von 9\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
 }
