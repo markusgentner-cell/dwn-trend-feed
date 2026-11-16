@@ -291,6 +291,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_1415_gebaeudetyp-e-kabinettsstreit-opt-in.md",
       "processed_at": "2026-11-16T14:15:51+01:00"
+    },
+    {
+      "gmail_message_id": "1a1e48f9e39fde12",
+      "subject": "Energieverbrauch der Industrie 2025 um 2,9 % gesunken",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_1524_industrie-energieverbrauch-erdgas-produktionsdruck.md",
+      "processed_at": "2026-11-16T15:24:46+01:00"
     }
   ]
 }
