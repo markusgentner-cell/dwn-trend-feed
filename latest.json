@@ -1,7 +1,41 @@
 {
-  "ok": false,
-  "status": "collector_error",
-  "captured_at": "2026-11-13T12:54:25.757Z",
+  "ok": true,
+  "status": "fresh",
+  "captured_at": "2026-11-16T07:30:43.951Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "Error: Filter was not applied: Nur aktive Trends anzeigen. Visible text: Trends | Startseite | Entdecken | Aktuelle Trends | Anmelden | Aktuelle Trends – Google Trends | location_on | Deutschland | calendar_month | Letzte 4 Stunden | category | Wirtschaft und Finanzen | grid_3x3 | Alle Trends | sort | Nach Relevanz | ios_share | Exportieren | search | Suchtrends | Angesagt | Nach Titel sortieren | Suchvolumen | Nach Suchvolumen sortieren | Gestartet | Nach aktuellstem Datum sortieren | info | Trendaufschlüsselung | info | Letzte 24 Stunden | jetstream | 20.000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | orkan | luise bähr | 10.000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | die bergretter luise bähr | erling haaland | 5000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | weltuntergang 13.11 | 2000+ | arrow_upward | 1.000 % | vor 1 Stunde | trending_up | Aktiv | wetten, dass | 5000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | wetten, dass..? | nius | 5000+ | arrow_upward | 400 % | vor 3 Stunden | trending_up | Aktiv | reichelt | a61 | 2000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | jagd | 2000+ | arrow_upward | 1.000 % | vor 1 Stunde | trending_up | Aktiv | black friday deals | 2000+ | arrow_upward | 1.000 % | vor 1 Stunde | trending_up | Aktiv | melania trump | 2000+ | arrow_upward | 1.000 % | vor 1 Stunde | trending_up | Aktiv | russland ukraine krieg | 1000+ | arrow_upward | 1.000 % | vor 30 Minuten | trending_up | Aktiv | bodensee | 2000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | claude probleme | 2000+"
+  "page_title": "Aktuelle Trends – Google Trends",
+  "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
+  "rows": [
+    {
+      "text": "united launch alliance 1.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv amazon leo",
+      "links": []
+    },
+    {
+      "text": "fitness 500+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "megaspeed 500+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "raumfahrt 500+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Trends",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Anmelden",
+      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    }
+  ],
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n16.11.26, 08:30\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nunited launch alliance\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\namazon leo\n\t\n\n\n\t\nfitness\n\t\n500+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmegaspeed\n\t\n500+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nraumfahrt\n\t\n500+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
