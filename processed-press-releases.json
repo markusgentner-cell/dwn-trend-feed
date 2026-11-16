@@ -249,6 +249,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_0802_agrarpreise-kartoffeln-milch-preisschere.md",
       "processed_at": "2026-11-16T08:02:28+01:00"
+    },
+    {
+      "gmail_message_id": "1a1c9bf53c8816b7",
+      "subject": "PwC- und ULI-Studie „Emerging Trends in Real Estate Europe 2027“",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_0930_immobilienmarkt-2027-muenchen-berlin-kreditrisiken.md",
+      "processed_at": "2026-11-16T09:30:17+01:00"
     }
   ]
 }
