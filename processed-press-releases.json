@@ -228,6 +228,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-15_2252_grosshandelspreise-oktober-energie-kostendruck.md",
       "processed_at": "2026-11-15T22:52:00+01:00"
+    },
+    {
+      "gmail_message_id": "1a1d3b9c51776496",
+      "subject": "Unternehmensinsolvenzen im August 2026: +4,4 % gegenüber August 2025",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_0603_unternehmensinsolvenzen-august-jobs-logistik.md",
+      "processed_at": "2026-11-16T06:03:27+01:00"
     }
   ]
 }
