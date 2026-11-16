@@ -298,6 +298,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_1524_industrie-energieverbrauch-erdgas-produktionsdruck.md",
       "processed_at": "2026-11-16T15:24:46+01:00"
+    },
+    {
+      "gmail_message_id": "1a1ce935b3aa40ac",
+      "subject": "Pflege: 10 % der Erwerbstätigen von 25 bis 64 Jahren betreuen Angehörige",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_1704_angehoerigenpflege-arbeitsmarkt-arbeitszeit.md",
+      "processed_at": "2026-11-16T17:04:32+01:00"
     }
   ]
 }
