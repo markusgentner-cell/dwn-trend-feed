@@ -256,6 +256,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_0930_immobilienmarkt-2027-muenchen-berlin-kreditrisiken.md",
       "processed_at": "2026-11-16T09:30:17+01:00"
+    },
+    {
+      "gmail_message_id": "1a1ce9352772b531",
+      "subject": "Statistik der Grundsteuerwerte zeigt strukturelle Unterschiede in...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_1005_grundbesitz-grundsteuerwerte-berlin-hamburg.md",
+      "processed_at": "2026-11-16T10:05:54+01:00"
     }
   ]
 }
