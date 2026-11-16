@@ -242,6 +242,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_0705_gewerbegruendungen-2026-groessere-betriebe-nebenerwerb.md",
       "processed_at": "2026-11-16T07:05:27+01:00"
+    },
+    {
+      "gmail_message_id": "1a1d3b9babddfa82",
+      "subject": "Erzeugerpreise landwirtschaftlicher Produkte im September 2026: -4,6...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_0802_agrarpreise-kartoffeln-milch-preisschere.md",
+      "processed_at": "2026-11-16T08:02:28+01:00"
     }
   ]
 }
