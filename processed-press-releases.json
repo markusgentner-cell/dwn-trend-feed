@@ -263,6 +263,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_1005_grundbesitz-grundsteuerwerte-berlin-hamburg.md",
       "processed_at": "2026-11-16T10:05:54+01:00"
+    },
+    {
+      "gmail_message_id": "1a1c493628330ad6",
+      "subject": "IW-Pressemitteilung: Konjunktur: Fast jedes dritte Unternehmen will 2027 Stellen streichen",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_1138_stellenabbau-2027-iw-konjunkturumfrage-arbeitsmarkt.md",
+      "processed_at": "2026-11-16T11:38:16+01:00"
     }
   ]
 }
