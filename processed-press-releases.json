@@ -277,6 +277,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_1219_eingewanderte-erwerbsquote-lohnluecke-2026.md",
       "processed_at": "2026-11-16T12:19:14+01:00"
+    },
+    {
+      "gmail_message_id": "1a1e4598d5393444",
+      "subject": "Die KfW auf der Weltklimakonferenz COP31 in Antalya: Abschluss von...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-16_1335_kfw-cop31-windkraft-klimakredite.md",
+      "processed_at": "2026-11-16T13:35:04+01:00"
     }
   ]
 }
