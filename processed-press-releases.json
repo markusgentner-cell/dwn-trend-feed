@@ -305,6 +305,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-16_1704_angehoerigenpflege-arbeitsmarkt-arbeitszeit.md",
       "processed_at": "2026-11-16T17:04:32+01:00"
+    },
+    {
+      "gmail_message_id": "1a1e4629aa46499b",
+      "subject": "1,4 % weniger wissenschaftliches Hochschulpersonal im Jahr 2025",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-18_0750_hochschulpersonal-wissenschaft-befristung.md",
+      "processed_at": "2026-11-18T07:50:00+01:00"
     }
   ]
 }
