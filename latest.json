@@ -1,7 +1,65 @@
 {
-  "ok": false,
-  "status": "collector_error",
-  "captured_at": "2026-11-18T07:24:14.969Z",
+  "ok": true,
+  "status": "fresh",
+  "captured_at": "2026-11-18T07:53:16.887Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "TimeoutError: locator.innerText: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('body')\u001b[22m\n"
+  "page_title": "Aktuelle Trends – Google Trends",
+  "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
+  "rows": [
+    {
+      "text": "russische oligarchen 2.000+ arrow_upward 700 % vor 2 Stunden trending_up Aktiv donald trump deutsche bank deutsche bank donald trump",
+      "links": []
+    },
+    {
+      "text": "eeg 1.000+ arrow_upward 1.000 % vor 30 Minuten trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "streik 1.000+ arrow_upward 900 % vor 3 Stunden trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "schwertransport 500+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "delta air lines 200+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivrussische oligarchen2.000+ Suchanfragen·vor 2 Std.",
+      "links": []
+    },
+    {
+      "text": "trending_upAktiveeg1.000+ Suchanfragen·vor 30 m",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivstreik1.000+ Suchanfragen·vor 3 Std.",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivschwertransport500+ Suchanfragen·vor 1 Std.",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivdelta air lines200+ Suchanfragen·vor 1 Std.",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Trends",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Anmelden",
+      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    }
+  ],
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n18.11.26, 08:53\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nrussische oligarchen\n\t\n2.000+\narrow_upward\n700 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\ndonald trump deutsche bank\ndeutsche bank donald trump\n\t\n\n\n\t\neeg\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nstreik\n\t\n1.000+\narrow_upward\n900 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nschwertransport\n\t\n500+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ndelta air lines\n\t\n200+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–5 von 5\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
