@@ -1,7 +1,7 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-11-18T15:53:08.725Z",
+  "captured_at": "2026-11-18T16:23:09.605Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
@@ -11,31 +11,19 @@
       "links": []
     },
     {
-      "text": "heizölpreise sinken 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "text": "heizölpreise sinken 5.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv rohöl",
       "links": []
     },
     {
-      "text": "hilden 200+ arrow_upward 400 % vor 50 Minuten trending_up Aktiv",
+      "text": "warstein 500+ arrow_upward 600 % vor 1 Stunde trending_up Aktiv",
       "links": []
     },
     {
-      "text": "warstein 200+ arrow_upward 300 % vor 40 Minuten trending_up Aktiv",
+      "text": "gasheizung 200+ arrow_upward 400 % vor 20 Minuten trending_up Aktiv",
       "links": []
     },
     {
-      "text": "trending_upAktivheizoel245.000+ Suchanfragen·vor 3 Std.",
-      "links": []
-    },
-    {
-      "text": "trending_upAktivheizölpreise sinken2.000+ Suchanfragen·vor 1 Std.",
-      "links": []
-    },
-    {
-      "text": "trending_upAktivhilden200+ Suchanfragen·vor 50 m",
-      "links": []
-    },
-    {
-      "text": "trending_upAktivwarstein200+ Suchanfragen·vor 40 m",
+      "text": "hilden 200+ arrow_upward 200 % vor 1 Stunde trending_up Aktiv",
       "links": []
     }
   ],
@@ -53,5 +41,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n18.11.26, 16:52\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nheizoel24\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nheizölpreise sinken\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nhilden\n\t\n200+\narrow_upward\n400 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwarstein\n\t\n200+\narrow_upward\n300 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–4 von 4\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n18.11.26, 17:22\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nheizoel24\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nheizölpreise sinken\n\t\n5.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\nrohöl\n\t\n\n\n\t\nwarstein\n\t\n500+\narrow_upward\n600 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ngasheizung\n\t\n200+\narrow_upward\n400 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nhilden\n\t\n200+\narrow_upward\n200 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–5 von 5\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
