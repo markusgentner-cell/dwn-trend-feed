@@ -319,6 +319,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-19_1113_fachkraeftemangel-baugewerbe-kfw-sondervermoegen.md",
       "processed_at": "2026-11-19T11:13:07+01:00"
+    },
+    {
+      "gmail_message_id": "1a1f29fb07327d68",
+      "subject": "5,7 % der Bevölkerung konnten 2025 aus Geldmangel ihre Wohnung nicht...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-19_1206_heizkosten-energiearmut-2025-heizoel-2026.md",
+      "processed_at": "2026-11-19T12:06:02+01:00"
     }
   ]
 }
