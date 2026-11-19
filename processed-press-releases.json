@@ -340,6 +340,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-19_1358_geothermie-pullach-kfw-deutschlandfonds.md",
       "processed_at": "2026-11-19T13:58:54+01:00"
+    },
+    {
+      "gmail_message_id": "1a1ed796f546f917",
+      "subject": "Erwerbstätigkeit im 3. Quartal 2026 saisonbereinigt gegenüber dem...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-19_1506_beschaeftigung-rueckgang-industrie-dienstleistungen.md",
+      "processed_at": "2026-11-19T15:06:30+01:00"
     }
   ]
 }
