@@ -347,6 +347,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-19_1506_beschaeftigung-rueckgang-industrie-dienstleistungen.md",
       "processed_at": "2026-11-19T15:06:30+01:00"
+    },
+    {
+      "gmail_message_id": "1a1ed79675910bc9",
+      "subject": "Baugenehmigungen für Wohnungen im September 2026: -14,8 % zum Vorjahresmonat",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-19_1610_wohnungsbau-baugenehmigungen-september-2026.md",
+      "processed_at": "2026-11-19T16:10:56+01:00"
     }
   ]
 }
