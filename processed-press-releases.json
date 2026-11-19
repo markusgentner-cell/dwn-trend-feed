@@ -312,6 +312,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-18_0750_hochschulpersonal-wissenschaft-befristung.md",
       "processed_at": "2026-11-18T07:50:00+01:00"
+    },
+    {
+      "gmail_message_id": "1a1f2d3c3e1ebc0f",
+      "subject": "KfW Research: Bauhauptgewerbe besonders stark von Fachkräftemangel...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-19_1113_fachkraeftemangel-baugewerbe-kfw-sondervermoegen.md",
+      "processed_at": "2026-11-19T11:13:07+01:00"
     }
   ]
 }
