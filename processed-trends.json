@@ -466,6 +466,11 @@
       "trend": "anthropic aktie kurs",
       "article_path": "articles/trends/2026-11-19_1040_anthropic-ipo-83-dollar-rekordvolumen-nasdaq.md",
       "processed_at": "2026-11-19T10:40:00+01:00"
+    },
+    {
+      "trend": "steuerzahler",
+      "article_path": "articles/trends/2026-11-19_1107_grundfreibetrag-bfh-steuerzahler-2023-2024.md",
+      "processed_at": "2026-11-19T11:07:00+01:00"
     }
   ]
 }
