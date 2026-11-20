@@ -368,6 +368,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-20_0706_gastgewerbe-september-umsatz-gastronomie-hotels.md",
       "processed_at": "2026-11-20T07:06:57+01:00"
+    },
+    {
+      "gmail_message_id": "1a1f7c633c95cbbf",
+      "subject": "Erzeugerpreise im Oktober 2026: +8,1 % gegenüber Oktober 2025",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-20_0808_erzeugerpreise-oktober-industrie-preisdruck.md",
+      "processed_at": "2026-11-20T08:08:32+01:00"
     }
   ]
 }
