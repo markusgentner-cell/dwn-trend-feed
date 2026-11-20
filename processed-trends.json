@@ -516,6 +516,11 @@
       "trend": "ig metall streik",
       "article_path": "articles/trends/2026-11-20_0903_ig-metall-24-stunden-streik-bmw-audi-tarifrunde.md",
       "processed_at": "2026-11-20T09:03:52+01:00"
+    },
+    {
+      "trend": "tsmc",
+      "article_path": "articles/trends/2026-11-20_1012_tsmc-aktie-taiwan-crash-leerverkaufsregeln.md",
+      "processed_at": "2026-11-20T10:12:05+01:00"
     }
   ]
 }
