@@ -496,6 +496,21 @@
       "trend": "roboter",
       "article_path": "articles/trends/2026-11-19_1605_roboter-telekom-microagi-ki-fabrik-industrie.md",
       "processed_at": "2026-11-19T16:05:17+01:00"
+    },
+    {
+      "trend": "gold prognose",
+      "article_path": "articles/trends/2026-11-20_0805_goldpreis-fed-protokoll-etfs.md",
+      "processed_at": "2026-11-20T08:05:58+01:00"
+    },
+    {
+      "trend": "energiemarkt",
+      "article_path": "articles/trends/2026-11-20_0805_energiemarkt-windoptionen-netzengpasskosten.md",
+      "processed_at": "2026-11-20T08:05:58+01:00"
+    },
+    {
+      "trend": "börse aktuell",
+      "article_path": "articles/trends/2026-11-20_0805_dax-ruecksetzer-fed-protokoll-zinsen.md",
+      "processed_at": "2026-11-20T08:05:58+01:00"
     }
   ]
 }
