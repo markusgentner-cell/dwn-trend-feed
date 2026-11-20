@@ -354,6 +354,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-19_1610_wohnungsbau-baugenehmigungen-september-2026.md",
       "processed_at": "2026-11-19T16:10:56+01:00"
+    },
+    {
+      "gmail_message_id": "1a1e8532c9abce91",
+      "subject": "7,7 % der im Jahr 2025 neu zugelassenen Lkw in der EU fahren rein...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-20_0609_elektro-lkw-eu-neuzulassungen-diesel.md",
+      "processed_at": "2026-11-20T06:09:33+01:00"
     }
   ]
 }

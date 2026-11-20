@@ -1,0 +1,91 @@
+# Elektro-Lkw: Deutschland über EU-Schnitt – Diesel bleibt dominant
+
+**Vorspann:** Der Anteil rein elektrischer Lastwagen an den Neuzulassungen steigt in Europa deutlich. Deutschland liegt über dem EU-Durchschnitt. Doch im bestehenden Fuhrpark und bei schweren Sattelzugmaschinen bleibt der Diesel vorherrschend. Neue Branchendaten zeigen, woran der Wandel hakt.
+
+**Metadaten:** Ressort: Industrie / Energie / Logistik | Datum: 20. November 2026 | Anlass: Destatis, Zahl der Woche vom 17. November 2026
+
+## Elektro-Lkw steigern ihren Anteil bei Neuzulassungen
+
+Europas Logistikmarkt bewegt sich in Richtung elektrischer Antriebe, allerdings von einem niedrigen Ausgangsniveau. Im Jahr 2025 hatten 7,7 Prozent aller in der Europäischen Union neu zugelassenen Lastkraftwagen über 3,5 Tonnen einen rein elektrischen Antrieb. Ein Jahr zuvor waren es erst 4,1 Prozent gewesen. Das geht aus einer am 17. November veröffentlichten <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_47_p002.html" target="_blank" rel="noopener nofollow">Eurostat-Auswertung des Statistischen Bundesamtes</a> hervor.
+
+Insgesamt registrierten die erfassten EU-Länder 2025 mehr als 126.600 neue Lastwagen dieser Klasse, davon rund 9.800 ausschließlich elektrisch angetriebene Fahrzeuge. Der nahezu verdoppelte Elektroanteil zeigt einen Marktzuwachs. Ein flächendeckender Wechsel des Güterverkehrs ist damit aber noch nicht belegt. Die Statistik bezieht sich auf Neuzulassungen und unterscheidet Lastwagen von Sattelzugmaschinen; sie erfasst nicht die jährliche Fahrleistung oder die Wirtschaftlichkeit einzelner Flotten.
+
+## Deutschland führt nach Stückzahl, die Niederlande nach Quote
+
+Deutschland verzeichnete 2025 rund 4.200 neu zugelassene Elektro-Lkw über 3,5 Tonnen. Damit entfiel die höchste absolute Zahl unter den EU-Staaten auf den deutschen Markt. Gemessen an allen in Deutschland neu zugelassenen Lkw dieser Klasse betrug der rein elektrische Anteil 11,7 Prozent. Das waren vier Prozentpunkte mehr als im EU-Durchschnitt.
+
+Die Spitzenposition beim prozentualen Anteil lag allerdings anderswo. In den Niederlanden fuhren 45,6 Prozent der neu zugelassenen Lkw über 3,5 Tonnen elektrisch, in Dänemark waren es 27,1 Prozent und in Schweden 16,7 Prozent. Unterschiede bei Marktgröße, Förderpolitik, Ladeinfrastruktur und typischen Transportstrecken können solche Abstände beeinflussen. Welche Ursache wie stark wirkt, lässt sich allein aus den Zulassungszahlen jedoch nicht bestimmen.
+
+Die absolute Führungsposition Deutschlands ist deshalb ebenso wenig mit einer europäischen Spitzenquote gleichzusetzen wie die Niederlande-Quote mit einer bereits vollständig elektrifizierten Fahrzeugflotte.
+
+## Bei Sattelzugmaschinen bleibt die Antriebswende langsamer
+
+Schwieriger ist die Elektrifizierung im Segment der Sattelzugmaschinen. Von etwa 157.500 EU-weit neu zugelassenen Sattelzugmaschinen fuhren 2025 rund 2.500 rein elektrisch. Ihr Anteil stieg von 0,7 auf 1,6 Prozent. In Deutschland erreichte er 3,2 Prozent.
+
+Das Nebeneinander beider Fahrzeugklassen ist entscheidend. Verteiler-Lkw und Zugmaschinen für schwere Auflieger unterscheiden sich bei Nutzlast, Streckenprofil, Standzeiten und Anforderungen an leistungsfähige Ladepunkte. Deshalb lassen sich die höheren Elektroquoten der einen Klasse nicht auf den gesamten schweren Straßengüterverkehr übertragen.
+
+Diesel dominierte 2025 weiterhin: Bei neu zugelassenen Lkw über 3,5 Tonnen lag der Dieselanteil bei 89,0 Prozent, bei Sattelzugmaschinen sogar bei 94,7 Prozent. Das Wachstum der Elektrofahrzeuge bedeutet nicht, dass Diesel bereits eine Minderheitsposition erreicht hätte.
+
+## Im Fuhrpark sind Elektrofahrzeuge noch selten
+
+Der Gegensatz zwischen Neubeschaffung und Fahrzeugbestand zeigt die Größenordnung des Umbaus. Im Jahr 2024 waren in der EU rund 3,6 Millionen Lkw über 3,5 Tonnen zugelassen. Lediglich etwa 14.100 davon, also 0,4 Prozent, fuhren rein elektrisch. Davon entfielen ungefähr 7.600 Fahrzeuge auf Deutschland.
+
+Auch bei den rund 2,2 Millionen Sattelzugmaschinen im EU-Bestand 2024 lag der elektrische Anteil nur bei etwa 0,1 Prozent. Die Bestandszahlen beziehen sich auf 2024, die Neuzulassungsdaten dagegen auf 2025. Ihre Quoten dürfen nicht unmittelbar gleichgesetzt werden. Sie illustrieren aber, dass steigende Elektroanteile beim Kauf neuer Fahrzeuge den gesamten Bestand erst schrittweise verändern.
+
+## Neue Branchendaten für 2026: Aufwärtstrend mit Einschränkungen
+
+Der europäische Herstellerverband ACEA meldete für die ersten neun Monate 2026 einen Anstieg der Neuzulassungen extern aufladbarer Lastwagen um 49,8 Prozent. Ihr Marktanteil erreichte laut der <a href="https://www.acea.auto/cv-registrations/new-commercial-vehicle-registrations-vans-0-trucks-7-5-buses-15-2-in-q1-q3-2026/" target="_blank" rel="noopener nofollow">ACEA-Zulassungsstatistik</a> 5,3 Prozent. Der Dieselanteil lag in dieser Erhebung noch bei 91,7 Prozent.
+
+Die ACEA-Zahl von 5,3 Prozent ist nicht direkt mit den 7,7 Prozent von Destatis für 2025 vergleichbar. Die Erhebungen verwenden unterschiedliche Fahrzeugabgrenzungen, Antriebskategorien und Berichtszeiträume. ACEA betrachtet hier extern aufladbare Fahrzeuge im breiteren Lkw-Markt, während Destatis rein elektrische Lkw und Sattelzugmaschinen gesondert ausweist. Die beiden Werte beschreiben deshalb verschiedene Ausschnitte des Marktes.
+
+In einer <a href="https://www.acea.auto/press-release/european-truck-and-bus-manufacturers-urge-eu-policymakers-to-address-barriers-to-zero-emission-transport/" target="_blank" rel="noopener nofollow">Stellungnahme vom 19. November 2026</a> nannte der Verband für Lkw über 16 Tonnen einen emissionsfreien Neuzulassungsanteil von lediglich 2,5 Prozent in den ersten neun Monaten des Jahres. Auch das ist eine gesonderte Fahrzeugkategorie. Der Verband fordert Änderungen bei Gewichtsvorschriften und verlässliche Rahmenbedingungen für den Einsatz emissionsfreier Nutzfahrzeuge.
+
+## Was der Trend für Speditionen und Hersteller bedeutet
+
+Für Transportunternehmen zählt weniger die europaweite Quote als die Frage, ob sich eine konkrete Transportaufgabe mit Elektro-Lkw zuverlässig und wirtschaftlich erledigen lässt. Entscheidend sind unter anderem Ladeleistung am Betriebshof und unterwegs, tägliche Kilometer, Nutzlast, Fahrzeugverfügbarkeit und Kosten über die gesamte Nutzungsdauer.
+
+ACEA sieht fehlende Infrastruktur und schwierige wirtschaftliche Rahmenbedingungen als wesentliche Hemmnisse. Diese Einschätzung ist als Position eines Herstellerverbands zu verstehen. Die amtlichen Neuzulassungsdaten allein belegen keine einzelne Ursache für den hohen Dieselanteil.
+
+Für die Nutzfahrzeugindustrie eröffnet die steigende Nachfrage nach Elektrofahrzeugen Absatzchancen. Gleichzeitig bleibt ein beträchtlicher Markt für Dieselmodelle bestehen. Die Daten stützen daher weder die Behauptung eines schon vollzogenen Antriebswechsels noch die These, Elektro-Lkw würden sich grundsätzlich nicht durchsetzen.
+
+## Fazit: Wachstum ist noch kein Durchbruch
+
+Europa elektrifiziert den Schwerlastverkehr, doch der Wandel verläuft je nach Fahrzeugklasse sehr unterschiedlich. Die neuen Destatis-Zahlen belegen einen starken Zuwachs bei rein elektrischen Lkw über 3,5 Tonnen. Im bestehenden Fuhrpark spielen sie weiterhin nur eine Nebenrolle. Bei Sattelzugmaschinen bleibt der Diesel besonders dominant. Für Transportunternehmen entscheidet deshalb nicht die Zulassungsquote allein, sondern ob elektrische Fahrzeuge bei Reichweite, Nutzlast, Ladezeit und Betriebskosten mithalten. Die Hersteller drängen auf bessere Rahmenbedingungen. Ob daraus eine breite Umstellung wird, hängt von Infrastruktur, Finanzierung und verlässlichen Regeln ab. Die Statistik zeigt Fortschritt, aber noch keinen Durchbruch im europäischen Güterverkehr. Gerade lange Fahrzeuglebenszyklen bremsen einen schnellen Wandel zusätzlich.
+
+## Redaktionsblock
+
+### Fünf alternative Überschriften
+
+1. Elektro-Lkw auf dem Vormarsch: Deutschland über dem EU-Schnitt
+2. Elektro-Lastwagen: Warum die Niederlande Deutschland überholen
+3. Europas Lkw-Markt: Elektroanteil steigt, Diesel dominiert
+4. E-Lkw 2025: Deutschland führt bei Stückzahlen
+5. Schwerlastverkehr: Der schwierige Wechsel zum Elektroantrieb
+
+### Neun W-Fragen
+
+- Wie hoch ist der Elektroanteil bei neuen EU-Lastwagen?
+- Wo liegt Deutschland im europäischen Vergleich?
+- Welche Länder haben die höchsten Elektroquoten?
+- Wie viele Elektro-Lkw wurden in Deutschland zugelassen?
+- Warum sind Sattelzugmaschinen seltener elektrisch?
+- Was unterscheidet Neuzulassungen vom Fahrzeugbestand?
+- Weshalb dominiert Diesel im Schwerlastverkehr weiter?
+- Worin unterscheiden sich Destatis- und ACEA-Zahlen?
+- Welche Hürden sehen die europäischen Fahrzeughersteller?
+
+### Drei Meta-Titles
+
+1. Elektro-Lkw: Deutschland über EU-Durchschnitt
+2. E-Lkw 2025: Deutschland vorn, Diesel dominiert
+3. Elektro-Lastwagen: Neuzulassungen steigen
+
+### Drei Meta-Descriptions
+
+1. Elektro-Lkw erreichen 2025 einen EU-Neuzulassungsanteil von 7,7 Prozent. Deutschland liegt bei 11,7 Prozent. Warum Diesel im Schwerlastverkehr dominiert.
+2. Deutschland führt bei neuen Elektro-Lkw, doch im EU-Fuhrpark bleiben Stromer selten. Was die aktuellen Zahlen über die Antriebswende im Transport zeigen.
+3. Elektro-Lkw legen in Europa zu, aber Sattelzugmaschinen fahren meist mit Diesel. Neue Zahlen zeigen, warum der Umbau für Speditionen schwierig bleibt.
+
+### Quellenbasis
+
+Statistisches Bundesamt: Zahl der Woche Nr. 47 vom 17. November 2026 auf Basis von Eurostat-Daten (Stand: 5. November 2026); ACEA: EU-Nutzfahrzeug-Neuzulassungen Januar bis September 2026 vom 28. Oktober 2026; ACEA: Herstellerstellungnahme vom 19. November 2026. Originalquellen sind im Fließtext direkt an fachlich passende Begriffe verlinkt. Hinweis zur Datengrundlage: Für Bulgarien, Ungarn und Kroatien liegen für 2025 teilweise unvollständige Eurostat-Daten vor; die angegebenen EU-Werte berücksichtigen die fehlenden Daten nicht.
