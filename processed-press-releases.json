@@ -361,6 +361,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-20_0609_elektro-lkw-eu-neuzulassungen-diesel.md",
       "processed_at": "2026-11-20T06:09:33+01:00"
+    },
+    {
+      "gmail_message_id": "1a1f29fbaf18afd5",
+      "subject": "Gastgewerbeumsatz im September 2026 real 1,2 % höher als im Vormonat",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-20_0706_gastgewerbe-september-umsatz-gastronomie-hotels.md",
+      "processed_at": "2026-11-20T07:06:57+01:00"
     }
   ]
 }
