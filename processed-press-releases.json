@@ -431,6 +431,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-23_1412_stromsteuer-2027-ladesaeulen-ladetarife.md",
       "processed_at": "2026-11-23T14:12:55+01:00"
+    },
+    {
+      "gmail_message_id": "1a1fb690c01ed7ac",
+      "subject": "Verkehrsminister Bilger erwartet klares Standort-Bekenntnis von Autoherstellern...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-23_1506_autoindustrie-bilger-standorttreue-jobverlust.md",
+      "processed_at": "2026-11-23T15:06:11+01:00"
     }
   ]
 }
