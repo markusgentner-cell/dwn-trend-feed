@@ -438,6 +438,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-23_1506_autoindustrie-bilger-standorttreue-jobverlust.md",
       "processed_at": "2026-11-23T15:06:11+01:00"
+    },
+    {
+      "gmail_message_id": "1a1f78a5661ef23b",
+      "subject": "Tägliche Zusammenfassung von Presseportal.de",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-23_1608_kfw-peac-leasingverbriefung-deutschlandfonds.md",
+      "processed_at": "2026-11-23T16:08:06+01:00"
     }
   ]
 }
