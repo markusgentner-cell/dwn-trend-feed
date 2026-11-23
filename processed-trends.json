@@ -526,6 +526,16 @@
       "trend": "weltraum",
       "article_path": "articles/trends/2026-11-23_0829_russland-weltraumwaffe-satelliten-wirtschaft.md",
       "processed_at": "2026-11-23 08:29:50 CET"
+    },
+    {
+      "trend": "dax",
+      "article_path": "articles/trends/2026-11-23_0849_dax-jahresendrally-konjunktur.md",
+      "processed_at": "2026-11-23T08:49:08+01:00"
+    },
+    {
+      "trend": "wirtschaft deutschlands",
+      "article_path": "articles/trends/2026-11-23_0849_deutsche-wirtschaft-bundesbank-q4.md",
+      "processed_at": "2026-11-23T08:49:08+01:00"
     }
   ]
 }
