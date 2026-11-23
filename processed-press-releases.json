@@ -396,6 +396,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-23_0859_private-banking-vermoegen-ertragspotenzial-zeb-studie.md",
       "processed_at": "2026-11-23T08:59:17+01:00"
+    },
+    {
+      "gmail_message_id": "1a20782487881dc6",
+      "subject": "PwC-Baufinanzierungsstudie Q3 2026: Markt zwischen Stabilisierung und Neuorientierung",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-23_1009_baufinanzierung-q3-2026-zinsen-bankmargen-kreditbestand.md",
+      "processed_at": "2026-11-23T10:09:24+01:00"
     }
   ]
 }
