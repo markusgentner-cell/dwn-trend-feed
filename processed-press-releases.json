@@ -382,6 +382,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-23_0703_stromhandel-importpreise-exporte-2026.md",
       "processed_at": "2026-11-23T07:03:04+01:00"
+    },
+    {
+      "gmail_message_id": "1a1ed797fbbb228b",
+      "subject": "Auftragsbestand im Verarbeitenden Gewerbe im September 2026: +0,8...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-23_0807_industrie-auftragsbestand-september-wettbewerbsdruck.md",
+      "processed_at": "2026-11-23T08:07:38+01:00"
     }
   ]
 }
