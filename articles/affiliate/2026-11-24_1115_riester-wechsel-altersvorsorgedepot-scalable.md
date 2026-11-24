@@ -1,0 +1,67 @@
+# Riester-Wechsel ab 2027: Scalable übernimmt Gebühren – wann sich ein Umstieg lohnt
+
+Die Reform der privaten Altersvorsorge stellt Millionen Riester-Sparer vor eine neue Entscheidung. Ab Januar 2027 können sie ihr bestehendes Guthaben in ein neues Altersvorsorgeprodukt übertragen. Scalable Capital kündigt an, dabei die Übertragungsgebühren des bisherigen Anbieters zu erstatten. Der Verzicht auf Gebühren allein macht einen Wechsel jedoch noch nicht wirtschaftlich sinnvoll.
+
+**Stand:** 24. November 2026 | **Ressort:** Finanzen | **Thema:** Altersvorsorge, Riester-Rente, Altersvorsorgedepot | **Anlass:** Geplanter Wechselservice zum 1. Januar 2027
+
+## Riester-Verträge müssen nicht gekündigt werden
+
+Der Bundesrat hat der Reform am 8. Mai 2026 zugestimmt. Nach Angaben der <a href="https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Moeglichkeiten-der-Altersvorsorge/Altervorsorgereformgesetz" target="_blank" rel="noopener nofollow">Deutschen Rentenversicherung</a> soll das neue Fördersystem ab 2027 zusätzliche Möglichkeiten der privaten Vorsorge eröffnen. Dazu zählen Depots ohne Beitragsgarantie und Produkte mit unterschiedlichen Garantien. Anders als eine lebenslange Rente kann ein befristeter Auszahlplan enden, während der Empfänger noch lebt.
+
+Das <a href="https://www.bundesfinanzministerium.de/Content/DE/FAQ/reform-der-privaten-altersvorsorge" target="_blank" rel="noopener nofollow">Bundesfinanzministerium</a> stellt klar: Bestehende Riester-Verträge genießen Bestandsschutz. Sparer können sie weiterführen, in die neue Förderung unter Beibehaltung der Vertragskonditionen wechseln oder einen neuen Altersvorsorgevertrag abschließen und vorhandenes Kapital entsprechend übertragen. Bei einem ordnungsgemäßen Wechsel in einen Neuvertrag muss die bisher erhaltene Förderung nicht zurückgezahlt werden. Neue Abschluss-, Vertriebs- oder Wechselkosten können aber entstehen.
+
+## Was Scalable für den Riester-Übertrag ankündigt
+
+Der Münchner Anbieter will zum 1. Januar 2027 einen digitalen Wechselservice starten. Laut der <a href="https://de.scalable.capital/newsroom/riester-wechsel-kampagne" target="_blank" rel="noopener nofollow">Mitteilung von Scalable Capital</a> vom 11. November übernimmt das Unternehmen die Übertragungsgebühren des bisherigen Riester-Anbieters und berechnet selbst keine Gebühr für den eingehenden Übertrag. Der Service ist am heutigen Stichtag noch nicht gestartet.
+
+In den <a href="https://help.scalable.capital/altersvorsorgedepot-bad26aed/riester-%C3%BCbertr%C3%A4ge-6075831d/kann-ich-meinen-bestehenden-riester-vertrag-in-ein-alter-83bc82b4" target="_blank" rel="noopener nofollow">Anbieterinformationen zum Riester-Übertrag</a> erläutert Scalable, dass der bisherige Vertrag im Zuge der Übertragung beendet und das Guthaben als Geldbetrag in das neue Depot übertragen wird. Eine eigenständige Kündigung mit Auszahlung auf das Girokonto ist davon zu unterscheiden: Sie kann zur Rückforderung der staatlichen Förderung führen.
+
+Ein Wechsel ohne Übertragungsgebühr bedeutet nicht, dass jede mögliche finanzielle Einbuße erstattet wird. Sparer sollten sich vom bisherigen Anbieter den tatsächlichen Übertragungswert und den Wert der bei Fortführung bestehenden Ansprüche schriftlich erläutern lassen. Auch die künftigen Depot-, Fonds- und sonstigen Vertragskosten gehören in den Vergleich.
+
+## Mehr Renditechancen bedeuten auch mehr Verantwortung
+
+Eine langfristige Anlage in breit gestreute Aktienfonds kann höhere Erträge ermöglichen als eine stärker auf Garantien ausgerichtete Vorsorge. Die tatsächliche Rendite steht jedoch erst im Nachhinein fest. Kursverluste können sich insbesondere kurz vor dem geplanten Ruhestand ungünstig auswirken.
+
+Wer noch Jahrzehnte bis zur Auszahlung hat, kann vorübergehende Marktrückgänge möglicherweise eher verkraften als jemand, der bald auf die Ersparnisse angewiesen ist. Umgekehrt sollte ein lang laufender Vertrag nicht allein deshalb weitergeführt werden, weil bereits Abschlusskosten angefallen sind. Für die Entscheidung zählen die künftig zu erwartenden Leistungen, Risiken und Kosten.
+
+## Mehrere Riester-Verträge gemeinsam prüfen
+
+Ein Wechsel der Fördersystematik kann auch andere bestehende Verträge betreffen. Die <a href="https://riester.deutsche-rentenversicherung.de/DE/FAQ" target="_blank" rel="noopener nofollow">Zentrale Zulagenstelle für Altersvermögen</a> weist darauf hin, dass bei mehreren Riester-Verträgen die Umstellung eines Vertrags auf das neue Fördersystem Auswirkungen auf die übrigen Verträge hat. Auch mittelbar zulageberechtigte Ehepartner können betroffen sein.
+
+Daraus folgt: Vor einer Übertragung sollte nicht nur das einzelne Depot, sondern die gesamte private Altersvorsorge betrachtet werden. Ein kostenloser Übertrag ist ein Wettbewerbsinstrument des Anbieters, kein Nachweis für die Überlegenheit eines Produkts. Die Reform erhöht den Wettbewerb um bestehendes Vorsorgevermögen und macht die Vergleichbarkeit von Kosten und Garantien umso wichtiger.
+
+## Fazit: Erst Ansprüche und Risiken vergleichen
+
+Der Wechsel ins Altersvorsorgedepot kann für Riester-Sparer ab Januar 2027 eine zusätzliche Option sein. Die angekündigte Erstattung von Übertragungsgebühren senkt zwar eine unmittelbare Hürde, sagt aber wenig über den langfristigen wirtschaftlichen Nutzen aus. Entscheidend sind die Ansprüche aus dem bisherigen Vertrag, die künftigen Kosten, die verbleibende Anlagedauer und die persönliche Risikotragfähigkeit. Gerade kurz vor dem Ruhestand können bestehende Garantien wertvoll sein. Wer mehrere Riester-Verträge besitzt, sollte zudem die Auswirkungen der neuen Fördersystematik auf alle Verträge prüfen. Ein Vergleich der Vertragsunterlagen und eine unabhängige Beratung sind deshalb sinnvoller als eine Entscheidung allein anhand eines gebührenfreien Wechselangebots.
+
+## Fünf alternative Überschriften
+
+1. Riester-Rente 2027: Was vor einem Wechsel ins Depot wichtig wird
+2. Scalable kündigt kostenlosen Riester-Übertrag an: Das sind die Risiken
+3. Riester behalten oder wechseln? Was die Reform für Sparer bedeutet
+4. Altersvorsorgedepot statt Riester: Warum Gebühren nicht allein entscheiden
+5. Neue private Altersvorsorge: So prüfen Sparer den Wechsel
+
+## Neun W-Fragen als Aussagesätze
+
+1. Wer wechseln kann, sind Inhaber bestehender Riester-Verträge.
+2. Wann der Wechselservice startet, ist der 1. Januar 2027.
+3. Was Scalable erstattet, sind anfallende Übertragungsgebühren des bisherigen Anbieters.
+4. Warum Garantien wichtig sind, zeigt das Verlustrisiko am Kapitalmarkt.
+5. Welche Verträge fortgeführt werden können, regelt der Bestandsschutz.
+6. Wie die Förderung erhalten bleibt, hängt vom ordnungsgemäßen Übertrag ab.
+7. Wo unabhängige Informationen stehen, zeigen Finanzministerium und Rentenversicherung.
+8. Welche weiteren Verträge betroffen sind, hängt von der Fördersystematik ab.
+9. Was Sparer vergleichen sollten, sind Übertragungswert, Garantien, Kosten und Risiken.
+
+## Drei Meta-Titles
+
+1. Riester-Wechsel 2027: Was Sparer prüfen sollten
+2. Altersvorsorgedepot: Riester übertragen oder behalten?
+3. Scalable: Riester-Wechsel ab Januar 2027
+
+## Drei Meta-Descriptions
+
+1. Ab Januar 2027 können Riester-Sparer in ein Altersvorsorgedepot wechseln. Was Scalable ankündigt und warum Kosten, Garantien und Förderung wichtig bleiben.
+2. Scalable Capital will Riester-Wechselgebühren übernehmen. Welche Möglichkeiten die Altersvorsorgereform ab 2027 eröffnet und welche Risiken Sparer prüfen.
+3. Riester behalten oder ins Altersvorsorgedepot wechseln? Ab 2027 gibt es neue Optionen. Worauf Sparer bei Garantien, Kosten und staatlicher Förderung achten.
