@@ -546,6 +546,11 @@
       "trend": "stromrechnung",
       "article_path": "articles/trends/2026-11-24_0950_stromrechnung-preiserhoehung-stromsteuer.md",
       "processed_at": "2026-11-24T09:50:00+01:00"
+    },
+    {
+      "trend": "volkswagen",
+      "article_path": "articles/trends/2026-11-24_0955_volkswagen-tarifrunde-nullrunden.md",
+      "processed_at": "2026-11-24T09:55:00+01:00"
     }
   ]
 }
