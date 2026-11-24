@@ -1,64 +1,66 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-11-23T15:43:30.271Z",
+  "captured_at": "2026-11-24T08:18:47.460Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "nvidia aktie\n100.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nnvidia\nnvidia kurs\nhuang\n+ 12 weitere"
+      "text": "kreditkarte 2.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "jensen huang\n20.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nnvidia stock\nnvidia ceo\nnvda\n+ 13 weitere"
+      "text": "volkswagen 2.000+ arrow_upward 900 % vor 30 Minuten trending_up Aktiv tarifverhandlung",
+      "links": []
     },
     {
-      "text": "toom\n20.000+\narrow_upward\n100 %\nvor 3 Stunden\ntrending_up\nAktiv\nobi toom\ntoom baumarkt\nobi\n+ 1 weitere"
+      "text": "stromrechnung 1.000+ arrow_upward 1.000 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "audi geisterfabrik china\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv"
+      "text": "xrp ledger 1.000+ arrow_upward 1.000 % vor 1 Stunde trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "tradingview\n2.000+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\ndow jones"
+      "text": "führerhaus 500+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "vredo\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv"
+      "text": "mittweida 200+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "nasdaq\n1.000+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv"
+      "text": "wedel 200+ arrow_upward 100 % vor 2 Stunden trending_up Aktiv",
+      "links": []
     },
     {
-      "text": "s&p 500\n500+\narrow_upward\n300 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivkreditkarte2.000+ Suchanfragen·vor 1 Std.",
+      "links": []
     },
     {
-      "text": "alphabet aktie\n500+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivvolkswagen2.000+ Suchanfragen·vor 30 m",
+      "links": []
     },
     {
-      "text": "amd aktie\n500+\narrow_upward\n100 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivstromrechnung1.000+ Suchanfragen·vor 2 Std.",
+      "links": []
     },
     {
-      "text": "nvidia aktie kurs euro\n200+\narrow_upward\n300 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivxrp ledger1.000+ Suchanfragen·vor 1 Std.",
+      "links": []
     },
     {
-      "text": "finanzen invest\n200+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivführerhaus500+ Suchanfragen·vor 2 Std.",
+      "links": []
     },
     {
-      "text": "nvidia chart\n200+\narrow_upward\n400 %\nvor 50 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivmittweida200+ Suchanfragen·vor 2 Std.",
+      "links": []
     },
     {
-      "text": "sp500\n200+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv"
-    },
-    {
-      "text": "micron aktie\n200+\narrow_upward\n100 %\nvor 40 Minuten\ntrending_up\nAktiv"
-    },
-    {
-      "text": "asml aktie\n200+\narrow_upward\n100 %\nvor 10 Minuten\ntrending_up\nAktiv"
-    },
-    {
-      "text": "iren aktie\n100+\narrow_upward\n100 %\nvor 30 Minuten\ntrending_up\nAktiv"
-    },
-    {
-      "text": "tsmc aktie\n100+\narrow_upward\n100 %\nvor 40 Minuten\ntrending_up\nAktiv"
+      "text": "trending_upAktivwedel200+ Suchanfragen·vor 2 Std.",
+      "links": []
     }
   ],
   "links": [
@@ -71,45 +73,9 @@
       "href": "https://trends.google.de/home"
     },
     {
-      "text": "",
-      "href": "https://www.google.com/intl/de/about/products"
-    },
-    {
       "text": "Anmelden",
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
-    },
-    {
-      "text": "",
-      "href": "https://trends.withgoogle.com/de/year-in-search/2025/de/"
-    },
-    {
-      "text": "",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "Datenschutz",
-      "href": "https://policies.google.com/privacy?hl=de"
-    },
-    {
-      "text": "Nutzungsbedingungen",
-      "href": "https://policies.google.com/terms?hl=de"
-    },
-    {
-      "text": "Feedback geben",
-      "href": ""
-    },
-    {
-      "text": "Info",
-      "href": "https://about.google/?hl=de"
-    },
-    {
-      "text": "help\nHilfe",
-      "href": "https://support.google.com/trends?hl=de"
-    },
-    {
-      "text": "",
-      "href": "https://policies.google.com/technologies/cookies"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n23.11.26, 16:43\nSuchvolumen\nNach Suchvolumen sortieren\nGestartet\nNach aktuellstem Datum sortieren\ninfo\nTrendaufschlüsselung\ninfo\n Letzte 4 Stunden\nnvidia aktie\n100.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nnvidia\nnvidia kurs\nhuang\n+ 12 weitere\njensen huang\n20.000+\narrow_upward\n1.000 %\nvor 1 Stunde\ntrending_up\nAktiv\nnvidia stock\nnvidia ceo\nnvda\n+ 13 weitere\ntoom\n20.000+\narrow_upward\n100 %\nvor 3 Stunden\ntrending_up\nAktiv\nobi toom\ntoom baumarkt\nobi\n+ 1 weitere\naudi geisterfabrik china\n2.000+\narrow_upward\n1.000 %\nvor 2 Stunden\ntrending_up\nAktiv\ntradingview\n2.000+\narrow_upward\n100 %\nvor 1 Stunde\ntrending_up\nAktiv\ndow jones\nvredo\n1.000+\narrow_upward\n600 %\nvor 3 Stunden\ntrending_up\nAktiv\nnasdaq\n1.000+\narrow_upward\n300 %\nvor 1 Stunde\ntrending_up\nAktiv\ns&p 500\n500+\narrow_upward\n300 %\nvor 50 Minuten\ntrending_up\nAktiv\nalphabet aktie\n500+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv\namd aktie\n500+\narrow_upward\n100 %\nvor 50 Minuten\ntrending_up\nAktiv\nnvidia aktie kurs euro\n200+\narrow_upward\n300 %\nvor 50 Minuten\ntrending_up\nAktiv\nfinanzen invest\n200+\narrow_upward\n300 %\nvor 30 Minuten\ntrending_up\nAktiv\nnvidia chart\n200+\narrow_upward\n400 %\nvor 50 Minuten\ntrending_up\nAktiv\nsp500\n200+\narrow_upward\n200 %\nvor 50 Minuten\ntrending_up\nAktiv\nmicron aktie\n200+\narrow_upward\n100 %\nvor 40 Minuten\ntrending_up\nAktiv\nasml aktie\n200+\narrow_upward\n100 %\nvor 10 Minuten\ntrending_up\nAktiv\niren aktie\n100+\narrow_upward\n100 %\nvor 30 Minuten\ntrending_up\nAktiv\ntsmc aktie\n100+\narrow_upward\n100 %\nvor 40 Minuten\ntrending_up\nAktiv\nZeilen pro Seite\n25\n1–18 von 18\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch\nAuf dieser Website werden Cookies von Google verwendet, um die Qualität von Google-Diensten zu verbessern und den Traffic zu analysieren\nWeitere Informationen\nOk"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n24.11.26, 09:18\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nkreditkarte\n\t\n2.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nvolkswagen\n\t\n2.000+\narrow_upward\n900 %\n\t\nvor 30 Minuten\ntrending_up\nAktiv\n\t\ntarifverhandlung\n\t\n\n\n\t\nstromrechnung\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nxrp ledger\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\nführerhaus\n\t\n500+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmittweida\n\t\n200+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\nwedel\n\t\n200+\narrow_upward\n100 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–7 von 7\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
