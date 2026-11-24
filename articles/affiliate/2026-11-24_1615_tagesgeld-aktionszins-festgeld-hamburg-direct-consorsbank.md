@@ -1,0 +1,69 @@
+# Tagesgeld mit 3,81 Prozent: Warum der Aktionszins allein nicht über den Jahresertrag entscheidet
+
+Die Hamburg Direct Bank weist auf ihrer aktuellen Produktseite 3,81 Prozent Jahreszins für vier Monate aus. Die Consorsbank bietet bei Festgeld für zwölf Monate 2,70 Prozent und für fünf Jahre 3,00 Prozent. Der Vergleich zeigt, warum die Dauer einer Zinsgarantie ebenso wichtig ist wie die Höhe des beworbenen Zinssatzes. Gerade wer seine Rücklagen nicht sofort benötigt, sollte den Ertrag über einen einheitlichen Zeitraum berechnen.
+
+**Stand:** 24. November 2026 | **Ressort:** Finanzen | **Thema:** Tagesgeld, Festgeld, Aktionszins | **Anbieter:** Hamburg Direct Bank, Consorsbank
+
+## Vier Monate sind kein volles Zinsjahr
+
+Die aktuelle <a href="https://www.hamburg-direct-bank.de/tagesgeld-anlegen/" target="_blank" rel="noopener nofollow">Tagesgeld-Produktseite der Hamburg Direct Bank</a> nennt 3,81 Prozent pro Jahr für die ersten vier Monate. Der Aktionszins gilt für Guthaben bis 150.000 Euro und setzt voraus, dass Antragsteller in den vorangegangenen zwölf Monaten kein Einzel- oder Gemeinschaftskonto bei der Bank geführt haben. Danach gilt der veränderliche Standardzins, den die Bank derzeit mit 2,00 Prozent angibt. Auf Guthaben oberhalb der Aktionsgrenze entfällt der Sonderzins ebenfalls. Die Kontoführung ist laut Anbieter kostenlos.
+
+Eine weitere <a href="https://www.hamburg-direct-bank.de/zinsvergleich/" target="_blank" rel="noopener nofollow">Vergleichsseite desselben Anbieters</a> zeigt noch 3,61 Prozent. Die Hauptseite und die unmittelbar auf das Tagesgeld ausgerichtete Produktseite weisen dagegen übereinstimmend 3,81 Prozent aus. Wegen dieser Abweichung sollten Interessenten die Konditionen im konkreten Antrag kontrollieren. Maßgeblich ist die tatsächlich vereinbarte Verzinsung.
+
+Bei 10.000 Euro Guthaben und vereinfacht vier Zwölfteln eines Jahres ergeben 3,81 Prozent einen Bruttozins von rund 127 Euro. Das sind nicht 381 Euro, denn die beworbene Rate gilt nur für einen Teil des Jahres. Bleibt der Betrag anschließend weitere acht Monate zu unveränderten 2,00 Prozent angelegt, kommen etwa 133 Euro hinzu. Insgesamt wären es rund 260 Euro vor Steuern, ohne Zinseszinseffekt. Die tatsächliche Abrechnung kann wegen der taggenauen Laufzeit und der Zinsgutschriften abweichen.
+
+## Was zwölf Monate Festgeld bringen
+
+Auf der <a href="https://www.consorsbank.de/web/Sparen-Anlegen/Sparen/Festgeld" target="_blank" rel="noopener nofollow">Festgeld-Produktseite der Consorsbank</a> steht für ein Jahr ein Zinssatz von 2,70 Prozent. Für 10.000 Euro bedeutet das rechnerisch 270 Euro vor Steuern. Der Zinssatz bleibt über die vereinbarte Laufzeit unverändert; im Gegenzug lässt sich das angelegte Kapital währenddessen nicht abrufen.
+
+Die Bank nennt auf der Produktseite außerdem 1,90 Prozent für sechs Monate, 2,70 Prozent für zwei Jahre, 2,80 Prozent für drei Jahre, 2,90 Prozent für vier Jahre und 3,00 Prozent für fünf Jahre. Die Mindestanlage beträgt 2.500 Euro. Bei Laufzeiten über einem Jahr werden die Zinsen jährlich auf dem Abrechnungskonto gutgeschrieben. Die öffentlich zugängliche <a href="https://www.consorsbank.de/web/Wissen/FAQ/kontokarten/Konto-Festgeld-ein-und-auszahlen" target="_blank" rel="noopener nofollow">Auskunft zum Abrechnungskonto</a> nennt sowohl ein Verrechnungskonto als auch ein eigenständiges Tagesgeldkonto als mögliche Abrechnungsbasis. Interessenten sollten prüfen, welche Kontoeröffnung für ihren konkreten Antrag notwendig ist.
+
+Die aktuelle Produktseite zeigt höhere Zinsen als die mit einem älteren Stand vom Oktober 2025 versehenen <a href="https://www.consorsbank.de/web/Service/Preise-Zinsen/Preise-Zinsen-Konten" target="_blank" rel="noopener nofollow">allgemeinen Preis- und Zinsinformationen</a>. Für einen Neuabschluss ist deshalb die konkrete Vertragsbestätigung entscheidend. Wer eine automatische Verlängerung gewählt hat, sollte zudem vor dem Ende der Laufzeit die dann angebotenen Zinsen kontrollieren.
+
+## Bei welchem Anschlusszins kippt der Vergleich?
+
+Nach dem viermonatigen Aktionszeitraum müsste das Tagesgeld für die restlichen acht Monate rechnerisch ungefähr 2,15 Prozent pro Jahr erwirtschaften, um auf insgesamt 270 Euro Bruttozins zu kommen. Das ergibt sich aus der Differenz von 143 Euro zum Festgeld-Jahresertrag, verteilt auf acht Monate und 10.000 Euro Anlagebetrag.
+
+Sinkt der Anschlusszins beispielsweise auf 1,50 Prozent, ergibt sich über zwölf Monate ein vereinfachter Gesamtertrag von 227 Euro. Steigt er auf 2,50 Prozent, wären es knapp 294 Euro. Beide Rechnungen sind Szenarien und keine Vorhersage. Tagesgeld bietet die Möglichkeit, nach Ablauf der Aktion zu einer anderen Bank zu wechseln. Festgeld schützt vor fallenden Zinsen während der Vertragsdauer, verhindert aber zugleich, dass das gebundene Kapital unmittelbar von einem besseren Angebot profitiert.
+
+## Warum die Aktionsgrenze nicht mit dem Einlagenschutz gleichzusetzen ist
+
+Die Grenze von 150.000 Euro für den Tagesgeld-Sonderzins ist keine gesetzliche Sicherungsgrenze. Die <a href="https://kontenvergleich.bafin.de/de/glossar/einlagensicherung" target="_blank" rel="noopener nofollow">BaFin erläutert die gesetzliche Einlagensicherung</a> mit grundsätzlich 100.000 Euro je Kunde und Institut. Guthaben auf mehreren Konten bei demselben Institut sind für diese Grenze zusammen zu betrachten. Auch aufgelaufene Zinsen sollten bei der Planung berücksichtigt werden.
+
+Die Hamburg Direct Bank ist eine Marke der Hamburg Commercial Bank AG. Laut ihren <a href="https://www.hamburg-direct-bank.de/einlagensicherung/" target="_blank" rel="noopener nofollow">Informationen zum Einlagenschutz</a> besteht neben der gesetzlichen Sicherung ein freiwilliger Schutz mit eigenen Bedingungen. Wer höhere Summen unterbringen möchte, sollte dessen aktuellen Umfang prüfen und nicht allein aus der beworbenen Höchstanlage auf eine vollständige gesetzliche Absicherung schließen.
+
+## Fazit
+
+Ein hoher Tagesgeld-Aktionszins kann für eine kurzfristig verfügbare Reserve attraktiv sein. Wer dagegen bereits weiß, dass er einen Teil seines Geldes zwölf Monate lang nicht benötigt, kann sich mit Festgeld einen planbaren Ertrag sichern. Die Beispielrechnung zeigt: Ein Vorteil von 1,11 Prozentpunkten beim anfänglichen Tagesgeldzins kann durch einen niedrigeren Anschlusszins vollständig aufgezehrt werden. Entscheidend sind der gesamte Anlagezeitraum, der Liquiditätsbedarf, die Vertragsbedingungen und die Einlagensicherung. Die genannten Konditionen sind eine Momentaufnahme und keine individuelle Anlageempfehlung.
+
+## Alternative Überschriften
+
+- Tagesgeld oder Festgeld: Was 3,81 Prozent für vier Monate wirklich bringen
+- Hamburg Direct Bank und Consorsbank: Der Zinsvergleich über zwölf Monate
+- Nach dem Aktionszins: So verändert sich der Ertrag beim Tagesgeld
+- Zinsen für Ersparnisse: Warum der Anlagezeitraum den Unterschied macht
+- Vier Monate Sonderzins oder ein Jahr Festgeld: Die Rechnung für 10.000 Euro
+
+## W-Fragen als Aussagesätze
+
+- Wer vom Aktionszins profitieren kann, sind berechtigte Neukunden der Hamburg Direct Bank.
+- Was der Tagesgeldzins bedeutet, ist ein auf ein Jahr bezogener Zinssatz für einen viermonatigen Aktionszeitraum.
+- Wann der Standardzins greift, ist nach dem Ende der viermonatigen Garantie.
+- Wo die Festgeldkonditionen stehen, ist die öffentliche Produktseite der Consorsbank.
+- Wie der Jahresertrag ausfällt, hängt vom Anschlusszins und von der tatsächlichen Anlagedauer ab.
+- Warum Festgeld planbarer ist, liegt am vertraglich fixierten Zinssatz.
+- Welche Risiken verbleiben, sind unter anderem die Kapitalbindung und der Verlust an Kaufkraft.
+- Wie hoch die gesetzliche Sicherungsgrenze normalerweise ist, erläutert die BaFin.
+- Worauf Sparer vor Abschluss achten sollten, sind die verbindlichen Konditionen und der Liquiditätsbedarf.
+
+## Meta-Titles
+
+- Tagesgeld mit 3,81 Prozent: Der Jahresertrag im Vergleich
+- Hamburg Direct Bank und Consorsbank: Tagesgeld oder Festgeld
+- Aktionszins berechnen: Was vier Monate Tagesgeld bringen
+
+## Meta-Descriptions
+
+- Vier Monate Tagesgeld zu 3,81 Prozent oder ein Jahr Festgeld zu 2,70 Prozent? Eine Beispielrechnung zeigt, wann der Anschlusszins entscheidend wird.
+- Hamburg Direct Bank und Consorsbank im Vergleich: Zinsgarantie, Verfügbarkeit und Einlagenschutz bei 10.000 Euro Anlagebetrag.
+- Hohe Tagesgeldzinsen gelten oft nur für kurze Zeit. So lassen sich Aktionszins, Standardzins und Festgeld über zwölf Monate vergleichen.

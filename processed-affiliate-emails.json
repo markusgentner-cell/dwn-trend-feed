@@ -111,6 +111,20 @@
       "processed_at": "2026-11-24T15:15:04+01:00",
       "provider": "OutIn",
       "topic": "Black Friday 2026, mobile Akku-Espressomaschinen, Anschaffungs- und Verbrauchskosten"
+    },
+    {
+      "gmail_message_id": "1a162680db6b82cb",
+      "article_path": "articles/affiliate/2026-11-24_1615_tagesgeld-aktionszins-festgeld-hamburg-direct-consorsbank.md",
+      "processed_at": "2026-11-24T16:15:04+01:00",
+      "provider": "Hamburg Direct Bank",
+      "topic": "Tagesgeld-Aktionszins und Festgeld, Jahresertrag, Anschlusszins und Einlagenschutz"
+    },
+    {
+      "gmail_message_id": "1a17dd59f9bb11ba",
+      "article_path": "articles/affiliate/2026-11-24_1615_tagesgeld-aktionszins-festgeld-hamburg-direct-consorsbank.md",
+      "processed_at": "2026-11-24T16:15:04+01:00",
+      "provider": "Consorsbank",
+      "topic": "Tagesgeld-Aktionszins und Festgeld, Jahresertrag, Anschlusszins und Einlagenschutz"
     }
   ]
 }
