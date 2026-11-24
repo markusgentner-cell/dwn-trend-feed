@@ -1,0 +1,71 @@
+# Festgeld bis 3,50 Prozent: Was die Zinsangebote von 1822direkt und Bank of Scotland unterscheidet
+
+Zwei Direktbankangebote zeigen, warum Sparer beim Festgeld nicht allein auf den höchsten Zinssatz schauen sollten. Während die Bank of Scotland derzeit bis zu 3,50 Prozent jährlich ausweist, reicht das Angebot der 1822direkt bis zu 3,10 Prozent für fünf Jahre. Entscheidend sind die tatsächlich benötigte Laufzeit, die Zinsauszahlung und die Verfügbarkeit des Geldes.
+
+**Stand: 24. November 2026 | Ressort: Finanzen | Thema: Festgeld, Sparzinsen, Einlagensicherung**
+
+## Ein Jahr Festgeld: 60 Euro Unterschied je 10.000 Euro
+
+Die <a href="https://www.bankofscotland.de/sparen/festgeld" target="_blank" rel="noopener nofollow">Bank of Scotland</a> nennt in ihrem aktuellen öffentlichen Festgeldangebot eine Zinsbandbreite von 3,00 bis 3,50 Prozent pro Jahr für sechs Laufzeiten zwischen drei Monaten und drei Jahren. Für zwölf Monate weist die Bank ausdrücklich 3,40 Prozent aus. Der Höchstzins ist nicht mit dem Jahresangebot gleichzusetzen.
+
+Die <a href="https://www.1822direkt.de/sparen/festgeldkonto/" target="_blank" rel="noopener nofollow">1822direkt</a> bietet für sechs Monate 2,40 Prozent jährlich, für ein Jahr 2,80 Prozent, für zwei bis vier Jahre jeweils 3,00 Prozent und für fünf Jahre 3,10 Prozent. Die Konditionen beziehen sich auf neue Anlagen; bestehende Festgeldverträge behalten den vereinbarten Zinssatz.
+
+Bei 10.000 Euro für ein volles Jahr ergeben sich daraus vereinfacht 340 Euro Bruttozinsen bei der Bank of Scotland und 280 Euro bei der 1822direkt. Die Differenz beträgt 60 Euro. Die Berechnung unterstellt eine volle Jahreslaufzeit ohne weitere Einzahlungen und berücksichtigt weder Steuern noch mögliche Abweichungen aufgrund der Zinsberechnungsmethode.
+
+## Die Laufzeit entscheidet über den Nutzen
+
+Wer beispielsweise in einem Jahr eine größere Anschaffung plant, kann einen zwölfmonatigen Vertrag mit dem benötigten Zeitpunkt abstimmen. Wer hingegen fünf Jahre auf einen festen Teil seines Vermögens verzichten kann, findet bei der 1822direkt eine längere Bindungsmöglichkeit. Bei einer Anlage von 10.000 Euro zu 3,10 Prozent fallen dort rechnerisch 310 Euro pro Jahr beziehungsweise 1.550 Euro über fünf Jahre an, ohne Wiederanlage der Zinsen. Bei Laufzeiten ab zwei Jahren überweist die Bank die Zinsen jährlich auf das Verrechnungskonto.
+
+Eine längere Zinsbindung schützt den vereinbarten Nominalzins vor einem Rückgang des Marktzinses. Steigt das Zinsniveau dagegen, kann der Anleger normalerweise nicht ohne Weiteres auf ein besser verzinstes Angebot wechseln. Auch die Kaufkraft der späteren Auszahlung ist nicht garantiert: Sie hängt von der Entwicklung der Verbraucherpreise ab.
+
+Ein gestaffeltes Vorgehen kann deshalb sinnvoll sein. Wer etwa 20.000 Euro entbehren kann, könnte 10.000 Euro für ein Jahr und 10.000 Euro für zwei Jahre binden. Dann wird ein Teil des Kapitals bereits nach einem Jahr wieder verfügbar. Ob sich die Wiederanlage lohnt, hängt von den zu diesem Zeitpunkt angebotenen Konditionen ab. Geld für unvorhergesehene Ausgaben sollte außerhalb des Festgelds verfügbar bleiben.
+
+## Mindestanlage und automatische Verlängerung
+
+Bei der Bank of Scotland reichen laut aktuellem Produktangebot 100 Euro für die Festgeldanlage; der maximale Anlagebetrag liegt bei 500.000 Euro. Für die Eröffnung ist dort ein Tagesgeldkonto erforderlich. Bei Fälligkeit fließen Kapital und Zinsen auf dieses Konto zurück.
+
+Bei der 1822direkt beginnt das Angebot bei 5.000 Euro und reicht bis zu einer Million Euro. Bei sechs- und zwölfmonatigen Verträgen ist ein weiterer Punkt zu beachten: Sie werden grundsätzlich zum dann gültigen Zinssatz verlängert, wenn die Verlängerungsfunktion nicht rechtzeitig deaktiviert wurde. Dafür nennt der Anbieter eine Frist von drei Geschäftstagen vor Fälligkeit. Vor Abschluss lohnt sich also ein Blick auf die Einstellungen im Online-Banking und den gewünschten Rückzahlungstermin.
+
+Die ausgewiesenen maximalen Anlagebeträge sind keine Aussage über die Höhe der gesetzlichen Einlagensicherung.
+
+## Warum die Einlagensicherung nicht pro Konto gilt
+
+Die <a href="https://bafin.de/DE/verbraucherinnen-verbraucher/themen-finanzprodukte/geldanlage/einlagensicherung-anlegerentschaedigung/einlagensicherung-anlegerentschaedigung.html" target="_blank" rel="noopener nofollow">Bundesanstalt für Finanzdienstleistungsaufsicht</a> erläutert, dass der reguläre gesetzliche Schutz von Bankeinlagen bis 100.000 Euro pro Person und Kreditinstitut reicht. Mehrere Konten beim selben Institut werden für diese Grenze zusammen betrachtet. Unter bestimmten gesetzlich geregelten Voraussetzungen gelten zeitweise höhere Schutzbeträge.
+
+Wer größere Beträge anlegt, sollte daher das tatsächlich kontoführende Kreditinstitut und dessen Sicherungssystem prüfen, nicht allein den Markennamen. Die 1822direkt verweist auf die Institutssicherung der Sparkassen-Finanzgruppe und den gesetzlichen Erstattungsanspruch. Bei höheren Summen ist es sinnvoll, auch bereits vorhandenes Guthaben und auflaufende Zinsen einzubeziehen.
+
+## Fazit: Jahreszins und Geldbedarf gemeinsam prüfen
+
+Das derzeitige Zwölfmonatsangebot der Bank of Scotland liegt beim Nominalzins vor dem der 1822direkt. Die längere Laufzeit der 1822direkt kann für andere Sparziele passen. Ein guter Festgeldvergleich berücksichtigt daher neben dem Zinssatz auch Liquiditätsbedarf, Mindestanlage, Zinszahlung, Verlängerung und Sicherung des Guthabens. Die angegebenen Zinssätze gelten zum Recherchezeitpunkt und können sich für neue Abschlüsse ändern.
+
+## Alternative Überschriften
+
+1. Festgeld im Vergleich: Wo 10.000 Euro derzeit mehr Zinsen bringen
+2. Bank of Scotland und 1822direkt: Was sich beim Festgeld unterscheidet
+3. Bis zu 3,50 Prozent Festgeldzinsen: Warum die Laufzeit entscheidend ist
+4. Festgeld für fünf Jahre oder zwölf Monate: Welche Unterschiede Sparer beachten sollten
+5. Festgeldzinsen und Einlagensicherung: Was vor dem Abschluss zählt
+
+## Neun W-Fragen als Aussagesätze
+
+1. Wer Festgeld nutzt, bindet einen entbehrlichen Teil seines Vermögens.
+2. Was der Jahreszins bedeutet, zeigt der Vergleich über zwölf Monate.
+3. Wann das Geld verfügbar wird, bestimmt der Fälligkeitstermin.
+4. Wo die aktuellen Konditionen stehen, zeigen die Produktseiten der Anbieter.
+5. Wie viel Zins 10.000 Euro bringen, hängt vom Zinssatz und der Laufzeit ab.
+6. Warum längere Laufzeiten Risiken bergen, erklärt die fehlende Flexibilität bei steigenden Zinsen.
+7. Welche Mindestanlage gilt, unterscheidet sich zwischen den Banken.
+8. Wie die automatische Verlängerung vermieden wird, regeln die Vertragsbedingungen.
+9. Welche Einlagen gesetzlich geschützt sind, hängt vom Kreditinstitut und dem Gesamtguthaben ab.
+
+## Meta-Titles
+
+1. Festgeld: 1822direkt und Bank of Scotland im Vergleich
+2. Festgeld bis 3,50 Prozent: Zinsen und Laufzeiten
+3. Festgeldvergleich: Zins, Laufzeit und Einlagensicherung
+
+## Meta-Descriptions
+
+1. Bank of Scotland und 1822direkt bieten unterschiedliche Festgeldzinsen. Was 10.000 Euro bringen und worauf Sparer bei Laufzeit und Sicherheit achten sollten.
+2. Festgeld bis 3,50 Prozent: Ein Vergleich der aktuellen Angebote, Mindestanlagen, Zinszahlungen und Verlängerungsbedingungen.
+3. Ein Jahr oder fünf Jahre Festgeld? Was die Angebote der 1822direkt und Bank of Scotland für verschiedene Sparziele bedeuten.

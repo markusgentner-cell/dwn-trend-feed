@@ -83,6 +83,20 @@
       "processed_at": "2026-11-24T12:15:00+01:00",
       "provider": "Consorsbank",
       "topic": "Geplante Altersvorsorgedepot-Varianten 2027, Effektivkosten und Förderung"
+    },
+    {
+      "gmail_message_id": "1a1f413c1ef95895",
+      "article_path": "articles/affiliate/2026-11-24_1315_festgeld-1822direkt-bank-of-scotland-zinsvergleich.md",
+      "processed_at": "2026-11-24T13:15:05+01:00",
+      "provider": "1822direkt",
+      "topic": "Festgeldzinsen November 2026 im Vergleich, Laufzeiten, Zinsauszahlung und Einlagensicherung"
+    },
+    {
+      "gmail_message_id": "1a1ede489aff0444",
+      "article_path": "articles/affiliate/2026-11-24_1315_festgeld-1822direkt-bank-of-scotland-zinsvergleich.md",
+      "processed_at": "2026-11-24T13:15:05+01:00",
+      "provider": "Bank of Scotland",
+      "topic": "Festgeldzinsen November 2026 im Vergleich, Laufzeiten, Zinsauszahlung und Einlagensicherung"
     }
   ]
 }
