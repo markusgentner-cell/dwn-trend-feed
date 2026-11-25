@@ -1,7 +1,73 @@
 {
-  "ok": false,
-  "status": "collector_error",
-  "captured_at": "2026-11-25T11:59:10.131Z",
+  "ok": true,
+  "status": "fresh",
+  "captured_at": "2026-11-25T12:48:35.619Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
-  "error": "Error: Filter was not applied: Nur aktive Trends anzeigen. Visible text: Trends | Startseite | Entdecken | Aktuelle Trends | Anmelden | Aktuelle Trends – Google Trends | location_on | Deutschland | calendar_month | Letzte 4 Stunden | category | Wirtschaft und Finanzen | grid_3x3 | Alle Trends | sort | Nach Relevanz | ios_share | Exportieren | checklist | checklist | Trends auswählen | search | Suchtrends | Angesagt | Nach Titel sortieren | Suchvolumen | Nach Suchvolumen sortieren | Gestartet | Nach aktuellstem Datum sortieren | info | Trendaufschlüsselung | info | Letzte 24 Stunden | a3 | 20.000+ | arrow_upward | 1.000 % | vor 1 Stunde | trending_up | Aktiv | a3 siegburg | lkw unfall a3 | fc bayern news | 10.000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | wann hat musiala seinen vertrag verlängert | kyjiw | 5000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | ukraine krieg | 10.000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | annemarie carpendale daniel schustermann | 2000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | rb leipzig news | 2000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | elektroindustrie | 2000+ | arrow_upward | 1.000 % | vor 2 Stunden | trending_up | Aktiv | tui cruises | 2000+ | arrow_upward | 1.000 % | vor 50 Minuten | trending_up | Aktiv | spiegel | 5000+ | arrow_upward | 100 % | vor 2 Stunden | trending_up | Aktiv | erdbeben | 2000+ | arrow_upward | 1.000 % | vor 3 Stunden | trending_up | Aktiv | fc schalke 04 | 2000+ | arrow_upward | 300 % | vor 30 Minuten | trending_up | Aktiv | schalke news | fc bayern transfer news | 1000+ | arrow_upward | 1.000 % | vor 30 Minuten | trending_up"
+  "page_title": "Aktuelle Trends – Google Trends",
+  "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
+  "rows": [
+    {
+      "text": "spiegel 5.000+ arrow_upward 100 % vor 3 Stunden trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "arbeitsmarkt 1.000+ arrow_upward 700 % vor 2 Stunden trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "inflation 1.000+ arrow_upward 600 % vor 1 Stunde trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "tarifverhandlung 500+ arrow_upward 600 % vor 10 Minuten trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "photovoltaik 200+ arrow_upward 500 % vor 40 Minuten trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "dividendenrendite 200+ arrow_upward 200 % vor 20 Minuten trending_up Aktiv",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivspiegel5.000+ Suchanfragen·vor 3 Std.",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivarbeitsmarkt1.000+ Suchanfragen·vor 2 Std.",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivinflation1.000+ Suchanfragen·vor 1 Std.",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivtarifverhandlung500+ Suchanfragen·vor 10 m",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivphotovoltaik200+ Suchanfragen·vor 40 m",
+      "links": []
+    },
+    {
+      "text": "trending_upAktivdividendenrendite200+ Suchanfragen·vor 20 m",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Trends",
+      "href": "https://trends.google.de/home"
+    },
+    {
+      "text": "Anmelden",
+      "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
+    }
+  ],
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n25.11.26, 13:48\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nspiegel\n\t\n5.000+\narrow_upward\n100 %\n\t\nvor 3 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\narbeitsmarkt\n\t\n1.000+\narrow_upward\n700 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\n\n\n\t\ninflation\n\t\n1.000+\narrow_upward\n600 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\n\n\n\t\ntarifverhandlung\n\t\n500+\narrow_upward\n600 %\n\t\nvor 10 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nphotovoltaik\n\t\n200+\narrow_upward\n500 %\n\t\nvor 40 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\ndividendenrendite\n\t\n200+\narrow_upward\n200 %\n\t\nvor 20 Minuten\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–6 von 6\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
