@@ -480,6 +480,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-26_1401_deutschland-produktivitaet-forschung-wachstumspotenzial.md",
       "processed_at": "2026-11-26T14:01:29+01:00"
+    },
+    {
+      "gmail_message_id": "1a211f13d322878c",
+      "subject": "KfW Research erwartet für Deutschland eine anhaltend hohe Konjunkturdynamik...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-26_1505_kfw-konjunkturprognose-2027-inflation-zinsrisiko.md",
+      "processed_at": "2026-11-26T15:05:32+01:00"
     }
   ]
 }
