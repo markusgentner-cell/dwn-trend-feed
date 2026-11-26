@@ -452,6 +452,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-26_1002_realloehne-kaufkraft-inflation-q3-2026.md",
       "processed_at": "2026-11-26T10:02:44+01:00"
+    },
+    {
+      "gmail_message_id": "1a216e0bada1771a",
+      "subject": "KfW Research: Demografischer Wandel trifft den deutschen Mittelstand...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-26_1105_mittelstand-demografie-kfw-alterung-fachkraefte.md",
+      "processed_at": "2026-11-26T11:05:14+01:00"
     }
   ]
 }
