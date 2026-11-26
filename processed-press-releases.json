@@ -487,6 +487,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-26_1505_kfw-konjunkturprognose-2027-inflation-zinsrisiko.md",
       "processed_at": "2026-11-26T15:05:32+01:00"
+    },
+    {
+      "gmail_message_id": "1a216ac46a748b03",
+      "subject": "Zahlen zum Advent: Heimische Produktion von Schokolade geht zurück",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-26_1604_schokoladenproduktion-kakao-exporte-deutschland.md",
+      "processed_at": "2026-11-26T16:04:50+01:00"
     }
   ]
 }
