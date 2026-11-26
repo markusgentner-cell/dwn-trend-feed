@@ -466,6 +466,13 @@
       "status": "rejected",
       "reason": "Identische Destatis-Meldung bereits am 25.11.2026 um 14:28 Uhr bei DWN veröffentlicht: https://deutsche-wirtschafts-nachrichten.de/723422/bauauftraege-brechen-nach-august-boom-deutlich-ein",
       "reviewed_at": "2026-11-26T12:06:21+01:00"
+    },
+    {
+      "gmail_message_id": "1a2177f637461801",
+      "subject": "Geplanter Spritpreisdeckel würde vor allem tägliche Preisspitzen begrenzen",
+      "status": "rejected",
+      "reason": "Thematische Doppelung: DWN berichtete am 25.11.2026 um 13:00 Uhr bereits über geringe Entlastung und Begrenzung täglicher Preisspitzen durch denselben geplanten Spritpreisdeckel. RWI liefert ergänzende Modellzahlen, aber gleiche Kernaussage. https://deutsche-wirtschafts-nachrichten.de/723421/spritpreisdeckel-in-der-kritik-experten-erwarten-kaum-entlastung",
+      "reviewed_at": "2026-11-26T13:00:26+01:00"
     }
   ]
 }
