@@ -445,6 +445,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-23_1608_kfw-peac-leasingverbriefung-deutschlandfonds.md",
       "processed_at": "2026-11-23T16:08:06+01:00"
+    },
+    {
+      "gmail_message_id": "1a216ac47ebb7a71",
+      "subject": "Reallöhne im 3. Quartal 2026 um 1,3 % höher als im Vorjahresquartal...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-26_1002_realloehne-kaufkraft-inflation-q3-2026.md",
+      "processed_at": "2026-11-26T10:02:44+01:00"
     }
   ]
 }
