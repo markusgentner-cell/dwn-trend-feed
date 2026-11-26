@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "register_only": true,
+      "register": {
+        "path": "processed-press-releases.json",
+        "entry": {
+          "gmail_message_id": "1a2177f637461801",
+          "subject": "Geplanter Spritpreisdeckel würde vor allem tägliche Preisspitzen begrenzen",
+          "status": "rejected",
+          "reason": "Thematische Doppelung: DWN berichtete am 25.11.2026 um 13:00 Uhr bereits über geringe Entlastung und Begrenzung täglicher Preisspitzen durch denselben geplanten Spritpreisdeckel. RWI liefert ergänzende Modellzahlen, aber gleiche Kernaussage. https://deutsche-wirtschafts-nachrichten.de/723421/spritpreisdeckel-in-der-kritik-experten-erwarten-kaum-entlastung",
+          "reviewed_at": "2026-11-26T13:00:26+01:00"
+        }
+      }
+    }
+  ]
+}
