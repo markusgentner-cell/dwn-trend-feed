@@ -473,6 +473,13 @@
       "status": "rejected",
       "reason": "Thematische Doppelung: DWN berichtete am 25.11.2026 um 13:00 Uhr bereits über geringe Entlastung und Begrenzung täglicher Preisspitzen durch denselben geplanten Spritpreisdeckel. RWI liefert ergänzende Modellzahlen, aber gleiche Kernaussage. https://deutsche-wirtschafts-nachrichten.de/723421/spritpreisdeckel-in-der-kritik-experten-erwarten-kaum-entlastung",
       "reviewed_at": "2026-11-26T13:00:26+01:00"
+    },
+    {
+      "gmail_message_id": "1a2177773d7525cd",
+      "subject": "Newsletter Zukunftsstandort Deutschland, Bertelsmann Stiftung",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-26_1401_deutschland-produktivitaet-forschung-wachstumspotenzial.md",
+      "processed_at": "2026-11-26T14:01:29+01:00"
     }
   ]
 }
