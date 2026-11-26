@@ -1,25 +1,25 @@
 {
   "ok": true,
   "status": "fresh",
-  "captured_at": "2026-11-26T08:59:05.641Z",
+  "captured_at": "2026-11-26T09:29:20.127Z",
   "source_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "page_title": "Aktuelle Trends – Google Trends",
   "final_url": "https://trends.google.de/trending?geo=DE&hl=de&hours=4&category=3&status=active&sort=search-volume",
   "rows": [
     {
-      "text": "tarifverhandlungen ig metall 2026 1.000+ arrow_upward 100 % vor 2 Stunden trending_up Aktiv ig metall tarifverhandlungen arbeitgeber tarifverhandlung ig metall",
+      "text": "rohöl 1.000+ arrow_upward 1.000 % vor 50 Minuten trending_up Aktiv",
       "links": []
     },
     {
-      "text": "markus bußler 500+ arrow_upward 400 % vor 1 Stunde trending_up Aktiv",
+      "text": "markus bußler 1.000+ arrow_upward 300 % vor 2 Stunden trending_up Aktiv",
       "links": []
     },
     {
-      "text": "trending_upAktivtarifverhandlungen ig metall 20261.000+ Suchanfragen·vor 2 Std.",
+      "text": "trending_upAktivrohöl1.000+ Suchanfragen·vor 50 m",
       "links": []
     },
     {
-      "text": "trending_upAktivmarkus bußler500+ Suchanfragen·vor 1 Std.",
+      "text": "trending_upAktivmarkus bußler1.000+ Suchanfragen·vor 2 Std.",
       "links": []
     }
   ],
@@ -37,5 +37,5 @@
       "href": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&followup=https://trends.google.de/trending?geo%3DDE%26hl%3Dde%26hours%3D4%26category%3D3%26status%3Dactive%26sort%3Dsearch-volume&hl=de&ec=GAZAgAU"
     }
   ],
-  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n26.11.26, 09:58\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\ntarifverhandlungen ig metall 2026\n\t\n1.000+\narrow_upward\n100 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\nig metall tarifverhandlungen arbeitgeber\ntarifverhandlung ig metall\n\t\n\n\n\t\nmarkus bußler\n\t\n500+\narrow_upward\n400 %\n\t\nvor 1 Stunde\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
+  "body_text": "Trends\nStartseite\nEntdecken\nAktuelle Trends\nAnmelden\nAktuelle Trends – Google Trends\nlocation_on\nDeutschland\ncalendar_month\nLetzte 4 Stunden\ncategory\nWirtschaft und Finanzen\ngrid_3x3\nNur aktive Trends\nsort\nNach Suchvolumen\narrow_back_ios_new\narrow_forward_ios\nios_share\nExportieren\nNach Suchvolumen sortiert, absteigend\nchecklist\nchecklist\nTrends auswählen\n\t\nsearch\nSuchtrends\nAngesagt\nNach Titel sortieren\n·\n26.11.26, 10:29\n\t\nSuchvolumen\nNach Suchvolumen sortieren\n\t\nGestartet\nNach aktuellstem Datum sortieren\ninfo\n\t\nTrendaufschlüsselung\ninfo\n\tLetzte 4 Stunden\n\n\n\n\t\nrohöl\n\t\n1.000+\narrow_upward\n1.000 %\n\t\nvor 50 Minuten\ntrending_up\nAktiv\n\t\t\n\n\n\t\nmarkus bußler\n\t\n1.000+\narrow_upward\n300 %\n\t\nvor 2 Stunden\ntrending_up\nAktiv\n\t\t\nZeilen pro Seite\n25\n1–2 von 2\nZur ersten Seite\nZur vorherigen Seite\nZur nächsten Seite\nZur letzten Seite\nDatenschutz\nNutzungsbedingungen\nFeedback geben\nInfo\nhelp\nHilfe\nlanguage\nDeutsch"
 }
