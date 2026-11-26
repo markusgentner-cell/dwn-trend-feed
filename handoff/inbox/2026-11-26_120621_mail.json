@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "register_only": true,
+      "register": {
+        "path": "processed-press-releases.json",
+        "entry": {
+          "gmail_message_id": "1a2118676b9f90dc",
+          "subject": "Auftragseingang im Bauhauptgewerbe im September 2026: -16,1 % zum...",
+          "status": "rejected",
+          "reason": "Identische Destatis-Meldung bereits am 25.11.2026 um 14:28 Uhr bei DWN veröffentlicht: https://deutsche-wirtschafts-nachrichten.de/723422/bauauftraege-brechen-nach-august-boom-deutlich-ein",
+          "reviewed_at": "2026-11-26T12:06:21+01:00"
+        }
+      }
+    }
+  ]
+}
