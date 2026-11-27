@@ -501,6 +501,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-27_0601_rente-mit-63-wirtschaftsrat-reform-arbeitsmarkt.md",
       "processed_at": "2026-11-27T06:01:33+01:00"
+    },
+    {
+      "gmail_message_id": "1a21b96dd59a1aae",
+      "subject": "Tägliche Zusammenfassung von Presseportal.de",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-27_0703_dak-zusatzbeitrag-2027-lohnnebenkosten.md",
+      "processed_at": "2026-11-27T07:03:23+01:00"
     }
   ]
 }
