@@ -494,6 +494,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-26_1604_schokoladenproduktion-kakao-exporte-deutschland.md",
       "processed_at": "2026-11-26T16:04:50+01:00"
+    },
+    {
+      "gmail_message_id": "1a21a4f294de424e",
+      "subject": "Wirtschaftsrat der CDU besteht auf Abschaffung der \"Rente mit 63\"...",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-27_0601_rente-mit-63-wirtschaftsrat-reform-arbeitsmarkt.md",
+      "processed_at": "2026-11-27T06:01:33+01:00"
     }
   ]
 }
