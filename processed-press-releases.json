@@ -508,6 +508,13 @@
       "status": "processed",
       "article_path": "articles/mail/2026-11-27_0703_dak-zusatzbeitrag-2027-lohnnebenkosten.md",
       "processed_at": "2026-11-27T07:03:23+01:00"
+    },
+    {
+      "gmail_message_id": "1a20d08db53fcd3f",
+      "subject": "IW-Pressemitteilung: EU-Haushalt: Deutschland bleibt größter Nettozahler",
+      "status": "processed",
+      "article_path": "articles/mail/2026-11-27_0807_eu-haushalt-nettozahler-deutschland-finanzrahmen.md",
+      "processed_at": "2026-11-27T08:07:45+01:00"
     }
   ]
 }
